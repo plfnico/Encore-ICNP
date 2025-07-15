@@ -1,0 +1,1550 @@
+n_size: 30, n_interval: 30, start_token: 900
+  0%|          | 0/7569 [00:00<?, ?it/s] 46%|████▌     | 3491/7569 [00:00<00:00, 34896.64it/s] 92%|█████████▏| 6981/7569 [00:00<00:00, 34248.24it/s]100%|██████████| 7569/7569 [00:00<00:00, 34310.43it/s]
+Trainset size: 7569
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Linear-1                  [-1, 256]          15,616
+              ReLU-2                  [-1, 256]               0
+            Linear-3                  [-1, 512]         131,584
+              ReLU-4                  [-1, 512]               0
+            Linear-5                 [-1, 1024]         525,312
+              ReLU-6                 [-1, 1024]               0
+            Linear-7                 [-1, 1024]       1,049,600
+              ReLU-8                 [-1, 1024]               0
+            Linear-9                  [-1, 512]         524,800
+             ReLU-10                  [-1, 512]               0
+           Linear-11                  [-1, 256]         131,328
+             ReLU-12                  [-1, 256]               0
+           Linear-13                   [-1, 64]          16,448
+           Linear-14                   [-1, 64]          16,448
+           Linear-15                  [-1, 256]          16,640
+             ReLU-16                  [-1, 256]               0
+           Linear-17                  [-1, 512]         131,584
+             ReLU-18                  [-1, 512]               0
+           Linear-19                 [-1, 1024]         525,312
+             ReLU-20                 [-1, 1024]               0
+           Linear-21                 [-1, 1024]       1,049,600
+             ReLU-22                 [-1, 1024]               0
+           Linear-23                  [-1, 512]         524,800
+             ReLU-24                  [-1, 512]               0
+           Linear-25                  [-1, 256]         131,328
+             ReLU-26                  [-1, 256]               0
+           Linear-27                   [-1, 30]           7,710
+           Linear-28                   [-1, 30]           7,710
+================================================================
+Total params: 4,805,820
+Trainable params: 4,805,820
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.00
+Forward/backward pass size (MB): 0.11
+Params size (MB): 18.33
+Estimated Total Size (MB): 18.44
+----------------------------------------------------------------
+Epoch: 100/50000, Epoch time: 0.19s, Total time: 24.16s, LR: 1.00e-03
+Train Loss: 0.0232, Train Recon Loss: 0.0226, Train KLD Loss: 59.4841
+--------------------------------------------------------------------------------
+Epoch: 200/50000, Epoch time: 0.22s, Total time: 40.69s, LR: 1.00e-03
+Train Loss: 0.0170, Train Recon Loss: 0.0165, Train KLD Loss: 47.6671
+--------------------------------------------------------------------------------
+Epoch: 300/50000, Epoch time: 0.10s, Total time: 54.98s, LR: 1.00e-03
+Train Loss: 0.0144, Train Recon Loss: 0.0140, Train KLD Loss: 37.4072
+--------------------------------------------------------------------------------
+Epoch: 400/50000, Epoch time: 0.28s, Total time: 78.21s, LR: 1.00e-03
+Train Loss: 0.0124, Train Recon Loss: 0.0120, Train KLD Loss: 35.2999
+--------------------------------------------------------------------------------
+Epoch: 500/50000, Epoch time: 0.21s, Total time: 103.81s, LR: 1.00e-03
+Train Loss: 0.0104, Train Recon Loss: 0.0101, Train KLD Loss: 34.2473
+--------------------------------------------------------------------------------
+Epoch: 600/50000, Epoch time: 0.23s, Total time: 127.18s, LR: 1.00e-03
+Train Loss: 0.0094, Train Recon Loss: 0.0091, Train KLD Loss: 30.8552
+--------------------------------------------------------------------------------
+Epoch: 700/50000, Epoch time: 0.22s, Total time: 149.46s, LR: 1.00e-03
+Train Loss: 0.0089, Train Recon Loss: 0.0087, Train KLD Loss: 29.1928
+--------------------------------------------------------------------------------
+Epoch: 800/50000, Epoch time: 0.22s, Total time: 171.69s, LR: 1.00e-03
+Train Loss: 0.0085, Train Recon Loss: 0.0083, Train KLD Loss: 25.7442
+--------------------------------------------------------------------------------
+Epoch: 900/50000, Epoch time: 0.19s, Total time: 193.92s, LR: 1.00e-03
+Train Loss: 0.0085, Train Recon Loss: 0.0083, Train KLD Loss: 26.4189
+--------------------------------------------------------------------------------
+Epoch: 1000/50000, Epoch time: 0.14s, Total time: 215.58s, LR: 1.00e-03
+Train Loss: 0.0082, Train Recon Loss: 0.0079, Train KLD Loss: 24.6580
+--------------------------------------------------------------------------------
+Epoch: 1100/50000, Epoch time: 0.14s, Total time: 230.43s, LR: 1.00e-03
+Train Loss: 0.0078, Train Recon Loss: 0.0075, Train KLD Loss: 24.4167
+--------------------------------------------------------------------------------
+Epoch: 1200/50000, Epoch time: 0.14s, Total time: 244.41s, LR: 1.00e-03
+Train Loss: 0.0075, Train Recon Loss: 0.0073, Train KLD Loss: 23.9351
+--------------------------------------------------------------------------------
+Epoch: 1300/50000, Epoch time: 0.23s, Total time: 258.51s, LR: 1.00e-03
+Train Loss: 0.0072, Train Recon Loss: 0.0070, Train KLD Loss: 23.6396
+--------------------------------------------------------------------------------
+Epoch: 1400/50000, Epoch time: 0.13s, Total time: 271.68s, LR: 1.00e-03
+Train Loss: 0.0072, Train Recon Loss: 0.0069, Train KLD Loss: 23.8762
+--------------------------------------------------------------------------------
+Epoch: 1500/50000, Epoch time: 0.14s, Total time: 284.69s, LR: 1.00e-03
+Train Loss: 0.0071, Train Recon Loss: 0.0068, Train KLD Loss: 23.9399
+--------------------------------------------------------------------------------
+Epoch: 1600/50000, Epoch time: 0.11s, Total time: 297.67s, LR: 1.00e-03
+Train Loss: 0.0067, Train Recon Loss: 0.0065, Train KLD Loss: 23.7837
+--------------------------------------------------------------------------------
+Epoch: 1700/50000, Epoch time: 0.22s, Total time: 310.58s, LR: 1.00e-03
+Train Loss: 0.0066, Train Recon Loss: 0.0064, Train KLD Loss: 24.0510
+--------------------------------------------------------------------------------
+Epoch: 1800/50000, Epoch time: 0.14s, Total time: 323.61s, LR: 1.00e-03
+Train Loss: 0.0064, Train Recon Loss: 0.0061, Train KLD Loss: 23.7697
+--------------------------------------------------------------------------------
+Epoch: 1900/50000, Epoch time: 0.11s, Total time: 336.54s, LR: 1.00e-03
+Train Loss: 0.0064, Train Recon Loss: 0.0061, Train KLD Loss: 23.8253
+--------------------------------------------------------------------------------
+Epoch: 2000/50000, Epoch time: 0.11s, Total time: 347.70s, LR: 1.00e-03
+Train Loss: 0.0061, Train Recon Loss: 0.0059, Train KLD Loss: 23.4099
+--------------------------------------------------------------------------------
+Epoch: 2100/50000, Epoch time: 0.10s, Total time: 359.43s, LR: 1.00e-03
+Train Loss: 0.0059, Train Recon Loss: 0.0057, Train KLD Loss: 23.5407
+--------------------------------------------------------------------------------
+Epoch: 2200/50000, Epoch time: 0.13s, Total time: 373.36s, LR: 1.00e-03
+Train Loss: 0.0058, Train Recon Loss: 0.0056, Train KLD Loss: 23.1785
+--------------------------------------------------------------------------------
+Epoch: 2300/50000, Epoch time: 0.14s, Total time: 388.01s, LR: 1.00e-03
+Train Loss: 0.0063, Train Recon Loss: 0.0060, Train KLD Loss: 25.5309
+--------------------------------------------------------------------------------
+Epoch: 2400/50000, Epoch time: 0.14s, Total time: 401.95s, LR: 1.00e-03
+Train Loss: 0.0057, Train Recon Loss: 0.0055, Train KLD Loss: 23.7375
+--------------------------------------------------------------------------------
+Epoch: 2500/50000, Epoch time: 0.17s, Total time: 417.33s, LR: 1.00e-03
+Train Loss: 0.0056, Train Recon Loss: 0.0054, Train KLD Loss: 24.2367
+--------------------------------------------------------------------------------
+Epoch: 2600/50000, Epoch time: 0.15s, Total time: 433.16s, LR: 1.00e-03
+Train Loss: 0.0059, Train Recon Loss: 0.0057, Train KLD Loss: 24.2912
+--------------------------------------------------------------------------------
+Epoch: 2700/50000, Epoch time: 0.15s, Total time: 449.22s, LR: 1.00e-03
+Train Loss: 0.0055, Train Recon Loss: 0.0052, Train KLD Loss: 23.7932
+--------------------------------------------------------------------------------
+Epoch: 2800/50000, Epoch time: 0.15s, Total time: 464.89s, LR: 1.00e-03
+Train Loss: 0.0074, Train Recon Loss: 0.0071, Train KLD Loss: 30.8905
+--------------------------------------------------------------------------------
+Epoch: 2900/50000, Epoch time: 0.15s, Total time: 481.07s, LR: 1.00e-03
+Train Loss: 0.0051, Train Recon Loss: 0.0049, Train KLD Loss: 23.5164
+--------------------------------------------------------------------------------
+Epoch: 3000/50000, Epoch time: 0.15s, Total time: 497.42s, LR: 1.00e-03
+Train Loss: 0.0060, Train Recon Loss: 0.0058, Train KLD Loss: 24.5854
+--------------------------------------------------------------------------------
+Epoch: 3100/50000, Epoch time: 0.15s, Total time: 513.00s, LR: 1.00e-03
+Train Loss: 0.0049, Train Recon Loss: 0.0047, Train KLD Loss: 23.2261
+--------------------------------------------------------------------------------
+Epoch: 3200/50000, Epoch time: 0.11s, Total time: 529.83s, LR: 1.00e-03
+Train Loss: 0.0049, Train Recon Loss: 0.0047, Train KLD Loss: 23.1127
+--------------------------------------------------------------------------------
+Epoch: 3300/50000, Epoch time: 0.16s, Total time: 545.51s, LR: 1.00e-03
+Train Loss: 0.0049, Train Recon Loss: 0.0046, Train KLD Loss: 23.2701
+--------------------------------------------------------------------------------
+Epoch: 3400/50000, Epoch time: 0.16s, Total time: 561.88s, LR: 1.00e-03
+Train Loss: 0.0047, Train Recon Loss: 0.0045, Train KLD Loss: 22.8291
+--------------------------------------------------------------------------------
+Epoch: 3500/50000, Epoch time: 0.15s, Total time: 578.29s, LR: 1.00e-03
+Train Loss: 0.0055, Train Recon Loss: 0.0053, Train KLD Loss: 26.9562
+--------------------------------------------------------------------------------
+Epoch: 3600/50000, Epoch time: 0.12s, Total time: 594.43s, LR: 1.00e-03
+Train Loss: 0.0046, Train Recon Loss: 0.0044, Train KLD Loss: 23.0305
+--------------------------------------------------------------------------------
+Epoch: 3700/50000, Epoch time: 0.22s, Total time: 614.88s, LR: 1.00e-03
+Train Loss: 0.0047, Train Recon Loss: 0.0045, Train KLD Loss: 22.9952
+--------------------------------------------------------------------------------
+Epoch: 3800/50000, Epoch time: 0.23s, Total time: 637.69s, LR: 1.00e-03
+Train Loss: 0.0046, Train Recon Loss: 0.0044, Train KLD Loss: 22.6231
+--------------------------------------------------------------------------------
+Epoch: 3900/50000, Epoch time: 0.22s, Total time: 660.12s, LR: 1.00e-03
+Train Loss: 0.0045, Train Recon Loss: 0.0043, Train KLD Loss: 23.0861
+--------------------------------------------------------------------------------
+Epoch: 4000/50000, Epoch time: 0.23s, Total time: 682.96s, LR: 1.00e-03
+Train Loss: 0.0044, Train Recon Loss: 0.0042, Train KLD Loss: 22.5823
+--------------------------------------------------------------------------------
+Epoch: 4100/50000, Epoch time: 0.22s, Total time: 705.49s, LR: 1.00e-03
+Train Loss: 0.0044, Train Recon Loss: 0.0042, Train KLD Loss: 22.6448
+--------------------------------------------------------------------------------
+Epoch: 4200/50000, Epoch time: 0.22s, Total time: 728.10s, LR: 1.00e-03
+Train Loss: 0.0044, Train Recon Loss: 0.0041, Train KLD Loss: 22.7932
+--------------------------------------------------------------------------------
+Epoch: 4300/50000, Epoch time: 0.22s, Total time: 750.74s, LR: 1.00e-03
+Train Loss: 0.0043, Train Recon Loss: 0.0041, Train KLD Loss: 22.6320
+--------------------------------------------------------------------------------
+Epoch: 4400/50000, Epoch time: 0.22s, Total time: 773.25s, LR: 1.00e-03
+Train Loss: 0.0043, Train Recon Loss: 0.0040, Train KLD Loss: 22.4738
+--------------------------------------------------------------------------------
+Epoch: 4500/50000, Epoch time: 0.23s, Total time: 795.65s, LR: 1.00e-03
+Train Loss: 0.0048, Train Recon Loss: 0.0045, Train KLD Loss: 26.5765
+--------------------------------------------------------------------------------
+Epoch: 4600/50000, Epoch time: 0.23s, Total time: 818.42s, LR: 1.00e-03
+Train Loss: 0.0051, Train Recon Loss: 0.0048, Train KLD Loss: 26.0903
+--------------------------------------------------------------------------------
+Epoch: 4700/50000, Epoch time: 0.22s, Total time: 840.92s, LR: 1.00e-03
+Train Loss: 0.0044, Train Recon Loss: 0.0042, Train KLD Loss: 22.9091
+--------------------------------------------------------------------------------
+Epoch: 4800/50000, Epoch time: 0.23s, Total time: 863.50s, LR: 1.00e-03
+Train Loss: 0.0045, Train Recon Loss: 0.0042, Train KLD Loss: 24.2641
+--------------------------------------------------------------------------------
+Epoch: 4900/50000, Epoch time: 0.10s, Total time: 877.27s, LR: 1.00e-03
+Train Loss: 0.0042, Train Recon Loss: 0.0040, Train KLD Loss: 22.5467
+--------------------------------------------------------------------------------
+Epoch: 5000/50000, Epoch time: 0.22s, Total time: 888.42s, LR: 8.00e-04
+Train Loss: 0.0042, Train Recon Loss: 0.0040, Train KLD Loss: 22.5387
+--------------------------------------------------------------------------------
+Epoch: 5100/50000, Epoch time: 0.22s, Total time: 911.00s, LR: 8.00e-04
+Train Loss: 0.0040, Train Recon Loss: 0.0038, Train KLD Loss: 22.4877
+--------------------------------------------------------------------------------
+Epoch: 5200/50000, Epoch time: 0.22s, Total time: 933.63s, LR: 8.00e-04
+Train Loss: 0.0039, Train Recon Loss: 0.0037, Train KLD Loss: 22.2807
+--------------------------------------------------------------------------------
+Epoch: 5300/50000, Epoch time: 0.23s, Total time: 956.19s, LR: 8.00e-04
+Train Loss: 0.0038, Train Recon Loss: 0.0036, Train KLD Loss: 22.2550
+--------------------------------------------------------------------------------
+Epoch: 5400/50000, Epoch time: 0.22s, Total time: 978.92s, LR: 8.00e-04
+Train Loss: 0.0039, Train Recon Loss: 0.0036, Train KLD Loss: 22.2555
+--------------------------------------------------------------------------------
+Epoch: 5500/50000, Epoch time: 0.21s, Total time: 1001.64s, LR: 8.00e-04
+Train Loss: 0.0039, Train Recon Loss: 0.0036, Train KLD Loss: 22.1080
+--------------------------------------------------------------------------------
+Epoch: 5600/50000, Epoch time: 0.22s, Total time: 1024.38s, LR: 8.00e-04
+Train Loss: 0.0038, Train Recon Loss: 0.0036, Train KLD Loss: 22.2299
+--------------------------------------------------------------------------------
+Epoch: 5700/50000, Epoch time: 0.09s, Total time: 1040.45s, LR: 8.00e-04
+Train Loss: 0.0038, Train Recon Loss: 0.0036, Train KLD Loss: 22.2719
+--------------------------------------------------------------------------------
+Epoch: 5800/50000, Epoch time: 0.22s, Total time: 1062.13s, LR: 8.00e-04
+Train Loss: 0.0038, Train Recon Loss: 0.0036, Train KLD Loss: 22.0655
+--------------------------------------------------------------------------------
+Epoch: 5900/50000, Epoch time: 0.22s, Total time: 1084.88s, LR: 8.00e-04
+Train Loss: 0.0042, Train Recon Loss: 0.0039, Train KLD Loss: 24.6770
+--------------------------------------------------------------------------------
+Epoch: 6000/50000, Epoch time: 0.23s, Total time: 1107.40s, LR: 8.00e-04
+Train Loss: 0.0037, Train Recon Loss: 0.0035, Train KLD Loss: 22.0389
+--------------------------------------------------------------------------------
+Epoch: 6100/50000, Epoch time: 0.22s, Total time: 1129.92s, LR: 8.00e-04
+Train Loss: 0.0039, Train Recon Loss: 0.0036, Train KLD Loss: 22.2036
+--------------------------------------------------------------------------------
+Epoch: 6200/50000, Epoch time: 0.23s, Total time: 1152.73s, LR: 8.00e-04
+Train Loss: 0.0037, Train Recon Loss: 0.0035, Train KLD Loss: 22.4700
+--------------------------------------------------------------------------------
+Epoch: 6300/50000, Epoch time: 0.09s, Total time: 1173.10s, LR: 8.00e-04
+Train Loss: 0.0038, Train Recon Loss: 0.0035, Train KLD Loss: 22.6701
+--------------------------------------------------------------------------------
+Epoch: 6400/50000, Epoch time: 0.22s, Total time: 1190.55s, LR: 8.00e-04
+Train Loss: 0.0037, Train Recon Loss: 0.0035, Train KLD Loss: 22.1473
+--------------------------------------------------------------------------------
+Epoch: 6500/50000, Epoch time: 0.21s, Total time: 1213.15s, LR: 8.00e-04
+Train Loss: 0.0036, Train Recon Loss: 0.0034, Train KLD Loss: 22.1766
+--------------------------------------------------------------------------------
+Epoch: 6600/50000, Epoch time: 0.23s, Total time: 1235.77s, LR: 8.00e-04
+Train Loss: 0.0037, Train Recon Loss: 0.0034, Train KLD Loss: 22.1404
+--------------------------------------------------------------------------------
+Epoch: 6700/50000, Epoch time: 0.22s, Total time: 1258.07s, LR: 8.00e-04
+Train Loss: 0.0037, Train Recon Loss: 0.0035, Train KLD Loss: 22.2903
+--------------------------------------------------------------------------------
+Epoch: 6800/50000, Epoch time: 0.23s, Total time: 1280.49s, LR: 8.00e-04
+Train Loss: 0.0059, Train Recon Loss: 0.0056, Train KLD Loss: 26.6829
+--------------------------------------------------------------------------------
+Epoch: 6900/50000, Epoch time: 0.23s, Total time: 1302.92s, LR: 8.00e-04
+Train Loss: 0.0036, Train Recon Loss: 0.0034, Train KLD Loss: 22.0649
+--------------------------------------------------------------------------------
+Epoch: 7000/50000, Epoch time: 0.22s, Total time: 1325.68s, LR: 8.00e-04
+Train Loss: 0.0036, Train Recon Loss: 0.0034, Train KLD Loss: 21.9678
+--------------------------------------------------------------------------------
+Epoch: 7100/50000, Epoch time: 0.23s, Total time: 1347.65s, LR: 8.00e-04
+Train Loss: 0.0036, Train Recon Loss: 0.0034, Train KLD Loss: 22.2277
+--------------------------------------------------------------------------------
+Epoch: 7200/50000, Epoch time: 0.22s, Total time: 1369.95s, LR: 8.00e-04
+Train Loss: 0.0035, Train Recon Loss: 0.0033, Train KLD Loss: 21.9376
+--------------------------------------------------------------------------------
+Epoch: 7300/50000, Epoch time: 0.22s, Total time: 1392.46s, LR: 8.00e-04
+Train Loss: 0.0036, Train Recon Loss: 0.0033, Train KLD Loss: 21.9161
+--------------------------------------------------------------------------------
+Epoch: 7400/50000, Epoch time: 0.22s, Total time: 1415.21s, LR: 8.00e-04
+Train Loss: 0.0036, Train Recon Loss: 0.0034, Train KLD Loss: 22.2444
+--------------------------------------------------------------------------------
+Epoch: 7500/50000, Epoch time: 0.29s, Total time: 1437.62s, LR: 8.00e-04
+Train Loss: 0.0035, Train Recon Loss: 0.0033, Train KLD Loss: 22.2639
+--------------------------------------------------------------------------------
+Epoch: 7600/50000, Epoch time: 0.22s, Total time: 1459.83s, LR: 8.00e-04
+Train Loss: 0.0035, Train Recon Loss: 0.0033, Train KLD Loss: 22.0173
+--------------------------------------------------------------------------------
+Epoch: 7700/50000, Epoch time: 0.23s, Total time: 1482.09s, LR: 8.00e-04
+Train Loss: 0.0035, Train Recon Loss: 0.0033, Train KLD Loss: 22.0128
+--------------------------------------------------------------------------------
+Epoch: 7800/50000, Epoch time: 0.23s, Total time: 1504.61s, LR: 8.00e-04
+Train Loss: 0.0036, Train Recon Loss: 0.0034, Train KLD Loss: 22.0816
+--------------------------------------------------------------------------------
+Epoch: 7900/50000, Epoch time: 0.21s, Total time: 1520.39s, LR: 8.00e-04
+Train Loss: 0.0035, Train Recon Loss: 0.0033, Train KLD Loss: 21.7970
+--------------------------------------------------------------------------------
+Epoch: 8000/50000, Epoch time: 0.22s, Total time: 1542.33s, LR: 8.00e-04
+Train Loss: 0.0038, Train Recon Loss: 0.0036, Train KLD Loss: 22.2761
+--------------------------------------------------------------------------------
+Epoch: 8100/50000, Epoch time: 0.22s, Total time: 1564.92s, LR: 8.00e-04
+Train Loss: 0.0034, Train Recon Loss: 0.0032, Train KLD Loss: 21.9982
+--------------------------------------------------------------------------------
+Epoch: 8200/50000, Epoch time: 0.23s, Total time: 1587.57s, LR: 8.00e-04
+Train Loss: 0.0035, Train Recon Loss: 0.0032, Train KLD Loss: 22.0387
+--------------------------------------------------------------------------------
+Epoch: 8300/50000, Epoch time: 0.22s, Total time: 1610.06s, LR: 8.00e-04
+Train Loss: 0.0034, Train Recon Loss: 0.0032, Train KLD Loss: 21.8452
+--------------------------------------------------------------------------------
+Epoch: 8400/50000, Epoch time: 0.09s, Total time: 1624.70s, LR: 8.00e-04
+Train Loss: 0.0035, Train Recon Loss: 0.0032, Train KLD Loss: 21.8776
+--------------------------------------------------------------------------------
+Epoch: 8500/50000, Epoch time: 0.22s, Total time: 1641.77s, LR: 8.00e-04
+Train Loss: 0.0035, Train Recon Loss: 0.0033, Train KLD Loss: 22.0434
+--------------------------------------------------------------------------------
+Epoch: 8600/50000, Epoch time: 0.23s, Total time: 1664.28s, LR: 8.00e-04
+Train Loss: 0.0034, Train Recon Loss: 0.0032, Train KLD Loss: 21.9428
+--------------------------------------------------------------------------------
+Epoch: 8700/50000, Epoch time: 0.22s, Total time: 1686.59s, LR: 8.00e-04
+Train Loss: 0.0035, Train Recon Loss: 0.0033, Train KLD Loss: 22.2237
+--------------------------------------------------------------------------------
+Epoch: 8800/50000, Epoch time: 0.17s, Total time: 1708.92s, LR: 8.00e-04
+Train Loss: 0.0033, Train Recon Loss: 0.0031, Train KLD Loss: 21.8836
+--------------------------------------------------------------------------------
+Epoch: 8900/50000, Epoch time: 0.22s, Total time: 1730.81s, LR: 8.00e-04
+Train Loss: 0.0034, Train Recon Loss: 0.0032, Train KLD Loss: 21.7230
+--------------------------------------------------------------------------------
+Epoch: 9000/50000, Epoch time: 0.22s, Total time: 1753.18s, LR: 8.00e-04
+Train Loss: 0.0035, Train Recon Loss: 0.0032, Train KLD Loss: 22.2731
+--------------------------------------------------------------------------------
+Epoch: 9100/50000, Epoch time: 0.20s, Total time: 1775.61s, LR: 8.00e-04
+Train Loss: 0.0033, Train Recon Loss: 0.0031, Train KLD Loss: 21.9821
+--------------------------------------------------------------------------------
+Epoch: 9200/50000, Epoch time: 0.22s, Total time: 1797.97s, LR: 8.00e-04
+Train Loss: 0.0034, Train Recon Loss: 0.0032, Train KLD Loss: 21.9483
+--------------------------------------------------------------------------------
+Epoch: 9300/50000, Epoch time: 0.20s, Total time: 1820.04s, LR: 8.00e-04
+Train Loss: 0.0033, Train Recon Loss: 0.0031, Train KLD Loss: 21.8642
+--------------------------------------------------------------------------------
+Epoch: 9400/50000, Epoch time: 0.23s, Total time: 1842.37s, LR: 8.00e-04
+Train Loss: 0.0033, Train Recon Loss: 0.0031, Train KLD Loss: 21.8108
+--------------------------------------------------------------------------------
+Epoch: 9500/50000, Epoch time: 0.22s, Total time: 1865.07s, LR: 8.00e-04
+Train Loss: 0.0034, Train Recon Loss: 0.0032, Train KLD Loss: 21.8910
+--------------------------------------------------------------------------------
+Epoch: 9600/50000, Epoch time: 0.22s, Total time: 1887.12s, LR: 8.00e-04
+Train Loss: 0.0052, Train Recon Loss: 0.0049, Train KLD Loss: 30.6335
+--------------------------------------------------------------------------------
+Epoch: 9700/50000, Epoch time: 0.22s, Total time: 1909.39s, LR: 8.00e-04
+Train Loss: 0.0033, Train Recon Loss: 0.0031, Train KLD Loss: 21.7243
+--------------------------------------------------------------------------------
+Epoch: 9800/50000, Epoch time: 0.21s, Total time: 1931.04s, LR: 8.00e-04
+Train Loss: 0.0033, Train Recon Loss: 0.0031, Train KLD Loss: 21.9531
+--------------------------------------------------------------------------------
+Epoch: 9900/50000, Epoch time: 0.23s, Total time: 1953.00s, LR: 8.00e-04
+Train Loss: 0.0064, Train Recon Loss: 0.0061, Train KLD Loss: 39.7901
+--------------------------------------------------------------------------------
+Epoch: 10000/50000, Epoch time: 0.23s, Total time: 1975.49s, LR: 6.40e-04
+Train Loss: 0.0033, Train Recon Loss: 0.0031, Train KLD Loss: 21.7674
+--------------------------------------------------------------------------------
+Model saved to /mnt/ssd1/hsj/encore/icbc/model/vae-01-10/encore_vae_10000.pt
+Epoch: 10100/50000, Epoch time: 0.21s, Total time: 1997.67s, LR: 6.40e-04
+Train Loss: 0.0049, Train Recon Loss: 0.0033, Train KLD Loss: 16.4973
+--------------------------------------------------------------------------------
+Epoch: 10200/50000, Epoch time: 0.22s, Total time: 2020.13s, LR: 6.40e-04
+Train Loss: 0.0050, Train Recon Loss: 0.0033, Train KLD Loss: 16.4261
+--------------------------------------------------------------------------------
+Epoch: 10300/50000, Epoch time: 0.20s, Total time: 2042.10s, LR: 6.40e-04
+Train Loss: 0.0049, Train Recon Loss: 0.0033, Train KLD Loss: 16.1953
+--------------------------------------------------------------------------------
+Epoch: 10400/50000, Epoch time: 0.22s, Total time: 2064.15s, LR: 6.40e-04
+Train Loss: 0.0051, Train Recon Loss: 0.0035, Train KLD Loss: 16.1911
+--------------------------------------------------------------------------------
+Epoch: 10500/50000, Epoch time: 0.23s, Total time: 2086.28s, LR: 6.40e-04
+Train Loss: 0.0050, Train Recon Loss: 0.0034, Train KLD Loss: 15.9444
+--------------------------------------------------------------------------------
+Epoch: 10600/50000, Epoch time: 0.23s, Total time: 2108.64s, LR: 6.40e-04
+Train Loss: 0.0053, Train Recon Loss: 0.0037, Train KLD Loss: 16.7292
+--------------------------------------------------------------------------------
+Epoch: 10700/50000, Epoch time: 0.22s, Total time: 2130.85s, LR: 6.40e-04
+Train Loss: 0.0050, Train Recon Loss: 0.0034, Train KLD Loss: 16.0567
+--------------------------------------------------------------------------------
+Epoch: 10800/50000, Epoch time: 0.22s, Total time: 2152.99s, LR: 6.40e-04
+Train Loss: 0.0049, Train Recon Loss: 0.0033, Train KLD Loss: 15.9272
+--------------------------------------------------------------------------------
+Epoch: 10900/50000, Epoch time: 0.22s, Total time: 2175.13s, LR: 6.40e-04
+Train Loss: 0.0049, Train Recon Loss: 0.0033, Train KLD Loss: 15.9796
+--------------------------------------------------------------------------------
+Epoch: 11000/50000, Epoch time: 0.22s, Total time: 2197.44s, LR: 6.40e-04
+Train Loss: 0.0049, Train Recon Loss: 0.0034, Train KLD Loss: 15.9122
+--------------------------------------------------------------------------------
+Epoch: 11100/50000, Epoch time: 0.22s, Total time: 2219.48s, LR: 6.40e-04
+Train Loss: 0.0049, Train Recon Loss: 0.0033, Train KLD Loss: 15.8318
+--------------------------------------------------------------------------------
+Epoch: 11200/50000, Epoch time: 0.22s, Total time: 2241.29s, LR: 6.40e-04
+Train Loss: 0.0050, Train Recon Loss: 0.0034, Train KLD Loss: 15.9997
+--------------------------------------------------------------------------------
+Epoch: 11300/50000, Epoch time: 0.22s, Total time: 2263.38s, LR: 6.40e-04
+Train Loss: 0.0049, Train Recon Loss: 0.0033, Train KLD Loss: 15.8439
+--------------------------------------------------------------------------------
+Epoch: 11400/50000, Epoch time: 0.18s, Total time: 2276.29s, LR: 6.40e-04
+Train Loss: 0.0051, Train Recon Loss: 0.0035, Train KLD Loss: 15.8846
+--------------------------------------------------------------------------------
+Epoch: 11500/50000, Epoch time: 0.19s, Total time: 2288.04s, LR: 6.40e-04
+Train Loss: 0.0049, Train Recon Loss: 0.0033, Train KLD Loss: 15.7377
+--------------------------------------------------------------------------------
+Epoch: 11600/50000, Epoch time: 0.23s, Total time: 2310.19s, LR: 6.40e-04
+Train Loss: 0.0053, Train Recon Loss: 0.0037, Train KLD Loss: 15.8626
+--------------------------------------------------------------------------------
+Epoch: 11700/50000, Epoch time: 0.22s, Total time: 2332.14s, LR: 6.40e-04
+Train Loss: 0.0050, Train Recon Loss: 0.0034, Train KLD Loss: 15.9127
+--------------------------------------------------------------------------------
+Epoch: 11800/50000, Epoch time: 0.22s, Total time: 2354.23s, LR: 6.40e-04
+Train Loss: 0.0048, Train Recon Loss: 0.0033, Train KLD Loss: 15.6993
+--------------------------------------------------------------------------------
+Epoch: 11900/50000, Epoch time: 0.22s, Total time: 2376.55s, LR: 6.40e-04
+Train Loss: 0.0048, Train Recon Loss: 0.0032, Train KLD Loss: 15.7083
+--------------------------------------------------------------------------------
+Epoch: 12000/50000, Epoch time: 0.21s, Total time: 2398.48s, LR: 6.40e-04
+Train Loss: 0.0048, Train Recon Loss: 0.0032, Train KLD Loss: 15.6269
+--------------------------------------------------------------------------------
+Epoch: 12100/50000, Epoch time: 0.22s, Total time: 2420.37s, LR: 6.40e-04
+Train Loss: 0.0052, Train Recon Loss: 0.0036, Train KLD Loss: 15.9213
+--------------------------------------------------------------------------------
+Epoch: 12200/50000, Epoch time: 0.23s, Total time: 2441.58s, LR: 6.40e-04
+Train Loss: 0.0059, Train Recon Loss: 0.0044, Train KLD Loss: 15.7254
+--------------------------------------------------------------------------------
+Epoch: 12300/50000, Epoch time: 0.21s, Total time: 2463.89s, LR: 6.40e-04
+Train Loss: 0.0048, Train Recon Loss: 0.0032, Train KLD Loss: 15.5777
+--------------------------------------------------------------------------------
+Epoch: 12400/50000, Epoch time: 0.22s, Total time: 2485.73s, LR: 6.40e-04
+Train Loss: 0.0048, Train Recon Loss: 0.0032, Train KLD Loss: 15.4988
+--------------------------------------------------------------------------------
+Epoch: 12500/50000, Epoch time: 0.21s, Total time: 2508.03s, LR: 6.40e-04
+Train Loss: 0.0048, Train Recon Loss: 0.0032, Train KLD Loss: 15.6386
+--------------------------------------------------------------------------------
+Epoch: 12600/50000, Epoch time: 0.22s, Total time: 2529.60s, LR: 6.40e-04
+Train Loss: 0.0062, Train Recon Loss: 0.0046, Train KLD Loss: 16.0899
+--------------------------------------------------------------------------------
+Epoch: 12700/50000, Epoch time: 0.21s, Total time: 2550.96s, LR: 6.40e-04
+Train Loss: 0.0050, Train Recon Loss: 0.0034, Train KLD Loss: 15.6232
+--------------------------------------------------------------------------------
+Epoch: 12800/50000, Epoch time: 0.22s, Total time: 2573.09s, LR: 6.40e-04
+Train Loss: 0.0048, Train Recon Loss: 0.0032, Train KLD Loss: 15.4674
+--------------------------------------------------------------------------------
+Epoch: 12900/50000, Epoch time: 0.17s, Total time: 2594.99s, LR: 6.40e-04
+Train Loss: 0.0068, Train Recon Loss: 0.0052, Train KLD Loss: 16.1687
+--------------------------------------------------------------------------------
+Epoch: 13000/50000, Epoch time: 0.22s, Total time: 2616.90s, LR: 6.40e-04
+Train Loss: 0.0059, Train Recon Loss: 0.0043, Train KLD Loss: 16.1815
+--------------------------------------------------------------------------------
+Epoch: 13100/50000, Epoch time: 0.23s, Total time: 2639.25s, LR: 6.40e-04
+Train Loss: 0.0048, Train Recon Loss: 0.0032, Train KLD Loss: 15.3821
+--------------------------------------------------------------------------------
+Epoch: 13200/50000, Epoch time: 0.22s, Total time: 2661.63s, LR: 6.40e-04
+Train Loss: 0.0047, Train Recon Loss: 0.0032, Train KLD Loss: 15.3390
+--------------------------------------------------------------------------------
+Epoch: 13300/50000, Epoch time: 0.22s, Total time: 2683.60s, LR: 6.40e-04
+Train Loss: 0.0047, Train Recon Loss: 0.0031, Train KLD Loss: 15.3652
+--------------------------------------------------------------------------------
+Epoch: 13400/50000, Epoch time: 0.22s, Total time: 2705.85s, LR: 6.40e-04
+Train Loss: 0.0047, Train Recon Loss: 0.0032, Train KLD Loss: 15.3118
+--------------------------------------------------------------------------------
+Epoch: 13500/50000, Epoch time: 0.23s, Total time: 2728.08s, LR: 6.40e-04
+Train Loss: 0.0047, Train Recon Loss: 0.0032, Train KLD Loss: 15.2901
+--------------------------------------------------------------------------------
+Epoch: 13600/50000, Epoch time: 0.21s, Total time: 2750.21s, LR: 6.40e-04
+Train Loss: 0.0047, Train Recon Loss: 0.0032, Train KLD Loss: 15.3099
+--------------------------------------------------------------------------------
+Epoch: 13700/50000, Epoch time: 0.23s, Total time: 2771.56s, LR: 6.40e-04
+Train Loss: 0.0047, Train Recon Loss: 0.0032, Train KLD Loss: 15.2381
+--------------------------------------------------------------------------------
+Epoch: 13800/50000, Epoch time: 0.22s, Total time: 2792.51s, LR: 6.40e-04
+Train Loss: 0.0055, Train Recon Loss: 0.0040, Train KLD Loss: 15.7129
+--------------------------------------------------------------------------------
+Epoch: 13900/50000, Epoch time: 0.22s, Total time: 2814.65s, LR: 6.40e-04
+Train Loss: 0.0047, Train Recon Loss: 0.0031, Train KLD Loss: 15.2023
+--------------------------------------------------------------------------------
+Epoch: 14000/50000, Epoch time: 0.22s, Total time: 2837.13s, LR: 6.40e-04
+Train Loss: 0.0047, Train Recon Loss: 0.0031, Train KLD Loss: 15.2336
+--------------------------------------------------------------------------------
+Epoch: 14100/50000, Epoch time: 0.21s, Total time: 2858.64s, LR: 6.40e-04
+Train Loss: 0.0050, Train Recon Loss: 0.0034, Train KLD Loss: 15.2805
+--------------------------------------------------------------------------------
+Epoch: 14200/50000, Epoch time: 0.22s, Total time: 2880.72s, LR: 6.40e-04
+Train Loss: 0.0047, Train Recon Loss: 0.0032, Train KLD Loss: 15.1211
+--------------------------------------------------------------------------------
+Epoch: 14300/50000, Epoch time: 0.22s, Total time: 2901.62s, LR: 6.40e-04
+Train Loss: 0.0048, Train Recon Loss: 0.0032, Train KLD Loss: 15.2347
+--------------------------------------------------------------------------------
+Epoch: 14400/50000, Epoch time: 0.10s, Total time: 2921.91s, LR: 6.40e-04
+Train Loss: 0.0047, Train Recon Loss: 0.0032, Train KLD Loss: 15.0864
+--------------------------------------------------------------------------------
+Epoch: 14500/50000, Epoch time: 0.27s, Total time: 2942.87s, LR: 6.40e-04
+Train Loss: 0.0046, Train Recon Loss: 0.0031, Train KLD Loss: 15.0370
+--------------------------------------------------------------------------------
+Epoch: 14600/50000, Epoch time: 0.22s, Total time: 2964.72s, LR: 6.40e-04
+Train Loss: 0.0058, Train Recon Loss: 0.0043, Train KLD Loss: 15.3239
+--------------------------------------------------------------------------------
+Epoch: 14700/50000, Epoch time: 0.22s, Total time: 2986.90s, LR: 6.40e-04
+Train Loss: 0.0047, Train Recon Loss: 0.0032, Train KLD Loss: 14.9974
+--------------------------------------------------------------------------------
+Epoch: 14800/50000, Epoch time: 0.22s, Total time: 3009.11s, LR: 6.40e-04
+Train Loss: 0.0047, Train Recon Loss: 0.0032, Train KLD Loss: 14.8868
+--------------------------------------------------------------------------------
+Epoch: 14900/50000, Epoch time: 0.22s, Total time: 3027.54s, LR: 6.40e-04
+Train Loss: 0.0046, Train Recon Loss: 0.0031, Train KLD Loss: 14.9657
+--------------------------------------------------------------------------------
+Epoch: 15000/50000, Epoch time: 0.22s, Total time: 3048.78s, LR: 5.12e-04
+Train Loss: 0.0046, Train Recon Loss: 0.0031, Train KLD Loss: 15.0063
+--------------------------------------------------------------------------------
+Epoch: 15100/50000, Epoch time: 0.22s, Total time: 3070.85s, LR: 5.12e-04
+Train Loss: 0.0045, Train Recon Loss: 0.0030, Train KLD Loss: 14.8762
+--------------------------------------------------------------------------------
+Epoch: 15200/50000, Epoch time: 0.23s, Total time: 3092.89s, LR: 5.12e-04
+Train Loss: 0.0045, Train Recon Loss: 0.0030, Train KLD Loss: 14.8714
+--------------------------------------------------------------------------------
+Epoch: 15300/50000, Epoch time: 0.10s, Total time: 3111.19s, LR: 5.12e-04
+Train Loss: 0.0045, Train Recon Loss: 0.0030, Train KLD Loss: 14.8918
+--------------------------------------------------------------------------------
+Epoch: 15400/50000, Epoch time: 0.10s, Total time: 3121.22s, LR: 5.12e-04
+Train Loss: 0.0045, Train Recon Loss: 0.0030, Train KLD Loss: 14.8593
+--------------------------------------------------------------------------------
+Epoch: 15500/50000, Epoch time: 0.20s, Total time: 3142.15s, LR: 5.12e-04
+Train Loss: 0.0045, Train Recon Loss: 0.0030, Train KLD Loss: 14.7570
+--------------------------------------------------------------------------------
+Epoch: 15600/50000, Epoch time: 0.22s, Total time: 3163.87s, LR: 5.12e-04
+Train Loss: 0.0045, Train Recon Loss: 0.0030, Train KLD Loss: 14.8145
+--------------------------------------------------------------------------------
+Epoch: 15700/50000, Epoch time: 0.23s, Total time: 3185.97s, LR: 5.12e-04
+Train Loss: 0.0045, Train Recon Loss: 0.0030, Train KLD Loss: 14.8332
+--------------------------------------------------------------------------------
+Epoch: 15800/50000, Epoch time: 0.22s, Total time: 3208.23s, LR: 5.12e-04
+Train Loss: 0.0044, Train Recon Loss: 0.0030, Train KLD Loss: 14.7369
+--------------------------------------------------------------------------------
+Epoch: 15900/50000, Epoch time: 0.22s, Total time: 3230.28s, LR: 5.12e-04
+Train Loss: 0.0045, Train Recon Loss: 0.0030, Train KLD Loss: 14.7239
+--------------------------------------------------------------------------------
+Epoch: 16000/50000, Epoch time: 0.23s, Total time: 3252.36s, LR: 5.12e-04
+Train Loss: 0.0045, Train Recon Loss: 0.0030, Train KLD Loss: 14.7937
+--------------------------------------------------------------------------------
+Epoch: 16100/50000, Epoch time: 0.21s, Total time: 3274.05s, LR: 5.12e-04
+Train Loss: 0.0044, Train Recon Loss: 0.0030, Train KLD Loss: 14.5935
+--------------------------------------------------------------------------------
+Epoch: 16200/50000, Epoch time: 0.09s, Total time: 3291.08s, LR: 5.12e-04
+Train Loss: 0.0044, Train Recon Loss: 0.0030, Train KLD Loss: 14.6994
+--------------------------------------------------------------------------------
+Epoch: 16300/50000, Epoch time: 0.22s, Total time: 3306.51s, LR: 5.12e-04
+Train Loss: 0.0044, Train Recon Loss: 0.0030, Train KLD Loss: 14.5500
+--------------------------------------------------------------------------------
+Epoch: 16400/50000, Epoch time: 0.22s, Total time: 3328.28s, LR: 5.12e-04
+Train Loss: 0.0044, Train Recon Loss: 0.0030, Train KLD Loss: 14.4817
+--------------------------------------------------------------------------------
+Epoch: 16500/50000, Epoch time: 0.22s, Total time: 3347.58s, LR: 5.12e-04
+Train Loss: 0.0063, Train Recon Loss: 0.0048, Train KLD Loss: 15.0158
+--------------------------------------------------------------------------------
+Epoch: 16600/50000, Epoch time: 0.22s, Total time: 3369.43s, LR: 5.12e-04
+Train Loss: 0.0045, Train Recon Loss: 0.0030, Train KLD Loss: 14.5297
+--------------------------------------------------------------------------------
+Epoch: 16700/50000, Epoch time: 0.22s, Total time: 3391.56s, LR: 5.12e-04
+Train Loss: 0.0046, Train Recon Loss: 0.0032, Train KLD Loss: 14.5758
+--------------------------------------------------------------------------------
+Epoch: 16800/50000, Epoch time: 0.22s, Total time: 3413.22s, LR: 5.12e-04
+Train Loss: 0.0046, Train Recon Loss: 0.0031, Train KLD Loss: 14.6014
+--------------------------------------------------------------------------------
+Epoch: 16900/50000, Epoch time: 0.22s, Total time: 3435.60s, LR: 5.12e-04
+Train Loss: 0.0046, Train Recon Loss: 0.0031, Train KLD Loss: 14.6283
+--------------------------------------------------------------------------------
+Epoch: 17000/50000, Epoch time: 0.23s, Total time: 3457.99s, LR: 5.12e-04
+Train Loss: 0.0045, Train Recon Loss: 0.0030, Train KLD Loss: 14.8374
+--------------------------------------------------------------------------------
+Epoch: 17100/50000, Epoch time: 0.22s, Total time: 3480.59s, LR: 5.12e-04
+Train Loss: 0.0044, Train Recon Loss: 0.0030, Train KLD Loss: 14.3420
+--------------------------------------------------------------------------------
+Epoch: 17200/50000, Epoch time: 0.21s, Total time: 3502.87s, LR: 5.12e-04
+Train Loss: 0.0044, Train Recon Loss: 0.0029, Train KLD Loss: 14.3415
+--------------------------------------------------------------------------------
+Epoch: 17300/50000, Epoch time: 0.22s, Total time: 3524.81s, LR: 5.12e-04
+Train Loss: 0.0044, Train Recon Loss: 0.0029, Train KLD Loss: 14.3033
+--------------------------------------------------------------------------------
+Epoch: 17400/50000, Epoch time: 0.22s, Total time: 3547.02s, LR: 5.12e-04
+Train Loss: 0.0044, Train Recon Loss: 0.0029, Train KLD Loss: 14.3294
+--------------------------------------------------------------------------------
+Epoch: 17500/50000, Epoch time: 0.23s, Total time: 3569.58s, LR: 5.12e-04
+Train Loss: 0.0044, Train Recon Loss: 0.0030, Train KLD Loss: 14.2782
+--------------------------------------------------------------------------------
+Epoch: 17600/50000, Epoch time: 0.28s, Total time: 3592.12s, LR: 5.12e-04
+Train Loss: 0.0044, Train Recon Loss: 0.0029, Train KLD Loss: 14.2544
+--------------------------------------------------------------------------------
+Epoch: 17700/50000, Epoch time: 0.23s, Total time: 3614.31s, LR: 5.12e-04
+Train Loss: 0.0044, Train Recon Loss: 0.0030, Train KLD Loss: 14.3192
+--------------------------------------------------------------------------------
+Epoch: 17800/50000, Epoch time: 0.22s, Total time: 3636.64s, LR: 5.12e-04
+Train Loss: 0.0044, Train Recon Loss: 0.0029, Train KLD Loss: 14.2812
+--------------------------------------------------------------------------------
+Epoch: 17900/50000, Epoch time: 0.22s, Total time: 3659.05s, LR: 5.12e-04
+Train Loss: 0.0044, Train Recon Loss: 0.0030, Train KLD Loss: 14.3816
+--------------------------------------------------------------------------------
+Epoch: 18000/50000, Epoch time: 0.22s, Total time: 3681.26s, LR: 5.12e-04
+Train Loss: 0.0044, Train Recon Loss: 0.0029, Train KLD Loss: 14.2585
+--------------------------------------------------------------------------------
+Epoch: 18100/50000, Epoch time: 0.23s, Total time: 3703.89s, LR: 5.12e-04
+Train Loss: 0.0043, Train Recon Loss: 0.0029, Train KLD Loss: 14.2627
+--------------------------------------------------------------------------------
+Epoch: 18200/50000, Epoch time: 0.22s, Total time: 3725.81s, LR: 5.12e-04
+Train Loss: 0.0043, Train Recon Loss: 0.0029, Train KLD Loss: 14.2605
+--------------------------------------------------------------------------------
+Epoch: 18300/50000, Epoch time: 0.22s, Total time: 3747.66s, LR: 5.12e-04
+Train Loss: 0.0044, Train Recon Loss: 0.0030, Train KLD Loss: 14.4076
+--------------------------------------------------------------------------------
+Epoch: 18400/50000, Epoch time: 0.22s, Total time: 3769.82s, LR: 5.12e-04
+Train Loss: 0.0044, Train Recon Loss: 0.0030, Train KLD Loss: 14.2688
+--------------------------------------------------------------------------------
+Epoch: 18500/50000, Epoch time: 0.21s, Total time: 3792.09s, LR: 5.12e-04
+Train Loss: 0.0045, Train Recon Loss: 0.0031, Train KLD Loss: 14.3094
+--------------------------------------------------------------------------------
+Epoch: 18600/50000, Epoch time: 0.22s, Total time: 3814.05s, LR: 5.12e-04
+Train Loss: 0.0043, Train Recon Loss: 0.0029, Train KLD Loss: 14.2155
+--------------------------------------------------------------------------------
+Epoch: 18700/50000, Epoch time: 0.22s, Total time: 3835.92s, LR: 5.12e-04
+Train Loss: 0.0043, Train Recon Loss: 0.0029, Train KLD Loss: 14.2680
+--------------------------------------------------------------------------------
+Epoch: 18800/50000, Epoch time: 0.22s, Total time: 3858.42s, LR: 5.12e-04
+Train Loss: 0.0043, Train Recon Loss: 0.0029, Train KLD Loss: 14.1011
+--------------------------------------------------------------------------------
+Epoch: 18900/50000, Epoch time: 0.21s, Total time: 3881.24s, LR: 5.12e-04
+Train Loss: 0.0044, Train Recon Loss: 0.0029, Train KLD Loss: 14.3039
+--------------------------------------------------------------------------------
+Epoch: 19000/50000, Epoch time: 0.22s, Total time: 3903.52s, LR: 5.12e-04
+Train Loss: 0.0044, Train Recon Loss: 0.0030, Train KLD Loss: 14.3534
+--------------------------------------------------------------------------------
+Epoch: 19100/50000, Epoch time: 0.22s, Total time: 3925.84s, LR: 5.12e-04
+Train Loss: 0.0044, Train Recon Loss: 0.0029, Train KLD Loss: 14.2555
+--------------------------------------------------------------------------------
+Epoch: 19200/50000, Epoch time: 0.23s, Total time: 3948.11s, LR: 5.12e-04
+Train Loss: 0.0043, Train Recon Loss: 0.0029, Train KLD Loss: 14.2138
+--------------------------------------------------------------------------------
+Epoch: 19300/50000, Epoch time: 0.21s, Total time: 3970.24s, LR: 5.12e-04
+Train Loss: 0.0043, Train Recon Loss: 0.0029, Train KLD Loss: 14.2249
+--------------------------------------------------------------------------------
+Epoch: 19400/50000, Epoch time: 0.22s, Total time: 3992.58s, LR: 5.12e-04
+Train Loss: 0.0043, Train Recon Loss: 0.0029, Train KLD Loss: 14.1793
+--------------------------------------------------------------------------------
+Epoch: 19500/50000, Epoch time: 0.23s, Total time: 4014.92s, LR: 5.12e-04
+Train Loss: 0.0043, Train Recon Loss: 0.0029, Train KLD Loss: 14.2375
+--------------------------------------------------------------------------------
+Epoch: 19600/50000, Epoch time: 0.22s, Total time: 4036.71s, LR: 5.12e-04
+Train Loss: 0.0044, Train Recon Loss: 0.0030, Train KLD Loss: 14.3875
+--------------------------------------------------------------------------------
+Epoch: 19700/50000, Epoch time: 0.21s, Total time: 4059.15s, LR: 5.12e-04
+Train Loss: 0.0045, Train Recon Loss: 0.0031, Train KLD Loss: 14.2983
+--------------------------------------------------------------------------------
+Epoch: 19800/50000, Epoch time: 0.21s, Total time: 4080.96s, LR: 5.12e-04
+Train Loss: 0.0043, Train Recon Loss: 0.0029, Train KLD Loss: 14.2330
+--------------------------------------------------------------------------------
+Epoch: 19900/50000, Epoch time: 0.22s, Total time: 4103.24s, LR: 5.12e-04
+Train Loss: 0.0043, Train Recon Loss: 0.0029, Train KLD Loss: 14.1009
+--------------------------------------------------------------------------------
+Epoch: 20000/50000, Epoch time: 0.22s, Total time: 4126.01s, LR: 4.10e-04
+Train Loss: 0.0043, Train Recon Loss: 0.0029, Train KLD Loss: 14.1776
+--------------------------------------------------------------------------------
+Model saved to /mnt/ssd1/hsj/encore/icbc/model/vae-01-10/encore_vae_20000.pt
+Epoch: 20100/50000, Epoch time: 0.17s, Total time: 4146.94s, LR: 4.10e-04
+Train Loss: 0.0151, Train Recon Loss: 0.0061, Train KLD Loss: 9.0046
+--------------------------------------------------------------------------------
+Epoch: 20200/50000, Epoch time: 0.22s, Total time: 4168.11s, LR: 4.10e-04
+Train Loss: 0.0150, Train Recon Loss: 0.0060, Train KLD Loss: 8.9375
+--------------------------------------------------------------------------------
+Epoch: 20300/50000, Epoch time: 0.20s, Total time: 4189.62s, LR: 4.10e-04
+Train Loss: 0.0146, Train Recon Loss: 0.0059, Train KLD Loss: 8.7310
+--------------------------------------------------------------------------------
+Epoch: 20400/50000, Epoch time: 0.22s, Total time: 4210.98s, LR: 4.10e-04
+Train Loss: 0.0150, Train Recon Loss: 0.0063, Train KLD Loss: 8.7603
+--------------------------------------------------------------------------------
+Epoch: 20500/50000, Epoch time: 0.28s, Total time: 4232.75s, LR: 4.10e-04
+Train Loss: 0.0146, Train Recon Loss: 0.0059, Train KLD Loss: 8.6148
+--------------------------------------------------------------------------------
+Epoch: 20600/50000, Epoch time: 0.22s, Total time: 4254.80s, LR: 4.10e-04
+Train Loss: 0.0144, Train Recon Loss: 0.0061, Train KLD Loss: 8.3537
+--------------------------------------------------------------------------------
+Epoch: 20700/50000, Epoch time: 0.22s, Total time: 4274.11s, LR: 4.10e-04
+Train Loss: 0.0145, Train Recon Loss: 0.0060, Train KLD Loss: 8.4760
+--------------------------------------------------------------------------------
+Epoch: 20800/50000, Epoch time: 0.22s, Total time: 4295.93s, LR: 4.10e-04
+Train Loss: 0.0147, Train Recon Loss: 0.0060, Train KLD Loss: 8.6820
+--------------------------------------------------------------------------------
+Epoch: 20900/50000, Epoch time: 0.28s, Total time: 4318.22s, LR: 4.10e-04
+Train Loss: 0.0145, Train Recon Loss: 0.0062, Train KLD Loss: 8.2652
+--------------------------------------------------------------------------------
+Epoch: 21000/50000, Epoch time: 0.09s, Total time: 4337.16s, LR: 4.10e-04
+Train Loss: 0.0143, Train Recon Loss: 0.0060, Train KLD Loss: 8.2459
+--------------------------------------------------------------------------------
+Epoch: 21100/50000, Epoch time: 0.10s, Total time: 4347.07s, LR: 4.10e-04
+Train Loss: 0.0144, Train Recon Loss: 0.0062, Train KLD Loss: 8.1885
+--------------------------------------------------------------------------------
+Epoch: 21200/50000, Epoch time: 0.22s, Total time: 4360.87s, LR: 4.10e-04
+Train Loss: 0.0143, Train Recon Loss: 0.0061, Train KLD Loss: 8.2444
+--------------------------------------------------------------------------------
+Epoch: 21300/50000, Epoch time: 0.09s, Total time: 4373.22s, LR: 4.10e-04
+Train Loss: 0.0154, Train Recon Loss: 0.0070, Train KLD Loss: 8.4918
+--------------------------------------------------------------------------------
+Epoch: 21400/50000, Epoch time: 0.23s, Total time: 4389.44s, LR: 4.10e-04
+Train Loss: 0.0142, Train Recon Loss: 0.0061, Train KLD Loss: 8.0905
+--------------------------------------------------------------------------------
+Epoch: 21500/50000, Epoch time: 0.23s, Total time: 4411.67s, LR: 4.10e-04
+Train Loss: 0.0142, Train Recon Loss: 0.0060, Train KLD Loss: 8.2389
+--------------------------------------------------------------------------------
+Epoch: 21600/50000, Epoch time: 0.22s, Total time: 4434.09s, LR: 4.10e-04
+Train Loss: 0.0141, Train Recon Loss: 0.0060, Train KLD Loss: 8.0953
+--------------------------------------------------------------------------------
+Epoch: 21700/50000, Epoch time: 0.23s, Total time: 4456.59s, LR: 4.10e-04
+Train Loss: 0.0142, Train Recon Loss: 0.0059, Train KLD Loss: 8.2518
+--------------------------------------------------------------------------------
+Epoch: 21800/50000, Epoch time: 0.22s, Total time: 4479.21s, LR: 4.10e-04
+Train Loss: 0.0140, Train Recon Loss: 0.0060, Train KLD Loss: 8.0220
+--------------------------------------------------------------------------------
+Epoch: 21900/50000, Epoch time: 0.23s, Total time: 4502.01s, LR: 4.10e-04
+Train Loss: 0.0140, Train Recon Loss: 0.0059, Train KLD Loss: 8.1574
+--------------------------------------------------------------------------------
+Epoch: 22000/50000, Epoch time: 0.22s, Total time: 4524.36s, LR: 4.10e-04
+Train Loss: 0.0140, Train Recon Loss: 0.0059, Train KLD Loss: 8.1250
+--------------------------------------------------------------------------------
+Epoch: 22100/50000, Epoch time: 0.22s, Total time: 4547.04s, LR: 4.10e-04
+Train Loss: 0.0142, Train Recon Loss: 0.0061, Train KLD Loss: 8.0299
+--------------------------------------------------------------------------------
+Epoch: 22200/50000, Epoch time: 0.23s, Total time: 4569.38s, LR: 4.10e-04
+Train Loss: 0.0142, Train Recon Loss: 0.0062, Train KLD Loss: 8.0682
+--------------------------------------------------------------------------------
+Epoch: 22300/50000, Epoch time: 0.22s, Total time: 4591.80s, LR: 4.10e-04
+Train Loss: 0.0141, Train Recon Loss: 0.0060, Train KLD Loss: 8.0841
+--------------------------------------------------------------------------------
+Epoch: 22400/50000, Epoch time: 0.22s, Total time: 4614.25s, LR: 4.10e-04
+Train Loss: 0.0142, Train Recon Loss: 0.0059, Train KLD Loss: 8.3375
+--------------------------------------------------------------------------------
+Epoch: 22500/50000, Epoch time: 0.22s, Total time: 4635.69s, LR: 4.10e-04
+Train Loss: 0.0140, Train Recon Loss: 0.0060, Train KLD Loss: 8.0572
+--------------------------------------------------------------------------------
+Epoch: 22600/50000, Epoch time: 0.21s, Total time: 4657.53s, LR: 4.10e-04
+Train Loss: 0.0141, Train Recon Loss: 0.0060, Train KLD Loss: 8.1435
+--------------------------------------------------------------------------------
+Epoch: 22700/50000, Epoch time: 0.23s, Total time: 4679.70s, LR: 4.10e-04
+Train Loss: 0.0139, Train Recon Loss: 0.0059, Train KLD Loss: 8.0237
+--------------------------------------------------------------------------------
+Epoch: 22800/50000, Epoch time: 0.21s, Total time: 4701.14s, LR: 4.10e-04
+Train Loss: 0.0139, Train Recon Loss: 0.0059, Train KLD Loss: 8.0095
+--------------------------------------------------------------------------------
+Epoch: 22900/50000, Epoch time: 0.22s, Total time: 4723.36s, LR: 4.10e-04
+Train Loss: 0.0144, Train Recon Loss: 0.0060, Train KLD Loss: 8.3748
+--------------------------------------------------------------------------------
+Epoch: 23000/50000, Epoch time: 0.22s, Total time: 4745.41s, LR: 4.10e-04
+Train Loss: 0.0140, Train Recon Loss: 0.0059, Train KLD Loss: 8.1167
+--------------------------------------------------------------------------------
+Epoch: 23100/50000, Epoch time: 0.22s, Total time: 4767.43s, LR: 4.10e-04
+Train Loss: 0.0139, Train Recon Loss: 0.0058, Train KLD Loss: 8.0915
+--------------------------------------------------------------------------------
+Epoch: 23200/50000, Epoch time: 0.23s, Total time: 4788.84s, LR: 4.10e-04
+Train Loss: 0.0141, Train Recon Loss: 0.0060, Train KLD Loss: 8.0817
+--------------------------------------------------------------------------------
+Epoch: 23300/50000, Epoch time: 0.22s, Total time: 4811.57s, LR: 4.10e-04
+Train Loss: 0.0140, Train Recon Loss: 0.0060, Train KLD Loss: 7.9628
+--------------------------------------------------------------------------------
+Epoch: 23400/50000, Epoch time: 0.23s, Total time: 4833.59s, LR: 4.10e-04
+Train Loss: 0.0138, Train Recon Loss: 0.0059, Train KLD Loss: 7.9844
+--------------------------------------------------------------------------------
+Epoch: 23500/50000, Epoch time: 0.22s, Total time: 4856.15s, LR: 4.10e-04
+Train Loss: 0.0141, Train Recon Loss: 0.0060, Train KLD Loss: 8.1037
+--------------------------------------------------------------------------------
+Epoch: 23600/50000, Epoch time: 0.23s, Total time: 4878.78s, LR: 4.10e-04
+Train Loss: 0.0139, Train Recon Loss: 0.0059, Train KLD Loss: 7.9548
+--------------------------------------------------------------------------------
+Epoch: 23700/50000, Epoch time: 0.19s, Total time: 4901.08s, LR: 4.10e-04
+Train Loss: 0.0138, Train Recon Loss: 0.0059, Train KLD Loss: 7.9022
+--------------------------------------------------------------------------------
+Epoch: 23800/50000, Epoch time: 0.23s, Total time: 4923.20s, LR: 4.10e-04
+Train Loss: 0.0147, Train Recon Loss: 0.0064, Train KLD Loss: 8.3095
+--------------------------------------------------------------------------------
+Epoch: 23900/50000, Epoch time: 0.22s, Total time: 4945.35s, LR: 4.10e-04
+Train Loss: 0.0138, Train Recon Loss: 0.0058, Train KLD Loss: 8.0082
+--------------------------------------------------------------------------------
+Epoch: 24000/50000, Epoch time: 0.22s, Total time: 4967.74s, LR: 4.10e-04
+Train Loss: 0.0138, Train Recon Loss: 0.0058, Train KLD Loss: 7.9738
+--------------------------------------------------------------------------------
+Epoch: 24100/50000, Epoch time: 0.23s, Total time: 4989.89s, LR: 4.10e-04
+Train Loss: 0.0141, Train Recon Loss: 0.0060, Train KLD Loss: 8.1029
+--------------------------------------------------------------------------------
+Epoch: 24200/50000, Epoch time: 0.22s, Total time: 5011.75s, LR: 4.10e-04
+Train Loss: 0.0137, Train Recon Loss: 0.0058, Train KLD Loss: 7.9471
+--------------------------------------------------------------------------------
+Epoch: 24300/50000, Epoch time: 0.21s, Total time: 5033.45s, LR: 4.10e-04
+Train Loss: 0.0155, Train Recon Loss: 0.0075, Train KLD Loss: 8.0289
+--------------------------------------------------------------------------------
+Epoch: 24400/50000, Epoch time: 0.23s, Total time: 5055.78s, LR: 4.10e-04
+Train Loss: 0.0141, Train Recon Loss: 0.0060, Train KLD Loss: 8.1283
+--------------------------------------------------------------------------------
+Epoch: 24500/50000, Epoch time: 0.22s, Total time: 5077.84s, LR: 4.10e-04
+Train Loss: 0.0139, Train Recon Loss: 0.0059, Train KLD Loss: 8.0786
+--------------------------------------------------------------------------------
+Epoch: 24600/50000, Epoch time: 0.12s, Total time: 5099.14s, LR: 4.10e-04
+Train Loss: 0.0138, Train Recon Loss: 0.0059, Train KLD Loss: 7.9167
+--------------------------------------------------------------------------------
+Epoch: 24700/50000, Epoch time: 0.23s, Total time: 5120.11s, LR: 4.10e-04
+Train Loss: 0.0140, Train Recon Loss: 0.0062, Train KLD Loss: 7.8114
+--------------------------------------------------------------------------------
+Epoch: 24800/50000, Epoch time: 0.22s, Total time: 5142.68s, LR: 4.10e-04
+Train Loss: 0.0138, Train Recon Loss: 0.0060, Train KLD Loss: 7.8622
+--------------------------------------------------------------------------------
+Epoch: 24900/50000, Epoch time: 0.23s, Total time: 5164.65s, LR: 4.10e-04
+Train Loss: 0.0138, Train Recon Loss: 0.0059, Train KLD Loss: 7.8385
+--------------------------------------------------------------------------------
+Epoch: 25000/50000, Epoch time: 0.23s, Total time: 5187.22s, LR: 3.28e-04
+Train Loss: 0.0139, Train Recon Loss: 0.0059, Train KLD Loss: 8.0748
+--------------------------------------------------------------------------------
+Epoch: 25100/50000, Epoch time: 0.22s, Total time: 5209.67s, LR: 3.28e-04
+Train Loss: 0.0138, Train Recon Loss: 0.0059, Train KLD Loss: 7.9038
+--------------------------------------------------------------------------------
+Epoch: 25200/50000, Epoch time: 0.21s, Total time: 5231.86s, LR: 3.28e-04
+Train Loss: 0.0137, Train Recon Loss: 0.0057, Train KLD Loss: 7.9914
+--------------------------------------------------------------------------------
+Epoch: 25300/50000, Epoch time: 0.23s, Total time: 5254.31s, LR: 3.28e-04
+Train Loss: 0.0136, Train Recon Loss: 0.0057, Train KLD Loss: 7.9039
+--------------------------------------------------------------------------------
+Epoch: 25400/50000, Epoch time: 0.23s, Total time: 5276.96s, LR: 3.28e-04
+Train Loss: 0.0136, Train Recon Loss: 0.0057, Train KLD Loss: 7.8517
+--------------------------------------------------------------------------------
+Epoch: 25500/50000, Epoch time: 0.22s, Total time: 5299.50s, LR: 3.28e-04
+Train Loss: 0.0136, Train Recon Loss: 0.0057, Train KLD Loss: 7.9159
+--------------------------------------------------------------------------------
+Epoch: 25600/50000, Epoch time: 0.21s, Total time: 5321.87s, LR: 3.28e-04
+Train Loss: 0.0135, Train Recon Loss: 0.0056, Train KLD Loss: 7.9318
+--------------------------------------------------------------------------------
+Epoch: 25700/50000, Epoch time: 0.23s, Total time: 5344.23s, LR: 3.28e-04
+Train Loss: 0.0135, Train Recon Loss: 0.0057, Train KLD Loss: 7.8300
+--------------------------------------------------------------------------------
+Epoch: 25800/50000, Epoch time: 0.22s, Total time: 5366.59s, LR: 3.28e-04
+Train Loss: 0.0136, Train Recon Loss: 0.0057, Train KLD Loss: 7.9057
+--------------------------------------------------------------------------------
+Epoch: 25900/50000, Epoch time: 0.22s, Total time: 5389.08s, LR: 3.28e-04
+Train Loss: 0.0136, Train Recon Loss: 0.0057, Train KLD Loss: 7.8803
+--------------------------------------------------------------------------------
+Epoch: 26000/50000, Epoch time: 0.22s, Total time: 5411.34s, LR: 3.28e-04
+Train Loss: 0.0135, Train Recon Loss: 0.0056, Train KLD Loss: 7.9589
+--------------------------------------------------------------------------------
+Epoch: 26100/50000, Epoch time: 0.23s, Total time: 5433.37s, LR: 3.28e-04
+Train Loss: 0.0136, Train Recon Loss: 0.0055, Train KLD Loss: 8.0841
+--------------------------------------------------------------------------------
+Epoch: 26200/50000, Epoch time: 0.22s, Total time: 5455.87s, LR: 3.28e-04
+Train Loss: 0.0135, Train Recon Loss: 0.0056, Train KLD Loss: 7.8878
+--------------------------------------------------------------------------------
+Epoch: 26300/50000, Epoch time: 0.21s, Total time: 5472.36s, LR: 3.28e-04
+Train Loss: 0.0137, Train Recon Loss: 0.0058, Train KLD Loss: 7.8828
+--------------------------------------------------------------------------------
+Epoch: 26400/50000, Epoch time: 0.23s, Total time: 5494.87s, LR: 3.28e-04
+Train Loss: 0.0135, Train Recon Loss: 0.0056, Train KLD Loss: 7.9146
+--------------------------------------------------------------------------------
+Epoch: 26500/50000, Epoch time: 0.22s, Total time: 5516.92s, LR: 3.28e-04
+Train Loss: 0.0136, Train Recon Loss: 0.0056, Train KLD Loss: 7.9192
+--------------------------------------------------------------------------------
+Epoch: 26600/50000, Epoch time: 0.21s, Total time: 5539.13s, LR: 3.28e-04
+Train Loss: 0.0135, Train Recon Loss: 0.0056, Train KLD Loss: 7.9364
+--------------------------------------------------------------------------------
+Epoch: 26700/50000, Epoch time: 0.09s, Total time: 5554.77s, LR: 3.28e-04
+Train Loss: 0.0135, Train Recon Loss: 0.0057, Train KLD Loss: 7.8379
+--------------------------------------------------------------------------------
+Epoch: 26800/50000, Epoch time: 0.22s, Total time: 5566.59s, LR: 3.28e-04
+Train Loss: 0.0137, Train Recon Loss: 0.0057, Train KLD Loss: 7.9778
+--------------------------------------------------------------------------------
+Epoch: 26900/50000, Epoch time: 0.21s, Total time: 5588.59s, LR: 3.28e-04
+Train Loss: 0.0136, Train Recon Loss: 0.0056, Train KLD Loss: 8.0077
+--------------------------------------------------------------------------------
+Epoch: 27000/50000, Epoch time: 0.22s, Total time: 5611.31s, LR: 3.28e-04
+Train Loss: 0.0134, Train Recon Loss: 0.0056, Train KLD Loss: 7.8532
+--------------------------------------------------------------------------------
+Epoch: 27100/50000, Epoch time: 0.22s, Total time: 5633.95s, LR: 3.28e-04
+Train Loss: 0.0135, Train Recon Loss: 0.0057, Train KLD Loss: 7.8634
+--------------------------------------------------------------------------------
+Epoch: 27200/50000, Epoch time: 0.22s, Total time: 5656.45s, LR: 3.28e-04
+Train Loss: 0.0136, Train Recon Loss: 0.0056, Train KLD Loss: 7.9408
+--------------------------------------------------------------------------------
+Epoch: 27300/50000, Epoch time: 0.30s, Total time: 5678.99s, LR: 3.28e-04
+Train Loss: 0.0136, Train Recon Loss: 0.0056, Train KLD Loss: 8.0938
+--------------------------------------------------------------------------------
+Epoch: 27400/50000, Epoch time: 0.22s, Total time: 5701.54s, LR: 3.28e-04
+Train Loss: 0.0135, Train Recon Loss: 0.0056, Train KLD Loss: 7.8794
+--------------------------------------------------------------------------------
+Epoch: 27500/50000, Epoch time: 0.22s, Total time: 5724.13s, LR: 3.28e-04
+Train Loss: 0.0135, Train Recon Loss: 0.0055, Train KLD Loss: 8.0087
+--------------------------------------------------------------------------------
+Epoch: 27600/50000, Epoch time: 0.22s, Total time: 5746.67s, LR: 3.28e-04
+Train Loss: 0.0136, Train Recon Loss: 0.0056, Train KLD Loss: 7.9729
+--------------------------------------------------------------------------------
+Epoch: 27700/50000, Epoch time: 0.26s, Total time: 5768.76s, LR: 3.28e-04
+Train Loss: 0.0135, Train Recon Loss: 0.0056, Train KLD Loss: 7.8757
+--------------------------------------------------------------------------------
+Epoch: 27800/50000, Epoch time: 0.11s, Total time: 5783.12s, LR: 3.28e-04
+Train Loss: 0.0134, Train Recon Loss: 0.0056, Train KLD Loss: 7.8350
+--------------------------------------------------------------------------------
+Epoch: 27900/50000, Epoch time: 0.14s, Total time: 5796.21s, LR: 3.28e-04
+Train Loss: 0.0136, Train Recon Loss: 0.0056, Train KLD Loss: 7.9619
+--------------------------------------------------------------------------------
+Epoch: 28000/50000, Epoch time: 0.11s, Total time: 5808.53s, LR: 3.28e-04
+Train Loss: 0.0136, Train Recon Loss: 0.0055, Train KLD Loss: 8.0579
+--------------------------------------------------------------------------------
+Epoch: 28100/50000, Epoch time: 0.17s, Total time: 5822.00s, LR: 3.28e-04
+Train Loss: 0.0134, Train Recon Loss: 0.0056, Train KLD Loss: 7.8555
+--------------------------------------------------------------------------------
+Epoch: 28200/50000, Epoch time: 0.11s, Total time: 5833.97s, LR: 3.28e-04
+Train Loss: 0.0134, Train Recon Loss: 0.0056, Train KLD Loss: 7.8294
+--------------------------------------------------------------------------------
+Epoch: 28300/50000, Epoch time: 0.11s, Total time: 5848.21s, LR: 3.28e-04
+Train Loss: 0.0134, Train Recon Loss: 0.0055, Train KLD Loss: 7.8611
+--------------------------------------------------------------------------------
+Epoch: 28400/50000, Epoch time: 0.11s, Total time: 5860.35s, LR: 3.28e-04
+Train Loss: 0.0136, Train Recon Loss: 0.0057, Train KLD Loss: 7.8142
+--------------------------------------------------------------------------------
+Epoch: 28500/50000, Epoch time: 0.23s, Total time: 5873.44s, LR: 3.28e-04
+Train Loss: 0.0135, Train Recon Loss: 0.0055, Train KLD Loss: 7.9613
+--------------------------------------------------------------------------------
+Epoch: 28600/50000, Epoch time: 0.13s, Total time: 5885.79s, LR: 3.28e-04
+Train Loss: 0.0137, Train Recon Loss: 0.0057, Train KLD Loss: 7.9991
+--------------------------------------------------------------------------------
+Epoch: 28700/50000, Epoch time: 0.11s, Total time: 5898.40s, LR: 3.28e-04
+Train Loss: 0.0136, Train Recon Loss: 0.0055, Train KLD Loss: 8.0926
+--------------------------------------------------------------------------------
+Epoch: 28800/50000, Epoch time: 0.11s, Total time: 5911.26s, LR: 3.28e-04
+Train Loss: 0.0134, Train Recon Loss: 0.0056, Train KLD Loss: 7.7621
+--------------------------------------------------------------------------------
+Epoch: 28900/50000, Epoch time: 0.22s, Total time: 5923.41s, LR: 3.28e-04
+Train Loss: 0.0135, Train Recon Loss: 0.0056, Train KLD Loss: 7.9044
+--------------------------------------------------------------------------------
+Epoch: 29000/50000, Epoch time: 0.11s, Total time: 5935.52s, LR: 3.28e-04
+Train Loss: 0.0134, Train Recon Loss: 0.0056, Train KLD Loss: 7.8175
+--------------------------------------------------------------------------------
+Epoch: 29100/50000, Epoch time: 0.11s, Total time: 5948.00s, LR: 3.28e-04
+Train Loss: 0.0135, Train Recon Loss: 0.0056, Train KLD Loss: 7.9212
+--------------------------------------------------------------------------------
+Epoch: 29200/50000, Epoch time: 0.22s, Total time: 5963.44s, LR: 3.28e-04
+Train Loss: 0.0135, Train Recon Loss: 0.0056, Train KLD Loss: 7.8898
+--------------------------------------------------------------------------------
+Epoch: 29300/50000, Epoch time: 0.22s, Total time: 5979.76s, LR: 3.28e-04
+Train Loss: 0.0135, Train Recon Loss: 0.0055, Train KLD Loss: 8.0418
+--------------------------------------------------------------------------------
+Epoch: 29400/50000, Epoch time: 0.14s, Total time: 5997.93s, LR: 3.28e-04
+Train Loss: 0.0134, Train Recon Loss: 0.0056, Train KLD Loss: 7.8669
+--------------------------------------------------------------------------------
+Epoch: 29500/50000, Epoch time: 0.12s, Total time: 6012.91s, LR: 3.28e-04
+Train Loss: 0.0134, Train Recon Loss: 0.0056, Train KLD Loss: 7.8182
+--------------------------------------------------------------------------------
+Epoch: 29600/50000, Epoch time: 0.14s, Total time: 6028.09s, LR: 3.28e-04
+Train Loss: 0.0134, Train Recon Loss: 0.0056, Train KLD Loss: 7.7883
+--------------------------------------------------------------------------------
+Epoch: 29700/50000, Epoch time: 0.23s, Total time: 6041.86s, LR: 3.28e-04
+Train Loss: 0.0134, Train Recon Loss: 0.0055, Train KLD Loss: 7.8775
+--------------------------------------------------------------------------------
+Epoch: 29800/50000, Epoch time: 0.13s, Total time: 6056.34s, LR: 3.28e-04
+Train Loss: 0.0134, Train Recon Loss: 0.0056, Train KLD Loss: 7.8700
+--------------------------------------------------------------------------------
+Epoch: 29900/50000, Epoch time: 0.23s, Total time: 6078.00s, LR: 3.28e-04
+Train Loss: 0.0135, Train Recon Loss: 0.0057, Train KLD Loss: 7.8271
+--------------------------------------------------------------------------------
+Epoch: 30000/50000, Epoch time: 0.10s, Total time: 6096.23s, LR: 2.62e-04
+Train Loss: 0.0134, Train Recon Loss: 0.0055, Train KLD Loss: 7.8856
+--------------------------------------------------------------------------------
+Model saved to /mnt/ssd1/hsj/encore/icbc/model/vae-01-10/encore_vae_30000.pt
+Epoch: 30100/50000, Epoch time: 0.13s, Total time: 6113.18s, LR: 2.62e-04
+Train Loss: 0.0133, Train Recon Loss: 0.0055, Train KLD Loss: 7.8591
+--------------------------------------------------------------------------------
+Epoch: 30200/50000, Epoch time: 0.23s, Total time: 6132.47s, LR: 2.62e-04
+Train Loss: 0.0132, Train Recon Loss: 0.0054, Train KLD Loss: 7.8018
+--------------------------------------------------------------------------------
+Epoch: 30300/50000, Epoch time: 0.23s, Total time: 6156.03s, LR: 2.62e-04
+Train Loss: 0.0133, Train Recon Loss: 0.0054, Train KLD Loss: 7.8895
+--------------------------------------------------------------------------------
+Epoch: 30400/50000, Epoch time: 0.23s, Total time: 6178.59s, LR: 2.62e-04
+Train Loss: 0.0133, Train Recon Loss: 0.0055, Train KLD Loss: 7.8329
+--------------------------------------------------------------------------------
+Epoch: 30500/50000, Epoch time: 0.13s, Total time: 6193.17s, LR: 2.62e-04
+Train Loss: 0.0133, Train Recon Loss: 0.0055, Train KLD Loss: 7.8542
+--------------------------------------------------------------------------------
+Epoch: 30600/50000, Epoch time: 0.14s, Total time: 6208.57s, LR: 2.62e-04
+Train Loss: 0.0133, Train Recon Loss: 0.0054, Train KLD Loss: 7.8758
+--------------------------------------------------------------------------------
+Epoch: 30700/50000, Epoch time: 0.14s, Total time: 6223.20s, LR: 2.62e-04
+Train Loss: 0.0134, Train Recon Loss: 0.0054, Train KLD Loss: 8.0140
+--------------------------------------------------------------------------------
+Epoch: 30800/50000, Epoch time: 0.11s, Total time: 6237.14s, LR: 2.62e-04
+Train Loss: 0.0135, Train Recon Loss: 0.0055, Train KLD Loss: 7.9468
+--------------------------------------------------------------------------------
+Epoch: 30900/50000, Epoch time: 0.13s, Total time: 6251.86s, LR: 2.62e-04
+Train Loss: 0.0135, Train Recon Loss: 0.0055, Train KLD Loss: 7.9556
+--------------------------------------------------------------------------------
+Epoch: 31000/50000, Epoch time: 0.26s, Total time: 6274.36s, LR: 2.62e-04
+Train Loss: 0.0132, Train Recon Loss: 0.0054, Train KLD Loss: 7.8314
+--------------------------------------------------------------------------------
+Epoch: 31100/50000, Epoch time: 0.22s, Total time: 6298.14s, LR: 2.62e-04
+Train Loss: 0.0133, Train Recon Loss: 0.0054, Train KLD Loss: 7.9033
+--------------------------------------------------------------------------------
+Epoch: 31200/50000, Epoch time: 0.23s, Total time: 6320.96s, LR: 2.62e-04
+Train Loss: 0.0132, Train Recon Loss: 0.0054, Train KLD Loss: 7.8229
+--------------------------------------------------------------------------------
+Epoch: 31300/50000, Epoch time: 0.23s, Total time: 6343.80s, LR: 2.62e-04
+Train Loss: 0.0133, Train Recon Loss: 0.0054, Train KLD Loss: 7.8368
+--------------------------------------------------------------------------------
+Epoch: 31400/50000, Epoch time: 0.23s, Total time: 6366.69s, LR: 2.62e-04
+Train Loss: 0.0133, Train Recon Loss: 0.0054, Train KLD Loss: 7.8616
+--------------------------------------------------------------------------------
+Epoch: 31500/50000, Epoch time: 0.23s, Total time: 6390.22s, LR: 2.62e-04
+Train Loss: 0.0132, Train Recon Loss: 0.0053, Train KLD Loss: 7.8869
+--------------------------------------------------------------------------------
+Epoch: 31600/50000, Epoch time: 0.15s, Total time: 6411.16s, LR: 2.62e-04
+Train Loss: 0.0138, Train Recon Loss: 0.0060, Train KLD Loss: 7.8037
+--------------------------------------------------------------------------------
+Epoch: 31700/50000, Epoch time: 0.24s, Total time: 6427.86s, LR: 2.62e-04
+Train Loss: 0.0133, Train Recon Loss: 0.0053, Train KLD Loss: 8.0551
+--------------------------------------------------------------------------------
+Epoch: 31800/50000, Epoch time: 0.23s, Total time: 6450.67s, LR: 2.62e-04
+Train Loss: 0.0133, Train Recon Loss: 0.0053, Train KLD Loss: 8.0034
+--------------------------------------------------------------------------------
+Epoch: 31900/50000, Epoch time: 0.13s, Total time: 6471.99s, LR: 2.62e-04
+Train Loss: 0.0133, Train Recon Loss: 0.0055, Train KLD Loss: 7.7954
+--------------------------------------------------------------------------------
+Epoch: 32000/50000, Epoch time: 0.17s, Total time: 6484.08s, LR: 2.62e-04
+Train Loss: 0.0132, Train Recon Loss: 0.0053, Train KLD Loss: 7.9126
+--------------------------------------------------------------------------------
+Epoch: 32100/50000, Epoch time: 0.12s, Total time: 6499.18s, LR: 2.62e-04
+Train Loss: 0.0133, Train Recon Loss: 0.0054, Train KLD Loss: 7.8831
+--------------------------------------------------------------------------------
+Epoch: 32200/50000, Epoch time: 0.13s, Total time: 6512.16s, LR: 2.62e-04
+Train Loss: 0.0134, Train Recon Loss: 0.0054, Train KLD Loss: 7.9551
+--------------------------------------------------------------------------------
+Epoch: 32300/50000, Epoch time: 0.12s, Total time: 6527.74s, LR: 2.62e-04
+Train Loss: 0.0132, Train Recon Loss: 0.0053, Train KLD Loss: 7.8482
+--------------------------------------------------------------------------------
+Epoch: 32400/50000, Epoch time: 0.11s, Total time: 6540.67s, LR: 2.62e-04
+Train Loss: 0.0133, Train Recon Loss: 0.0054, Train KLD Loss: 7.9178
+--------------------------------------------------------------------------------
+Epoch: 32500/50000, Epoch time: 0.12s, Total time: 6554.40s, LR: 2.62e-04
+Train Loss: 0.0135, Train Recon Loss: 0.0054, Train KLD Loss: 8.0830
+--------------------------------------------------------------------------------
+Epoch: 32600/50000, Epoch time: 0.16s, Total time: 6569.67s, LR: 2.62e-04
+Train Loss: 0.0132, Train Recon Loss: 0.0054, Train KLD Loss: 7.8494
+--------------------------------------------------------------------------------
+Epoch: 32700/50000, Epoch time: 0.16s, Total time: 6586.54s, LR: 2.62e-04
+Train Loss: 0.0132, Train Recon Loss: 0.0053, Train KLD Loss: 7.8898
+--------------------------------------------------------------------------------
+Epoch: 32800/50000, Epoch time: 0.23s, Total time: 6607.19s, LR: 2.62e-04
+Train Loss: 0.0132, Train Recon Loss: 0.0054, Train KLD Loss: 7.8952
+--------------------------------------------------------------------------------
+Epoch: 32900/50000, Epoch time: 0.22s, Total time: 6630.76s, LR: 2.62e-04
+Train Loss: 0.0133, Train Recon Loss: 0.0053, Train KLD Loss: 7.9454
+--------------------------------------------------------------------------------
+Epoch: 33000/50000, Epoch time: 0.19s, Total time: 6652.27s, LR: 2.62e-04
+Train Loss: 0.0133, Train Recon Loss: 0.0055, Train KLD Loss: 7.7562
+--------------------------------------------------------------------------------
+Epoch: 33100/50000, Epoch time: 0.17s, Total time: 6667.44s, LR: 2.62e-04
+Train Loss: 0.0133, Train Recon Loss: 0.0053, Train KLD Loss: 7.9183
+--------------------------------------------------------------------------------
+Epoch: 33200/50000, Epoch time: 0.16s, Total time: 6682.38s, LR: 2.62e-04
+Train Loss: 0.0134, Train Recon Loss: 0.0055, Train KLD Loss: 7.8462
+--------------------------------------------------------------------------------
+Epoch: 33300/50000, Epoch time: 0.13s, Total time: 6698.94s, LR: 2.62e-04
+Train Loss: 0.0133, Train Recon Loss: 0.0054, Train KLD Loss: 7.8905
+--------------------------------------------------------------------------------
+Epoch: 33400/50000, Epoch time: 0.24s, Total time: 6718.83s, LR: 2.62e-04
+Train Loss: 0.0132, Train Recon Loss: 0.0053, Train KLD Loss: 7.8790
+--------------------------------------------------------------------------------
+Epoch: 33500/50000, Epoch time: 0.23s, Total time: 6740.16s, LR: 2.62e-04
+Train Loss: 0.0133, Train Recon Loss: 0.0054, Train KLD Loss: 7.9004
+--------------------------------------------------------------------------------
+Epoch: 33600/50000, Epoch time: 0.12s, Total time: 6761.27s, LR: 2.62e-04
+Train Loss: 0.0133, Train Recon Loss: 0.0054, Train KLD Loss: 7.8806
+--------------------------------------------------------------------------------
+Epoch: 33700/50000, Epoch time: 0.11s, Total time: 6775.87s, LR: 2.62e-04
+Train Loss: 0.0136, Train Recon Loss: 0.0057, Train KLD Loss: 7.9046
+--------------------------------------------------------------------------------
+Epoch: 33800/50000, Epoch time: 0.20s, Total time: 6797.97s, LR: 2.62e-04
+Train Loss: 0.0132, Train Recon Loss: 0.0053, Train KLD Loss: 7.8358
+--------------------------------------------------------------------------------
+Epoch: 33900/50000, Epoch time: 0.17s, Total time: 6813.79s, LR: 2.62e-04
+Train Loss: 0.0132, Train Recon Loss: 0.0053, Train KLD Loss: 7.9452
+--------------------------------------------------------------------------------
+Epoch: 34000/50000, Epoch time: 0.24s, Total time: 6832.35s, LR: 2.62e-04
+Train Loss: 0.0132, Train Recon Loss: 0.0053, Train KLD Loss: 7.8313
+--------------------------------------------------------------------------------
+Epoch: 34100/50000, Epoch time: 0.24s, Total time: 6857.19s, LR: 2.62e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0053, Train KLD Loss: 7.8257
+--------------------------------------------------------------------------------
+Epoch: 34200/50000, Epoch time: 0.23s, Total time: 6881.23s, LR: 2.62e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0053, Train KLD Loss: 7.8847
+--------------------------------------------------------------------------------
+Epoch: 34300/50000, Epoch time: 0.24s, Total time: 6905.76s, LR: 2.62e-04
+Train Loss: 0.0132, Train Recon Loss: 0.0054, Train KLD Loss: 7.8029
+--------------------------------------------------------------------------------
+Epoch: 34400/50000, Epoch time: 0.15s, Total time: 6923.88s, LR: 2.62e-04
+Train Loss: 0.0133, Train Recon Loss: 0.0054, Train KLD Loss: 7.8885
+--------------------------------------------------------------------------------
+Epoch: 34500/50000, Epoch time: 0.15s, Total time: 6939.39s, LR: 2.62e-04
+Train Loss: 0.0132, Train Recon Loss: 0.0054, Train KLD Loss: 7.8236
+--------------------------------------------------------------------------------
+Epoch: 34600/50000, Epoch time: 0.16s, Total time: 6954.93s, LR: 2.62e-04
+Train Loss: 0.0132, Train Recon Loss: 0.0054, Train KLD Loss: 7.7958
+--------------------------------------------------------------------------------
+Epoch: 34700/50000, Epoch time: 0.13s, Total time: 6969.84s, LR: 2.62e-04
+Train Loss: 0.0134, Train Recon Loss: 0.0054, Train KLD Loss: 7.9998
+--------------------------------------------------------------------------------
+Epoch: 34800/50000, Epoch time: 0.22s, Total time: 6986.82s, LR: 2.62e-04
+Train Loss: 0.0132, Train Recon Loss: 0.0053, Train KLD Loss: 7.8445
+--------------------------------------------------------------------------------
+Epoch: 34900/50000, Epoch time: 0.22s, Total time: 7005.08s, LR: 2.62e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0053, Train KLD Loss: 7.8237
+--------------------------------------------------------------------------------
+Epoch: 35000/50000, Epoch time: 0.24s, Total time: 7027.92s, LR: 2.10e-04
+Train Loss: 0.0132, Train Recon Loss: 0.0054, Train KLD Loss: 7.8207
+--------------------------------------------------------------------------------
+Epoch: 35100/50000, Epoch time: 0.22s, Total time: 7050.39s, LR: 2.10e-04
+Train Loss: 0.0133, Train Recon Loss: 0.0054, Train KLD Loss: 7.8854
+--------------------------------------------------------------------------------
+Epoch: 35200/50000, Epoch time: 0.23s, Total time: 7073.31s, LR: 2.10e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0053, Train KLD Loss: 7.7850
+--------------------------------------------------------------------------------
+Epoch: 35300/50000, Epoch time: 0.13s, Total time: 7090.30s, LR: 2.10e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0053, Train KLD Loss: 7.8156
+--------------------------------------------------------------------------------
+Epoch: 35400/50000, Epoch time: 0.20s, Total time: 7103.21s, LR: 2.10e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0053, Train KLD Loss: 7.8592
+--------------------------------------------------------------------------------
+Epoch: 35500/50000, Epoch time: 0.18s, Total time: 7116.73s, LR: 2.10e-04
+Train Loss: 0.0132, Train Recon Loss: 0.0053, Train KLD Loss: 7.8398
+--------------------------------------------------------------------------------
+Epoch: 35600/50000, Epoch time: 0.22s, Total time: 7140.31s, LR: 2.10e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0052, Train KLD Loss: 7.9275
+--------------------------------------------------------------------------------
+Epoch: 35700/50000, Epoch time: 0.23s, Total time: 7163.24s, LR: 2.10e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0053, Train KLD Loss: 7.8199
+--------------------------------------------------------------------------------
+Epoch: 35800/50000, Epoch time: 0.10s, Total time: 7178.56s, LR: 2.10e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0052, Train KLD Loss: 7.9062
+--------------------------------------------------------------------------------
+Epoch: 35900/50000, Epoch time: 0.23s, Total time: 7195.39s, LR: 2.10e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0053, Train KLD Loss: 7.7925
+--------------------------------------------------------------------------------
+Epoch: 36000/50000, Epoch time: 0.23s, Total time: 7216.07s, LR: 2.10e-04
+Train Loss: 0.0132, Train Recon Loss: 0.0053, Train KLD Loss: 7.8750
+--------------------------------------------------------------------------------
+Epoch: 36100/50000, Epoch time: 0.16s, Total time: 7237.88s, LR: 2.10e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0052, Train KLD Loss: 7.8541
+--------------------------------------------------------------------------------
+Epoch: 36200/50000, Epoch time: 0.17s, Total time: 7252.50s, LR: 2.10e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0052, Train KLD Loss: 7.9236
+--------------------------------------------------------------------------------
+Epoch: 36300/50000, Epoch time: 0.12s, Total time: 7266.88s, LR: 2.10e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0052, Train KLD Loss: 7.8664
+--------------------------------------------------------------------------------
+Epoch: 36400/50000, Epoch time: 0.12s, Total time: 7280.97s, LR: 2.10e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0052, Train KLD Loss: 7.9049
+--------------------------------------------------------------------------------
+Epoch: 36500/50000, Epoch time: 0.19s, Total time: 7294.92s, LR: 2.10e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0052, Train KLD Loss: 7.8414
+--------------------------------------------------------------------------------
+Epoch: 36600/50000, Epoch time: 0.12s, Total time: 7309.28s, LR: 2.10e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0052, Train KLD Loss: 7.9049
+--------------------------------------------------------------------------------
+Epoch: 36700/50000, Epoch time: 0.14s, Total time: 7324.65s, LR: 2.10e-04
+Train Loss: 0.0130, Train Recon Loss: 0.0052, Train KLD Loss: 7.8033
+--------------------------------------------------------------------------------
+Epoch: 36800/50000, Epoch time: 0.21s, Total time: 7339.49s, LR: 2.10e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0052, Train KLD Loss: 7.8596
+--------------------------------------------------------------------------------
+Epoch: 36900/50000, Epoch time: 0.18s, Total time: 7354.62s, LR: 2.10e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0053, Train KLD Loss: 7.7912
+--------------------------------------------------------------------------------
+Epoch: 37000/50000, Epoch time: 0.11s, Total time: 7367.22s, LR: 2.10e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0052, Train KLD Loss: 7.8644
+--------------------------------------------------------------------------------
+Epoch: 37100/50000, Epoch time: 0.12s, Total time: 7381.87s, LR: 2.10e-04
+Train Loss: 0.0132, Train Recon Loss: 0.0052, Train KLD Loss: 7.9438
+--------------------------------------------------------------------------------
+Epoch: 37200/50000, Epoch time: 0.14s, Total time: 7397.30s, LR: 2.10e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0053, Train KLD Loss: 7.8213
+--------------------------------------------------------------------------------
+Epoch: 37300/50000, Epoch time: 0.12s, Total time: 7412.96s, LR: 2.10e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0052, Train KLD Loss: 7.9564
+--------------------------------------------------------------------------------
+Epoch: 37400/50000, Epoch time: 0.19s, Total time: 7427.70s, LR: 2.10e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0052, Train KLD Loss: 7.9314
+--------------------------------------------------------------------------------
+Epoch: 37500/50000, Epoch time: 0.17s, Total time: 7444.60s, LR: 2.10e-04
+Train Loss: 0.0130, Train Recon Loss: 0.0052, Train KLD Loss: 7.8085
+--------------------------------------------------------------------------------
+Epoch: 37600/50000, Epoch time: 0.14s, Total time: 7458.86s, LR: 2.10e-04
+Train Loss: 0.0130, Train Recon Loss: 0.0052, Train KLD Loss: 7.7949
+--------------------------------------------------------------------------------
+Epoch: 37700/50000, Epoch time: 0.13s, Total time: 7473.64s, LR: 2.10e-04
+Train Loss: 0.0130, Train Recon Loss: 0.0052, Train KLD Loss: 7.8116
+--------------------------------------------------------------------------------
+Epoch: 37800/50000, Epoch time: 0.12s, Total time: 7488.05s, LR: 2.10e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0052, Train KLD Loss: 7.8323
+--------------------------------------------------------------------------------
+Epoch: 37900/50000, Epoch time: 0.15s, Total time: 7503.29s, LR: 2.10e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0052, Train KLD Loss: 7.8715
+--------------------------------------------------------------------------------
+Epoch: 38000/50000, Epoch time: 0.22s, Total time: 7525.67s, LR: 2.10e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0052, Train KLD Loss: 7.8975
+--------------------------------------------------------------------------------
+Epoch: 38100/50000, Epoch time: 0.22s, Total time: 7549.32s, LR: 2.10e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0051, Train KLD Loss: 7.9133
+--------------------------------------------------------------------------------
+Epoch: 38200/50000, Epoch time: 0.23s, Total time: 7572.42s, LR: 2.10e-04
+Train Loss: 0.0130, Train Recon Loss: 0.0051, Train KLD Loss: 7.8647
+--------------------------------------------------------------------------------
+Epoch: 38300/50000, Epoch time: 0.23s, Total time: 7595.50s, LR: 2.10e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0052, Train KLD Loss: 7.8222
+--------------------------------------------------------------------------------
+Epoch: 38400/50000, Epoch time: 0.23s, Total time: 7618.32s, LR: 2.10e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0052, Train KLD Loss: 7.8862
+--------------------------------------------------------------------------------
+Epoch: 38500/50000, Epoch time: 0.22s, Total time: 7638.56s, LR: 2.10e-04
+Train Loss: 0.0130, Train Recon Loss: 0.0052, Train KLD Loss: 7.8472
+--------------------------------------------------------------------------------
+Epoch: 38600/50000, Epoch time: 0.23s, Total time: 7661.24s, LR: 2.10e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0052, Train KLD Loss: 7.9050
+--------------------------------------------------------------------------------
+Epoch: 38700/50000, Epoch time: 0.23s, Total time: 7683.95s, LR: 2.10e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0051, Train KLD Loss: 7.9637
+--------------------------------------------------------------------------------
+Epoch: 38800/50000, Epoch time: 0.24s, Total time: 7706.85s, LR: 2.10e-04
+Train Loss: 0.0130, Train Recon Loss: 0.0052, Train KLD Loss: 7.8664
+--------------------------------------------------------------------------------
+Epoch: 38900/50000, Epoch time: 0.14s, Total time: 7729.51s, LR: 2.10e-04
+Train Loss: 0.0130, Train Recon Loss: 0.0053, Train KLD Loss: 7.7806
+--------------------------------------------------------------------------------
+Epoch: 39000/50000, Epoch time: 0.24s, Total time: 7752.39s, LR: 2.10e-04
+Train Loss: 0.0132, Train Recon Loss: 0.0053, Train KLD Loss: 7.9488
+--------------------------------------------------------------------------------
+Epoch: 39100/50000, Epoch time: 0.26s, Total time: 7776.13s, LR: 2.10e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0053, Train KLD Loss: 7.8260
+--------------------------------------------------------------------------------
+Epoch: 39200/50000, Epoch time: 0.24s, Total time: 7800.44s, LR: 2.10e-04
+Train Loss: 0.0130, Train Recon Loss: 0.0052, Train KLD Loss: 7.8483
+--------------------------------------------------------------------------------
+Epoch: 39300/50000, Epoch time: 0.22s, Total time: 7823.63s, LR: 2.10e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0053, Train KLD Loss: 7.8442
+--------------------------------------------------------------------------------
+Epoch: 39400/50000, Epoch time: 0.21s, Total time: 7846.56s, LR: 2.10e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0052, Train KLD Loss: 7.8820
+--------------------------------------------------------------------------------
+Epoch: 39500/50000, Epoch time: 0.24s, Total time: 7869.52s, LR: 2.10e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0051, Train KLD Loss: 7.9820
+--------------------------------------------------------------------------------
+Epoch: 39600/50000, Epoch time: 0.23s, Total time: 7893.21s, LR: 2.10e-04
+Train Loss: 0.0130, Train Recon Loss: 0.0051, Train KLD Loss: 7.8864
+--------------------------------------------------------------------------------
+Epoch: 39700/50000, Epoch time: 0.23s, Total time: 7910.49s, LR: 2.10e-04
+Train Loss: 0.0130, Train Recon Loss: 0.0051, Train KLD Loss: 7.8921
+--------------------------------------------------------------------------------
+Epoch: 39800/50000, Epoch time: 0.21s, Total time: 7933.62s, LR: 2.10e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0052, Train KLD Loss: 7.9270
+--------------------------------------------------------------------------------
+Epoch: 39900/50000, Epoch time: 0.23s, Total time: 7956.29s, LR: 2.10e-04
+Train Loss: 0.0130, Train Recon Loss: 0.0052, Train KLD Loss: 7.8617
+--------------------------------------------------------------------------------
+Epoch: 40000/50000, Epoch time: 0.22s, Total time: 7979.33s, LR: 1.68e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0052, Train KLD Loss: 7.8467
+--------------------------------------------------------------------------------
+Model saved to /mnt/ssd1/hsj/encore/icbc/model/vae-01-10/encore_vae_40000.pt
+Epoch: 40100/50000, Epoch time: 0.23s, Total time: 8002.67s, LR: 1.68e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0052, Train KLD Loss: 7.8388
+--------------------------------------------------------------------------------
+Epoch: 40200/50000, Epoch time: 0.22s, Total time: 8025.79s, LR: 1.68e-04
+Train Loss: 0.0130, Train Recon Loss: 0.0051, Train KLD Loss: 7.8684
+--------------------------------------------------------------------------------
+Epoch: 40300/50000, Epoch time: 0.23s, Total time: 8048.65s, LR: 1.68e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0051, Train KLD Loss: 7.8451
+--------------------------------------------------------------------------------
+Epoch: 40400/50000, Epoch time: 0.22s, Total time: 8071.78s, LR: 1.68e-04
+Train Loss: 0.0130, Train Recon Loss: 0.0051, Train KLD Loss: 7.8271
+--------------------------------------------------------------------------------
+Epoch: 40500/50000, Epoch time: 0.23s, Total time: 8094.95s, LR: 1.68e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0051, Train KLD Loss: 7.8785
+--------------------------------------------------------------------------------
+Epoch: 40600/50000, Epoch time: 0.23s, Total time: 8118.28s, LR: 1.68e-04
+Train Loss: 0.0130, Train Recon Loss: 0.0051, Train KLD Loss: 7.8712
+--------------------------------------------------------------------------------
+Epoch: 40700/50000, Epoch time: 0.10s, Total time: 8131.61s, LR: 1.68e-04
+Train Loss: 0.0130, Train Recon Loss: 0.0051, Train KLD Loss: 7.9253
+--------------------------------------------------------------------------------
+Epoch: 40800/50000, Epoch time: 0.10s, Total time: 8142.61s, LR: 1.68e-04
+Train Loss: 0.0130, Train Recon Loss: 0.0051, Train KLD Loss: 7.8801
+--------------------------------------------------------------------------------
+Epoch: 40900/50000, Epoch time: 0.10s, Total time: 8152.93s, LR: 1.68e-04
+Train Loss: 0.0130, Train Recon Loss: 0.0051, Train KLD Loss: 7.8685
+--------------------------------------------------------------------------------
+Epoch: 41000/50000, Epoch time: 0.23s, Total time: 8163.68s, LR: 1.68e-04
+Train Loss: 0.0130, Train Recon Loss: 0.0051, Train KLD Loss: 7.8579
+--------------------------------------------------------------------------------
+Epoch: 41100/50000, Epoch time: 0.23s, Total time: 8177.55s, LR: 1.68e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0051, Train KLD Loss: 7.8460
+--------------------------------------------------------------------------------
+Epoch: 41200/50000, Epoch time: 0.23s, Total time: 8200.92s, LR: 1.68e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0051, Train KLD Loss: 7.8609
+--------------------------------------------------------------------------------
+Epoch: 41300/50000, Epoch time: 0.21s, Total time: 8224.68s, LR: 1.68e-04
+Train Loss: 0.0130, Train Recon Loss: 0.0051, Train KLD Loss: 7.8647
+--------------------------------------------------------------------------------
+Epoch: 41400/50000, Epoch time: 0.24s, Total time: 8247.26s, LR: 1.68e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0051, Train KLD Loss: 7.7975
+--------------------------------------------------------------------------------
+Epoch: 41500/50000, Epoch time: 0.24s, Total time: 8271.22s, LR: 1.68e-04
+Train Loss: 0.0130, Train Recon Loss: 0.0051, Train KLD Loss: 7.8872
+--------------------------------------------------------------------------------
+Epoch: 41600/50000, Epoch time: 0.23s, Total time: 8294.02s, LR: 1.68e-04
+Train Loss: 0.0130, Train Recon Loss: 0.0051, Train KLD Loss: 7.9197
+--------------------------------------------------------------------------------
+Epoch: 41700/50000, Epoch time: 0.22s, Total time: 8316.56s, LR: 1.68e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0051, Train KLD Loss: 7.8570
+--------------------------------------------------------------------------------
+Epoch: 41800/50000, Epoch time: 0.25s, Total time: 8339.84s, LR: 1.68e-04
+Train Loss: 0.0130, Train Recon Loss: 0.0050, Train KLD Loss: 7.9127
+--------------------------------------------------------------------------------
+Epoch: 41900/50000, Epoch time: 0.23s, Total time: 8362.82s, LR: 1.68e-04
+Train Loss: 0.0130, Train Recon Loss: 0.0051, Train KLD Loss: 7.8688
+--------------------------------------------------------------------------------
+Epoch: 42000/50000, Epoch time: 0.23s, Total time: 8386.04s, LR: 1.68e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0050, Train KLD Loss: 7.9602
+--------------------------------------------------------------------------------
+Epoch: 42100/50000, Epoch time: 0.21s, Total time: 8404.08s, LR: 1.68e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0051, Train KLD Loss: 7.8623
+--------------------------------------------------------------------------------
+Epoch: 42200/50000, Epoch time: 0.22s, Total time: 8426.74s, LR: 1.68e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0050, Train KLD Loss: 7.8813
+--------------------------------------------------------------------------------
+Epoch: 42300/50000, Epoch time: 0.24s, Total time: 8450.45s, LR: 1.68e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0050, Train KLD Loss: 7.8519
+--------------------------------------------------------------------------------
+Epoch: 42400/50000, Epoch time: 0.24s, Total time: 8474.33s, LR: 1.68e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0050, Train KLD Loss: 7.9037
+--------------------------------------------------------------------------------
+Epoch: 42500/50000, Epoch time: 0.25s, Total time: 8498.92s, LR: 1.68e-04
+Train Loss: 0.0130, Train Recon Loss: 0.0051, Train KLD Loss: 7.8946
+--------------------------------------------------------------------------------
+Epoch: 42600/50000, Epoch time: 0.22s, Total time: 8523.04s, LR: 1.68e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0051, Train KLD Loss: 7.8420
+--------------------------------------------------------------------------------
+Epoch: 42700/50000, Epoch time: 0.23s, Total time: 8546.44s, LR: 1.68e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0050, Train KLD Loss: 7.8324
+--------------------------------------------------------------------------------
+Epoch: 42800/50000, Epoch time: 0.23s, Total time: 8570.04s, LR: 1.68e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0052, Train KLD Loss: 7.7819
+--------------------------------------------------------------------------------
+Epoch: 42900/50000, Epoch time: 0.24s, Total time: 8593.33s, LR: 1.68e-04
+Train Loss: 0.0130, Train Recon Loss: 0.0052, Train KLD Loss: 7.8049
+--------------------------------------------------------------------------------
+Epoch: 43000/50000, Epoch time: 0.24s, Total time: 8617.03s, LR: 1.68e-04
+Train Loss: 0.0130, Train Recon Loss: 0.0051, Train KLD Loss: 7.9074
+--------------------------------------------------------------------------------
+Epoch: 43100/50000, Epoch time: 0.23s, Total time: 8640.70s, LR: 1.68e-04
+Train Loss: 0.0130, Train Recon Loss: 0.0050, Train KLD Loss: 7.9888
+--------------------------------------------------------------------------------
+Epoch: 43200/50000, Epoch time: 0.25s, Total time: 8664.58s, LR: 1.68e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0051, Train KLD Loss: 7.8152
+--------------------------------------------------------------------------------
+Epoch: 43300/50000, Epoch time: 0.24s, Total time: 8687.44s, LR: 1.68e-04
+Train Loss: 0.0130, Train Recon Loss: 0.0050, Train KLD Loss: 7.9796
+--------------------------------------------------------------------------------
+Epoch: 43400/50000, Epoch time: 0.23s, Total time: 8712.01s, LR: 1.68e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0050, Train KLD Loss: 7.9279
+--------------------------------------------------------------------------------
+Epoch: 43500/50000, Epoch time: 0.23s, Total time: 8735.78s, LR: 1.68e-04
+Train Loss: 0.0131, Train Recon Loss: 0.0052, Train KLD Loss: 7.9297
+--------------------------------------------------------------------------------
+Epoch: 43600/50000, Epoch time: 0.24s, Total time: 8759.48s, LR: 1.68e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0050, Train KLD Loss: 7.9242
+--------------------------------------------------------------------------------
+Epoch: 43700/50000, Epoch time: 0.24s, Total time: 8783.00s, LR: 1.68e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0051, Train KLD Loss: 7.8282
+--------------------------------------------------------------------------------
+Epoch: 43800/50000, Epoch time: 0.23s, Total time: 8806.11s, LR: 1.68e-04
+Train Loss: 0.0130, Train Recon Loss: 0.0051, Train KLD Loss: 7.9090
+--------------------------------------------------------------------------------
+Epoch: 43900/50000, Epoch time: 0.24s, Total time: 8829.32s, LR: 1.68e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0050, Train KLD Loss: 7.8449
+--------------------------------------------------------------------------------
+Epoch: 44000/50000, Epoch time: 0.24s, Total time: 8852.60s, LR: 1.68e-04
+Train Loss: 0.0130, Train Recon Loss: 0.0050, Train KLD Loss: 7.9549
+--------------------------------------------------------------------------------
+Epoch: 44100/50000, Epoch time: 0.23s, Total time: 8876.11s, LR: 1.68e-04
+Train Loss: 0.0130, Train Recon Loss: 0.0051, Train KLD Loss: 7.8676
+--------------------------------------------------------------------------------
+Epoch: 44200/50000, Epoch time: 0.24s, Total time: 8899.62s, LR: 1.68e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0050, Train KLD Loss: 7.9050
+--------------------------------------------------------------------------------
+Epoch: 44300/50000, Epoch time: 0.24s, Total time: 8922.82s, LR: 1.68e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0050, Train KLD Loss: 7.9441
+--------------------------------------------------------------------------------
+Epoch: 44400/50000, Epoch time: 0.23s, Total time: 8946.17s, LR: 1.68e-04
+Train Loss: 0.0130, Train Recon Loss: 0.0051, Train KLD Loss: 7.8607
+--------------------------------------------------------------------------------
+Epoch: 44500/50000, Epoch time: 0.21s, Total time: 8969.01s, LR: 1.68e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0050, Train KLD Loss: 7.8889
+--------------------------------------------------------------------------------
+Epoch: 44600/50000, Epoch time: 0.24s, Total time: 8992.34s, LR: 1.68e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0051, Train KLD Loss: 7.8843
+--------------------------------------------------------------------------------
+Epoch: 44700/50000, Epoch time: 0.24s, Total time: 9015.71s, LR: 1.68e-04
+Train Loss: 0.0130, Train Recon Loss: 0.0051, Train KLD Loss: 7.9107
+--------------------------------------------------------------------------------
+Epoch: 44800/50000, Epoch time: 0.28s, Total time: 9039.25s, LR: 1.68e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0050, Train KLD Loss: 7.9693
+--------------------------------------------------------------------------------
+Epoch: 44900/50000, Epoch time: 0.23s, Total time: 9063.51s, LR: 1.68e-04
+Train Loss: 0.0130, Train Recon Loss: 0.0051, Train KLD Loss: 7.9056
+--------------------------------------------------------------------------------
+Epoch: 45000/50000, Epoch time: 0.23s, Total time: 9087.54s, LR: 1.34e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0051, Train KLD Loss: 7.8263
+--------------------------------------------------------------------------------
+Epoch: 45100/50000, Epoch time: 0.24s, Total time: 9111.23s, LR: 1.34e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0050, Train KLD Loss: 7.9017
+--------------------------------------------------------------------------------
+Epoch: 45200/50000, Epoch time: 0.25s, Total time: 9134.36s, LR: 1.34e-04
+Train Loss: 0.0128, Train Recon Loss: 0.0050, Train KLD Loss: 7.8093
+--------------------------------------------------------------------------------
+Epoch: 45300/50000, Epoch time: 0.24s, Total time: 9159.26s, LR: 1.34e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0049, Train KLD Loss: 7.9070
+--------------------------------------------------------------------------------
+Epoch: 45400/50000, Epoch time: 0.22s, Total time: 9182.41s, LR: 1.34e-04
+Train Loss: 0.0128, Train Recon Loss: 0.0049, Train KLD Loss: 7.8480
+--------------------------------------------------------------------------------
+Epoch: 45500/50000, Epoch time: 0.25s, Total time: 9205.93s, LR: 1.34e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0051, Train KLD Loss: 7.8198
+--------------------------------------------------------------------------------
+Epoch: 45600/50000, Epoch time: 0.24s, Total time: 9229.27s, LR: 1.34e-04
+Train Loss: 0.0128, Train Recon Loss: 0.0050, Train KLD Loss: 7.8102
+--------------------------------------------------------------------------------
+Epoch: 45700/50000, Epoch time: 0.23s, Total time: 9253.31s, LR: 1.34e-04
+Train Loss: 0.0128, Train Recon Loss: 0.0050, Train KLD Loss: 7.8308
+--------------------------------------------------------------------------------
+Epoch: 45800/50000, Epoch time: 0.23s, Total time: 9277.07s, LR: 1.34e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0050, Train KLD Loss: 7.9431
+--------------------------------------------------------------------------------
+Epoch: 45900/50000, Epoch time: 0.23s, Total time: 9300.70s, LR: 1.34e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0051, Train KLD Loss: 7.8525
+--------------------------------------------------------------------------------
+Epoch: 46000/50000, Epoch time: 0.24s, Total time: 9324.42s, LR: 1.34e-04
+Train Loss: 0.0128, Train Recon Loss: 0.0049, Train KLD Loss: 7.9396
+--------------------------------------------------------------------------------
+Epoch: 46100/50000, Epoch time: 0.24s, Total time: 9348.17s, LR: 1.34e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0050, Train KLD Loss: 7.9171
+--------------------------------------------------------------------------------
+Epoch: 46200/50000, Epoch time: 0.24s, Total time: 9371.51s, LR: 1.34e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0050, Train KLD Loss: 7.8814
+--------------------------------------------------------------------------------
+Epoch: 46300/50000, Epoch time: 0.24s, Total time: 9395.45s, LR: 1.34e-04
+Train Loss: 0.0128, Train Recon Loss: 0.0050, Train KLD Loss: 7.8563
+--------------------------------------------------------------------------------
+Epoch: 46400/50000, Epoch time: 0.23s, Total time: 9418.29s, LR: 1.34e-04
+Train Loss: 0.0128, Train Recon Loss: 0.0049, Train KLD Loss: 7.8961
+--------------------------------------------------------------------------------
+Epoch: 46500/50000, Epoch time: 0.11s, Total time: 9439.96s, LR: 1.34e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0049, Train KLD Loss: 7.9409
+--------------------------------------------------------------------------------
+Epoch: 46600/50000, Epoch time: 0.23s, Total time: 9456.31s, LR: 1.34e-04
+Train Loss: 0.0128, Train Recon Loss: 0.0049, Train KLD Loss: 7.8624
+--------------------------------------------------------------------------------
+Epoch: 46700/50000, Epoch time: 0.31s, Total time: 9480.59s, LR: 1.34e-04
+Train Loss: 0.0128, Train Recon Loss: 0.0050, Train KLD Loss: 7.8485
+--------------------------------------------------------------------------------
+Epoch: 46800/50000, Epoch time: 0.20s, Total time: 9503.99s, LR: 1.34e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0050, Train KLD Loss: 7.8925
+--------------------------------------------------------------------------------
+Epoch: 46900/50000, Epoch time: 0.24s, Total time: 9527.76s, LR: 1.34e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0050, Train KLD Loss: 7.8611
+--------------------------------------------------------------------------------
+Epoch: 47000/50000, Epoch time: 0.24s, Total time: 9551.80s, LR: 1.34e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0050, Train KLD Loss: 7.8385
+--------------------------------------------------------------------------------
+Epoch: 47100/50000, Epoch time: 0.25s, Total time: 9575.68s, LR: 1.34e-04
+Train Loss: 0.0128, Train Recon Loss: 0.0049, Train KLD Loss: 7.8835
+--------------------------------------------------------------------------------
+Epoch: 47200/50000, Epoch time: 0.24s, Total time: 9599.61s, LR: 1.34e-04
+Train Loss: 0.0128, Train Recon Loss: 0.0049, Train KLD Loss: 7.9302
+--------------------------------------------------------------------------------
+Epoch: 47300/50000, Epoch time: 0.24s, Total time: 9623.80s, LR: 1.34e-04
+Train Loss: 0.0128, Train Recon Loss: 0.0049, Train KLD Loss: 7.8496
+--------------------------------------------------------------------------------
+Epoch: 47400/50000, Epoch time: 0.23s, Total time: 9647.53s, LR: 1.34e-04
+Train Loss: 0.0128, Train Recon Loss: 0.0049, Train KLD Loss: 7.8698
+--------------------------------------------------------------------------------
+Epoch: 47500/50000, Epoch time: 0.25s, Total time: 9671.44s, LR: 1.34e-04
+Train Loss: 0.0128, Train Recon Loss: 0.0049, Train KLD Loss: 7.8720
+--------------------------------------------------------------------------------
+Epoch: 47600/50000, Epoch time: 0.23s, Total time: 9696.07s, LR: 1.34e-04
+Train Loss: 0.0128, Train Recon Loss: 0.0049, Train KLD Loss: 7.8712
+--------------------------------------------------------------------------------
+Epoch: 47700/50000, Epoch time: 0.14s, Total time: 9719.08s, LR: 1.34e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0049, Train KLD Loss: 7.9229
+--------------------------------------------------------------------------------
+Epoch: 47800/50000, Epoch time: 0.10s, Total time: 9731.31s, LR: 1.34e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0050, Train KLD Loss: 7.8988
+--------------------------------------------------------------------------------
+Epoch: 47900/50000, Epoch time: 0.14s, Total time: 9752.12s, LR: 1.34e-04
+Train Loss: 0.0128, Train Recon Loss: 0.0050, Train KLD Loss: 7.8439
+--------------------------------------------------------------------------------
+Epoch: 48000/50000, Epoch time: 0.10s, Total time: 9762.78s, LR: 1.34e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0051, Train KLD Loss: 7.8074
+--------------------------------------------------------------------------------
+Epoch: 48100/50000, Epoch time: 0.10s, Total time: 9773.29s, LR: 1.34e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0050, Train KLD Loss: 7.8598
+--------------------------------------------------------------------------------
+Epoch: 48200/50000, Epoch time: 0.24s, Total time: 9793.13s, LR: 1.34e-04
+Train Loss: 0.0128, Train Recon Loss: 0.0050, Train KLD Loss: 7.8555
+--------------------------------------------------------------------------------
+Epoch: 48300/50000, Epoch time: 0.23s, Total time: 9817.09s, LR: 1.34e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0050, Train KLD Loss: 7.9593
+--------------------------------------------------------------------------------
+Epoch: 48400/50000, Epoch time: 0.24s, Total time: 9841.27s, LR: 1.34e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0050, Train KLD Loss: 7.8642
+--------------------------------------------------------------------------------
+Epoch: 48500/50000, Epoch time: 0.24s, Total time: 9865.35s, LR: 1.34e-04
+Train Loss: 0.0128, Train Recon Loss: 0.0048, Train KLD Loss: 7.9544
+--------------------------------------------------------------------------------
+Epoch: 48600/50000, Epoch time: 0.23s, Total time: 9888.67s, LR: 1.34e-04
+Train Loss: 0.0128, Train Recon Loss: 0.0049, Train KLD Loss: 7.8609
+--------------------------------------------------------------------------------
+Epoch: 48700/50000, Epoch time: 0.24s, Total time: 9911.97s, LR: 1.34e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0050, Train KLD Loss: 7.8691
+--------------------------------------------------------------------------------
+Epoch: 48800/50000, Epoch time: 0.24s, Total time: 9936.22s, LR: 1.34e-04
+Train Loss: 0.0128, Train Recon Loss: 0.0049, Train KLD Loss: 7.8381
+--------------------------------------------------------------------------------
+Epoch: 48900/50000, Epoch time: 0.24s, Total time: 9957.82s, LR: 1.34e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0050, Train KLD Loss: 7.8439
+--------------------------------------------------------------------------------
+Epoch: 49000/50000, Epoch time: 0.23s, Total time: 9980.79s, LR: 1.34e-04
+Train Loss: 0.0127, Train Recon Loss: 0.0050, Train KLD Loss: 7.7950
+--------------------------------------------------------------------------------
+Epoch: 49100/50000, Epoch time: 0.23s, Total time: 10002.92s, LR: 1.34e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0050, Train KLD Loss: 7.8536
+--------------------------------------------------------------------------------
+Epoch: 49200/50000, Epoch time: 0.24s, Total time: 10025.82s, LR: 1.34e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0050, Train KLD Loss: 7.9404
+--------------------------------------------------------------------------------
+Epoch: 49300/50000, Epoch time: 0.24s, Total time: 10049.20s, LR: 1.34e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0050, Train KLD Loss: 7.8752
+--------------------------------------------------------------------------------
+Epoch: 49400/50000, Epoch time: 0.24s, Total time: 10073.29s, LR: 1.34e-04
+Train Loss: 0.0128, Train Recon Loss: 0.0049, Train KLD Loss: 7.9223
+--------------------------------------------------------------------------------
+Epoch: 49500/50000, Epoch time: 0.24s, Total time: 10096.70s, LR: 1.34e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0050, Train KLD Loss: 7.8917
+--------------------------------------------------------------------------------
+Epoch: 49600/50000, Epoch time: 0.23s, Total time: 10120.50s, LR: 1.34e-04
+Train Loss: 0.0128, Train Recon Loss: 0.0049, Train KLD Loss: 7.8766
+--------------------------------------------------------------------------------
+Epoch: 49700/50000, Epoch time: 0.24s, Total time: 10144.44s, LR: 1.34e-04
+Train Loss: 0.0130, Train Recon Loss: 0.0050, Train KLD Loss: 7.9765
+--------------------------------------------------------------------------------
+Epoch: 49800/50000, Epoch time: 0.24s, Total time: 10167.91s, LR: 1.34e-04
+Train Loss: 0.0129, Train Recon Loss: 0.0050, Train KLD Loss: 7.9786
+--------------------------------------------------------------------------------
+Epoch: 49900/50000, Epoch time: 0.23s, Total time: 10190.82s, LR: 1.34e-04
+Train Loss: 0.0128, Train Recon Loss: 0.0050, Train KLD Loss: 7.8382
+--------------------------------------------------------------------------------
+Epoch: 50000/50000, Epoch time: 0.22s, Total time: 10213.93s, LR: 1.07e-04
+Train Loss: 0.0128, Train Recon Loss: 0.0049, Train KLD Loss: 7.8600
+--------------------------------------------------------------------------------
+Model saved to /mnt/ssd1/hsj/encore/icbc/model/vae-01-10/encore_vae_50000.pt
+Training finished after 50000 epochs in 10214.20s

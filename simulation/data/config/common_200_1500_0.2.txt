@@ -1,0 +1,9 @@
+NUM_LEAF 115
+FLOW_FILE ./data/trace/common_app_182.txt
+RED_MIN_TH 200000
+RED_MAX_TH 1500000
+RED_PMAX 0.2
+FCT_FILE ./data/result/fct/common_app_182_200_1500_0.2.csv
+DROP_FILE ./data/result/drop/common_app_182_200_1500_0.2.csv
+THROUGHPUT_FILE ./data/result/tp/common_app_182_200_1500_0.2.csv
+QLEN_FILE ./data/result/qlen/common_app_182_200_1500_0.2.csv

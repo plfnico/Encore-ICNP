@@ -1,0 +1,8 @@
+python=3.10
+pytorch=2.7.1
+tqdm
+matplotlib
+sklearn
+numpy
+pandas
+gensim

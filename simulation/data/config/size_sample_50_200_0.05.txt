@@ -1,0 +1,9 @@
+NUM_LEAF 115
+FLOW_FILE ./data/trace/size_sample_app_182.txt
+RED_MIN_TH 50000
+RED_MAX_TH 200000
+RED_PMAX 0.05
+FCT_FILE ./data/result/fct/size_sample_app_182_50_200_0.05.csv
+DROP_FILE ./data/result/drop/size_sample_app_182_50_200_0.05.csv
+THROUGHPUT_FILE ./data/result/tp/size_sample_app_182_50_200_0.05.csv
+QLEN_FILE ./data/result/qlen/size_sample_app_182_50_200_0.05.csv
