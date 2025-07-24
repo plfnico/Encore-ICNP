@@ -76,25 +76,25 @@ def sample_sequence(sequence, cdf):
     return sampled_values.tolist()
 
 
-# def load_gru(model_path, device):
-#     gru_path = './checkpoints/{model_path}.pt'.format(model_path=model_path)
-#     gru_ckpt = torch.load(gru_path)
-#     gru_params = gru_ckpt['gru_params']
-#     s2h_params = gru_ckpt['s2h_params']
-#     sequential = Sequential(gru_params, s2h_params).to(device)
-#     sequential.load_state_dict(gru_ckpt['model'])
-#     return sequential
+def load_gru(model_path, device):
+    gru_path = './checkpoints/{model_path}.pt'.format(model_path=model_path)
+    gru_ckpt = torch.load(gru_path)
+    gru_params = gru_ckpt['gru_params']
+    s2h_params = gru_ckpt['s2h_params']
+    sequential = Sequential(gru_params, s2h_params).to(device)
+    sequential.load_state_dict(gru_ckpt['model'])
+    return sequential
 
 
-# def load_cvae(model_path, n_size, n_interval, device):
-#     cvae_path = './checkpoints/{model_path}.pt'.format(model_path=model_path)
-#     cvae_ckpt = torch.load(cvae_path)
-#     latent_dim = cvae_ckpt['params']['latent_dim']
-#     hidden_dims = cvae_ckpt['params']['hidden_dims']
-#     n_condition = cvae_ckpt['params']['n_condition']
-#     decoder = Decoder(n_size, n_interval, n_condition, hidden_dims, latent_dim).to(device)
-#     decoder.load_state_dict(cvae_ckpt['decoder'])
-#     return decoder
+def load_cvae(model_path, n_size, n_interval, device):
+    cvae_path = './checkpoints/{model_path}.pt'.format(model_path=model_path)
+    cvae_ckpt = torch.load(cvae_path)
+    latent_dim = cvae_ckpt['params']['latent_dim']
+    hidden_dims = cvae_ckpt['params']['hidden_dims']
+    n_condition = cvae_ckpt['params']['n_condition']
+    decoder = Decoder(n_size, n_interval, n_condition, hidden_dims, latent_dim).to(device)
+    decoder.load_state_dict(cvae_ckpt['decoder'])
+    return decoder
 
 
 def get_cdf(x, cdf):

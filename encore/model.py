@@ -1,85 +1,22 @@
-import numpy as np
-from typing import List, Tuple 
 import torch
 from torch import nn, Tensor
+from typing import List
 from torch.nn import functional as F
 
 
-class EncoreVAE(nn.Module):
-    def __init__(self, n_size, n_interval, hidden_dims, n_latent, device):
-        super(EncoreVAE, self).__init__()
-        # initialize the parameters
-        self.n_size = n_size
-        self.n_interval = n_interval
-        self.n_latent = n_latent
-        self.encorer_hidden_dims = hidden_dims
-        self.decoder_hidden_dims = hidden_dims
-        self.decoder_hidden_dims.reverse()
-        self.fc_mu = nn.Linear(self.encorer_hidden_dims[-1], n_latent)
-        self.fc_var = nn.Linear(self.encorer_hidden_dims[-1], n_latent)
-        self.fc_size = nn.Linear(self.decoder_hidden_dims[-1], n_size)
-        self.fc_interval = nn.Linear(self.decoder_hidden_dims[-1], n_interval)
-        self.device = device
+class SizeToHidden(nn.Module):
+    def __init__(self, n_layer, hidden_size, input_size, hidden_dims):
+        """
+        Initialize SizeToHidden module.
 
-        # construct encoder
-        encoder_layers = [nn.Linear(n_size + n_interval, hidden_dims[0]), nn.ReLU()]
-        for i in range(1, len(hidden_dims)):
-            encoder_layers.append(nn.Linear(hidden_dims[i-1], hidden_dims[i]))
-            encoder_layers.append(nn.ReLU())
-        self.encoder = nn.Sequential(*encoder_layers)
-
-        # construct decoder
-        decoder_layers = [nn.Linear(n_latent, hidden_dims[0]), nn.ReLU()]
-        for i in range(1, len(hidden_dims)):
-            decoder_layers.append(nn.Linear(hidden_dims[i-1], hidden_dims[i]))
-            decoder_layers.append(nn.ReLU())
-        self.decoder = nn.Sequential(*decoder_layers)
-
-    def encode(self, x:Tensor) -> Tuple[Tensor, Tensor]:
-        h = self.encoder(x)
-        return self.fc_mu(h), self.fc_var(h)
-    
-    def reparameterize(self, mu:Tensor, log_var:Tensor) -> Tensor:
-        std = torch.exp(0.5 * log_var)
-        eps = torch.randn_like(std)
-        return mu + eps * std
-    
-    def decode(self, z:Tensor) -> Tensor:
-        h = self.decoder(z)
-        return self.fc_size(h), self.fc_interval(h)
-
-    def forward(self, x:Tensor) -> Tuple[Tensor, Tensor, Tensor, Tensor]:
-        mu, log_var = self.encode(x)
-        z = self.reparameterize(mu, log_var)
-        size_logits, interval_logits = self.decode(z)
-        size_recon = F.softmax(size_logits, dim=-1)
-        interval_recon = F.softmax(interval_logits, dim=-1)
-        return size_recon, interval_recon, mu, log_var
-    
-    def generate(self, n:int) -> Tuple[Tensor, Tensor]:
-        z = torch.randn(n, self.n_latent).to(self.device)
-        size_logits, interval_logits = self.decode(z)
-        size_recon = F.softmax(size_logits, dim=-1)
-        interval_recon = F.softmax(interval_logits, dim=-1)
-        return size_recon, interval_recon
-    
-
-class CustomVAELoss(nn.Module):
-    def __init__(self, kld_weight:float=1.0):
-        super(CustomVAELoss, self).__init__()
-        self.kld_weight = kld_weight
-
-    def forward(self, size_recon:Tensor, size_target:Tensor, interval_recon:Tensor, interval_target:Tensor, mu:Tensor, log_var:Tensor) -> Tensor:
-        recon_loss = F.l1_loss(size_recon, size_target) + F.l1_loss(interval_recon, interval_target)
-        kld_loss = torch.mean(-0.5 * torch.sum(1 + log_var - mu.pow(2) - log_var.exp(), dim=1), dim=0)
-        weighted_loss = recon_loss + self.kld_weight * kld_loss
-        return weighted_loss, recon_loss, kld_loss
-
-
-
-class ProbToHidden(nn.Module):
-    def __init__(self, hidden_size, input_size, hidden_dims):
-        super(ProbToHidden, self).__init__()
+        Args:
+            n_layer (int): Number of layers.
+            hidden_size (int): Size of hidden layers.
+            input_size (int): Size of input.
+            hidden_dims (list): List of sizes of hidden layers.
+        """
+        super(SizeToHidden, self).__init__()
+        self.n_layer = n_layer
         layers = []
         in_dim = input_size
         for h_dim in hidden_dims:
@@ -93,120 +30,241 @@ class ProbToHidden(nn.Module):
         self.output = nn.Linear(in_dim, hidden_size)
 
     def forward(self, x):
+        """
+        Forward pass SizeToHidden module.
+
+        Args:
+            x (Tensor): Input tensor.
+
+        Returns:
+            Tensor: Output tensor.
+        """
         for lin in self.lins:
             x = lin(x)
         x = self.output(x)
+        x = x.unsqueeze(0).repeat(self.n_layer, 1, 1)
         return x
 
 
-class PositionalEncoding(nn.Module):
-    def __init__(self, d_model, max_len=16):
-        super(PositionalEncoding, self).__init__()
-        pe = torch.zeros(max_len, d_model)
-        position = torch.arange(0, max_len, dtype=torch.float).unsqueeze(1)
-        div_term = torch.exp(torch.arange(0, d_model, 2).float() * (-torch.log(torch.tensor(10000.0)) / d_model))
-        pe[:, 0::2] = torch.sin(position * div_term)
-        pe[:, 1::2] = torch.cos(position * div_term)
-        pe = pe.unsqueeze(0)
-        self.register_buffer('pe', pe)
+class GRU(nn.Module):
+    def __init__(self, hidden_size, n_layer, embed_size, input_size):
+        """
+        Initialize GRU module.
+
+        Args:
+            hidden_size (int): Size of hidden layers.
+            n_layer (int): Number of layers.
+            embed_size (int): Size of embedding.
+            input_size (int): Size of input.
+        """
+        super(GRU, self).__init__()
+        self.gru = nn.GRU(embed_size, hidden_size, n_layer)
+        self.h2o = nn.Linear(hidden_size, input_size)
+        self.softmax = nn.LogSoftmax(dim=2)
+        self.embedding = nn.Embedding(input_size, embed_size)
+
+    def forward(self, x, hidden):
+        """
+        Forward pass GRU module.
+
+        Args:
+            x (Tensor): Input tensor.
+            hidden (Tensor): Hidden state tensor.
+
+        Returns:
+            Tensor: Output tensor.
+            Tensor: Hidden state tensor.
+        """
+        x = self.embedding(x).permute(1, 0, 2)
+        out, hidden = self.gru(x, hidden)
+        out = self.h2o(F.relu(out))
+        out = self.softmax(out)
+        return out, hidden
+
+
+class Sequential(nn.Module):
+    def __init__(self, gru_params, s2h_params):
+        """
+        Initialize Model module.
+
+        Args:
+            gru_params (dict): Parameters for GRU module.
+            s2h_params (dict): Parameters for SizeToHidden module.
+        """
+        super(Sequential, self).__init__()
+        self.gru = GRU(**gru_params)
+        self.s2h = SizeToHidden(**s2h_params)
 
     def forward(self, x):
-        x = x + self.pe[:, :x.size(1), :]  
-        return x
+        """
+        Forward pass Model module.
 
+        Args:
+            x (tuple): Input tuple containing seq_tensor and size_interval.
 
-class SequenceDecoder(nn.Module):
-    def __init__(self, hidden_dim, output_dim, max_seq_len=16):
-        super(SequenceDecoder, self).__init__()
-        self.positional_encoding = PositionalEncoding(hidden_dim, max_seq_len)
-        self.transfomer = nn.TransformerDecoder(
-            nn.TransformerDecoderLayer(
-                d_model=hidden_dim,
-                nhead=4,
-                dim_feedforward=hidden_dim * 4,
-                batch_first=True
-            ),
-            num_layers=8
-        )
-        self.fc = nn.Sequential(
-            nn.Linear(hidden_dim, hidden_dim * 4),
-            nn.ReLU(),
-            nn.Linear(hidden_dim * 4, output_dim)
-        )
-        self.hidden_dim = hidden_dim
-        self.max_seq_len = max_seq_len
-
-    def forward(self, x, memory, tgt_mask=None):
-        x = self.positional_encoding(x)
-        output = self.transfomer(x, memory, tgt_mask=tgt_mask)
-        output = self.fc(output)
-        return output
-
-    def generate_square_subsequent_mask(self, sz):
-        mask = torch.triu(torch.ones(sz, sz), diagonal=1)
-        mask = mask.masked_fill(mask == 1, float('-inf')).masked_fill(mask == 0, float(0.0))
-        return mask
-    
-
-class EncoreSequential(nn.Module):
-    def __init__(self, n_size, n_interval, hidden_dim, seq_len, prob_hidden_dims, device):
-        super(EncoreSequential, self).__init__()
-        self.prob_to_hidden = ProbToHidden(hidden_dim, n_size + n_interval, prob_hidden_dims)
-        self.embedding = nn.Embedding(n_size * n_interval + 1, hidden_dim)
-        self.sequence_decoder = SequenceDecoder(hidden_dim, hidden_dim, seq_len)
-        self.fc = nn.Linear(hidden_dim, n_size * n_interval)
-        self.device = device
-
-    def forward(self, x, prob):
-        x, prob = x.long().to(self.device), prob.float().to(self.device)
-        x = self.embedding(x)
-        memory = self.prob_to_hidden(prob).unsqueeze(1).repeat(1, x.size(1), 1)
-        tgt_mask = self.sequence_decoder.generate_square_subsequent_mask(x.size(1)).to(self.device)
-        output = self.sequence_decoder(x, memory, tgt_mask)
-        output = self.fc(output)
-        output = F.log_softmax(output, dim=-1)
-        return output 
-    
-    # def generate(self, prob, start_token, max_len):
-    #     self.eval()
-    #     seq = torch.tensor([start_token]).unsqueeze(0).to(self.device)
-    #     x = self.embedding(seq)
-    #     prob_tensor = torch.from_numpy(prob).unsqueeze(0).to(self.device)
-    #     for _ in range(max_len):
-    #         memory = self.prob_to_hidden(prob_tensor).unsqueeze(1).repeat(1, x.size(1), 1)
-    #         tgt_mask = self.sequence_decoder.generate_square_subsequent_mask(x.size(1)).to(self.device)
-    #         output = self.sequence_decoder(x, memory, tgt_mask)
-    #         output = self.fc(output).squeeze(0)
-    #         logits = F.softmax(output[-1], dim=-1).cpu().detach().numpy()
-    #         next_token = np.random.choice(np.arange(len(logits)), p=logits)
-    #         seq = torch.cat([seq, torch.tensor([next_token]).unsqueeze(0).to(self.device)], dim=1)
-    #         x = self.embedding(seq)
-    #     return seq[:, 1:].squeeze(0).detach().cpu().numpy()
-
-    def generate(self, probs, start_tokens, max_len):
-        batch_size = len(probs)
-        assert len(start_tokens) == batch_size
-        self.eval()
-        seq = torch.tensor(start_tokens).unsqueeze(1).to(self.device)
-        x = self.embedding(seq)
-        prob_tensor = torch.from_numpy(probs).to(self.device)
-        for _ in range(max_len):
-            memory = self.prob_to_hidden(prob_tensor).unsqueeze(1).repeat(1, x.size(1), 1)
-            tgt_mask = self.sequence_decoder.generate_square_subsequent_mask(x.size(1)).to(self.device)
-            output = self.sequence_decoder(x, memory, tgt_mask)
-            output = self.fc(output)[:,-1,:]
-            logits = F.softmax(output, dim=-1).cpu().detach().numpy()
-            next_tokens = [np.random.choice(np.arange(len(logit)), p=logit) for logit in logits]
-            seq = torch.cat([seq, torch.tensor(next_tokens).unsqueeze(1).to(self.device)], dim=1)
-            x = self.embedding(seq)
-        return seq[:, 1:].squeeze(0).detach().cpu().numpy()
+        Returns:
+            Tensor: Output tensor.
+        """
+        seq_tensor, size_interval = x
+        hidden = self.s2h(size_interval)
+        out, hidden = self.gru(seq_tensor, hidden)
+        return out
 
 
 class WeightNLLLoss(nn.Module):
     def __init__(self) -> None:
+        """
+        Initialize WeightNLLLoss module.
+        """
         super(WeightNLLLoss, self).__init__()
 
     def forward(self, output: Tensor, target: Tensor, weight: Tensor) -> Tensor:
-        loss = F.nll_loss(output.contiguous().view(-1, output.size(-1)), target.contiguous().view(-1), reduction='none')
+        """
+        Forward pass of the WeightNLLLoss module.
+
+        Args:
+            output (Tensor): The output tensor from the model, with shape (batch_size, seq_len, n_classes).
+            target (Tensor): The ground truth tensor, with shape (batch_size, seq_len).
+            weight (Tensor): A tensor of weights, with shape (batch_size, ), to apply to each batch element's loss.
+
+        Returns:
+            Tensor: The computed weighted negative log likelihood loss.
+        """
+        # Compute the NLL loss on the flattened output
+        loss = F.nll_loss(output.contiguous().view(-1, output.size(-1)), 
+                          target.contiguous().view(-1), 
+                          reduction='none')
+        # Apply weights to the loss
         weighted_loss = torch.mean(loss.view_as(target) * weight)
         return weighted_loss
+
+
+class Encoder(nn.Module):
+    def __init__(self, n_size, n_interval, n_condition, hidden_dims, n_latent):
+        """
+        Initializes the Encoder module of a Variational Autoencoder (VAE).
+
+        Args:
+            n_size (int): Dimensionality of the size input feature.
+            n_interval (int): Dimensionality of the interval input feature.
+            n_condition (int): Dimensionality of the conditional input feature.
+            hidden_dims (List[int]): List containing the sizes of hidden layers.
+            n_latent (int): Dimensionality of the latent representation.
+        """
+        super(Encoder, self).__init__()
+        
+        # Initial linear layers to transform the specific input features into a common feature space.
+        self.dist_to_hidden = nn.Linear(n_size + n_interval, hidden_dims[0])
+        self.condition_to_hidden = nn.Linear(n_condition, hidden_dims[0])
+
+        # ModuleList to hold the sequence of hidden layers.
+        self.encoder = nn.ModuleList()
+        in_dim = hidden_dims[0]  # Input dimension for the first hidden layer
+        for h_dim in hidden_dims:
+            # Adding each hidden layer to the encoder, followed by a ReLU activation function.
+            self.encoder.append(nn.Sequential(nn.Linear(in_dim, h_dim), nn.ReLU()))
+            in_dim = h_dim  # Update input dimension for the next hidden layer
+
+        # Linear layers to output the parameters of the variational distribution: mean (mu) and log variance (log_var).
+        self.fc_mu = nn.Linear(hidden_dims[-1], n_latent)  # Outputs mean of the latent distribution
+        self.fc_var = nn.Linear(hidden_dims[-1], n_latent)  # Outputs log variance of the latent distribution
+
+    
+    def forward(self, x: Tensor, c: Tensor) -> List[Tensor]:
+        """
+        Forward pass through the encoder.
+
+        Args:
+            x (Tensor): The input feature tensor (combining size and interval features).
+            c (Tensor): The conditional input tensor.
+
+        Returns:
+            List[Tensor]: A list containing two tensors, [mu, log_var], representing
+                          the mean and log variance of the latent distribution.
+        """
+        # Transform and combine the specific input features into a common feature space.
+        x = self.dist_to_hidden(x) + self.condition_to_hidden(c)
+        x = F.relu(x)  # Apply ReLU activation to the combined features
+        
+        # Pass the transformed input through the sequence of hidden layers.
+        for module in self.encoder:
+            x = module(x)
+        
+        # Compute the mean (mu) and log variance (log_var) of the latent distribution.
+        mu = self.fc_mu(x)
+        log_var = self.fc_var(x)
+        
+        return [mu, log_var]  # Return the parameters of the latent distribution
+
+
+class Decoder(nn.Module):
+    def __init__(self, n_size, n_interval, n_condition, hidden_dims, n_latent):
+        """
+        Initializes the Decoder module of a Variational Autoencoder (VAE).
+
+        Args:
+            n_size (int): The output dimension for the size distribution.
+            n_interval (int): The output dimension for the interval distribution.
+            n_condition (int): Dimensionality of the conditional input feature.
+            hidden_dims (List[int]): List containing the sizes of hidden layers.
+            n_latent (int): Dimensionality of the latent representation.
+        """
+        super(Decoder, self).__init__()
+
+        # Initial linear layers to transform the latent and conditional inputs.
+        self.latent_to_hidden = nn.Linear(n_latent, hidden_dims[0])  # Transforms latent vector to initial hidden state
+        self.condition_to_hidden = nn.Linear(n_condition, hidden_dims[0])  # Transforms condition to initial hidden state
+        
+        # ModuleList to hold the sequence of hidden layers.
+        self.decoder = nn.ModuleList()
+        in_dim = hidden_dims[0]  # Input dimension for the first hidden layer
+        for h_dim in hidden_dims:
+            # Adding each hidden layer to the decoder, followed by a ReLU activation function.
+            self.decoder.append(nn.Sequential(nn.Linear(in_dim, h_dim), nn.ReLU()))
+            in_dim = h_dim  # Update input dimension for the next hidden layer
+        
+        # Linear layers to output the reconstructed size and interval distributions.
+        self.fc_size = nn.Linear(hidden_dims[-1], n_size)  # Outputs reconstructed size distribution
+        self.fc_interval = nn.Linear(hidden_dims[-1], n_interval)  # Outputs reconstructed interval distribution
+    
+    def forward(self, z: Tensor, c: Tensor) -> List[Tensor]:
+        """
+        Forward pass through the decoder.
+
+        Args:
+            z (Tensor): The latent vector.
+            c (Tensor): The conditional input tensor.
+
+        Returns:
+            List[Tensor]: A list containing two tensors, [size, interval], representing
+                          the reconstructed size and interval distributions.
+        """
+        # Transform and combine the latent and conditional inputs into initial hidden state.
+        z = self.latent_to_hidden(z) + self.condition_to_hidden(c)
+        z = F.relu(z)  # Apply ReLU activation to the combined features
+        
+        # Pass the transformed input through the sequence of hidden layers.
+        for module in self.decoder:
+            z = module(z)
+        
+        # Compute the reconstructed size and interval distributions, applying softmax to normalize the outputs.
+        size = F.softmax(self.fc_size(z), dim=1)  # Normalize the reconstructed size distribution
+        interval = F.softmax(self.fc_interval(z), dim=1)  # Normalize the reconstructed interval distribution
+        
+        return [size, interval]  # Return the reconstructed distributions
+
+
+def reparameterize(mu: Tensor, logvar: Tensor) -> Tensor:
+    """
+    Performs the reparameterization trick to sample from a Gaussian distribution.
+
+    Args:
+        mu (Tensor): Mean of the distribution.
+        logvar (Tensor): Log variance of the distribution.
+
+    Returns:
+        Tensor: Sampled tensor using the reparameterization trick.
+    """
+    std = torch.exp(0.5 * logvar)
+    eps = torch.randn_like(std)
+    return eps * std + mu
