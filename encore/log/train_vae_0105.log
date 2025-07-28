@@ -1,0 +1,298 @@
+n_size: 30, n_interval: 30, start_token: 900
+  0%|          | 0/7569 [00:00<?, ?it/s] 49%|████▉     | 3736/7569 [00:00<00:00, 37210.02it/s] 99%|█████████▊| 7458/7569 [00:00<00:00, 36443.92it/s]100%|██████████| 7569/7569 [00:00<00:00, 36360.13it/s]
+Trainset size: 7569
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Linear-1                  [-1, 256]          15,616
+              ReLU-2                  [-1, 256]               0
+            Linear-3                  [-1, 512]         131,584
+              ReLU-4                  [-1, 512]               0
+            Linear-5                 [-1, 1024]         525,312
+              ReLU-6                 [-1, 1024]               0
+            Linear-7                 [-1, 1024]       1,049,600
+              ReLU-8                 [-1, 1024]               0
+            Linear-9                  [-1, 512]         524,800
+             ReLU-10                  [-1, 512]               0
+           Linear-11                  [-1, 256]         131,328
+             ReLU-12                  [-1, 256]               0
+           Linear-13                   [-1, 64]          16,448
+           Linear-14                   [-1, 64]          16,448
+           Linear-15                  [-1, 256]          16,640
+             ReLU-16                  [-1, 256]               0
+           Linear-17                  [-1, 512]         131,584
+             ReLU-18                  [-1, 512]               0
+           Linear-19                 [-1, 1024]         525,312
+             ReLU-20                 [-1, 1024]               0
+           Linear-21                 [-1, 1024]       1,049,600
+             ReLU-22                 [-1, 1024]               0
+           Linear-23                  [-1, 512]         524,800
+             ReLU-24                  [-1, 512]               0
+           Linear-25                  [-1, 256]         131,328
+             ReLU-26                  [-1, 256]               0
+           Linear-27                   [-1, 30]           7,710
+           Linear-28                   [-1, 30]           7,710
+================================================================
+Total params: 4,805,820
+Trainable params: 4,805,820
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.00
+Forward/backward pass size (MB): 0.11
+Params size (MB): 18.33
+Estimated Total Size (MB): 18.44
+----------------------------------------------------------------
+Epoch: 100/10000, Epoch time: 0.13s, Total time: 13.83s, LR: 1.00e-03
+Train Loss: 0.0272, Train Recon Loss: 0.0257, Train KLD Loss: 14.9582
+--------------------------------------------------------------------------------
+Epoch: 200/10000, Epoch time: 0.13s, Total time: 27.62s, LR: 1.00e-03
+Train Loss: 0.0198, Train Recon Loss: 0.0183, Train KLD Loss: 14.2856
+--------------------------------------------------------------------------------
+Epoch: 300/10000, Epoch time: 0.14s, Total time: 41.45s, LR: 1.00e-03
+Train Loss: 0.0169, Train Recon Loss: 0.0157, Train KLD Loss: 11.8886
+--------------------------------------------------------------------------------
+Epoch: 400/10000, Epoch time: 0.09s, Total time: 55.01s, LR: 1.00e-03
+Train Loss: 0.0161, Train Recon Loss: 0.0149, Train KLD Loss: 11.4997
+--------------------------------------------------------------------------------
+Epoch: 500/10000, Epoch time: 0.12s, Total time: 67.63s, LR: 1.00e-03
+Train Loss: 0.0152, Train Recon Loss: 0.0140, Train KLD Loss: 11.9908
+--------------------------------------------------------------------------------
+Epoch: 600/10000, Epoch time: 0.20s, Total time: 80.61s, LR: 1.00e-03
+Train Loss: 0.0146, Train Recon Loss: 0.0134, Train KLD Loss: 11.8931
+--------------------------------------------------------------------------------
+Epoch: 700/10000, Epoch time: 0.13s, Total time: 94.20s, LR: 1.00e-03
+Train Loss: 0.0132, Train Recon Loss: 0.0121, Train KLD Loss: 11.7086
+--------------------------------------------------------------------------------
+Epoch: 800/10000, Epoch time: 0.11s, Total time: 107.67s, LR: 1.00e-03
+Train Loss: 0.0131, Train Recon Loss: 0.0120, Train KLD Loss: 11.6099
+--------------------------------------------------------------------------------
+Epoch: 900/10000, Epoch time: 0.13s, Total time: 121.09s, LR: 1.00e-03
+Train Loss: 0.0123, Train Recon Loss: 0.0112, Train KLD Loss: 11.6190
+--------------------------------------------------------------------------------
+Epoch: 1000/10000, Epoch time: 0.13s, Total time: 134.29s, LR: 9.00e-04
+Train Loss: 0.0127, Train Recon Loss: 0.0116, Train KLD Loss: 11.4451
+--------------------------------------------------------------------------------
+Model saved to /mnt/ssd1/hsj/encore/icbc/models/2025-01-03/encore_vae_1000.pt
+Epoch: 1100/10000, Epoch time: 0.13s, Total time: 147.86s, LR: 9.00e-04
+Train Loss: 0.0116, Train Recon Loss: 0.0104, Train KLD Loss: 11.4356
+--------------------------------------------------------------------------------
+Epoch: 1200/10000, Epoch time: 0.12s, Total time: 161.18s, LR: 9.00e-04
+Train Loss: 0.0112, Train Recon Loss: 0.0101, Train KLD Loss: 11.4864
+--------------------------------------------------------------------------------
+Epoch: 1300/10000, Epoch time: 0.19s, Total time: 174.63s, LR: 9.00e-04
+Train Loss: 0.0112, Train Recon Loss: 0.0101, Train KLD Loss: 11.3679
+--------------------------------------------------------------------------------
+Epoch: 1400/10000, Epoch time: 0.13s, Total time: 188.33s, LR: 9.00e-04
+Train Loss: 0.0113, Train Recon Loss: 0.0101, Train KLD Loss: 11.5259
+--------------------------------------------------------------------------------
+Epoch: 1500/10000, Epoch time: 0.13s, Total time: 201.84s, LR: 9.00e-04
+Train Loss: 0.0108, Train Recon Loss: 0.0096, Train KLD Loss: 11.5585
+--------------------------------------------------------------------------------
+Epoch: 1600/10000, Epoch time: 0.14s, Total time: 215.56s, LR: 9.00e-04
+Train Loss: 0.0108, Train Recon Loss: 0.0096, Train KLD Loss: 11.5201
+--------------------------------------------------------------------------------
+Epoch: 1700/10000, Epoch time: 0.13s, Total time: 229.22s, LR: 9.00e-04
+Train Loss: 0.0106, Train Recon Loss: 0.0094, Train KLD Loss: 11.5131
+--------------------------------------------------------------------------------
+Epoch: 1800/10000, Epoch time: 0.13s, Total time: 242.91s, LR: 9.00e-04
+Train Loss: 0.0105, Train Recon Loss: 0.0093, Train KLD Loss: 11.7073
+--------------------------------------------------------------------------------
+Epoch: 1900/10000, Epoch time: 0.12s, Total time: 256.60s, LR: 9.00e-04
+Train Loss: 0.0102, Train Recon Loss: 0.0090, Train KLD Loss: 11.6729
+--------------------------------------------------------------------------------
+Epoch: 2000/10000, Epoch time: 0.20s, Total time: 270.19s, LR: 8.10e-04
+Train Loss: 0.0101, Train Recon Loss: 0.0089, Train KLD Loss: 11.6557
+--------------------------------------------------------------------------------
+Model saved to /mnt/ssd1/hsj/encore/icbc/models/2025-01-03/encore_vae_2000.pt
+Epoch: 2100/10000, Epoch time: 0.13s, Total time: 283.90s, LR: 8.10e-04
+Train Loss: 0.0112, Train Recon Loss: 0.0100, Train KLD Loss: 12.1527
+--------------------------------------------------------------------------------
+Epoch: 2200/10000, Epoch time: 0.13s, Total time: 298.27s, LR: 8.10e-04
+Train Loss: 0.0099, Train Recon Loss: 0.0087, Train KLD Loss: 11.7488
+--------------------------------------------------------------------------------
+Epoch: 2300/10000, Epoch time: 0.13s, Total time: 311.89s, LR: 8.10e-04
+Train Loss: 0.0096, Train Recon Loss: 0.0085, Train KLD Loss: 11.7270
+--------------------------------------------------------------------------------
+Epoch: 2400/10000, Epoch time: 0.13s, Total time: 325.59s, LR: 8.10e-04
+Train Loss: 0.0107, Train Recon Loss: 0.0095, Train KLD Loss: 11.7529
+--------------------------------------------------------------------------------
+Epoch: 2500/10000, Epoch time: 0.14s, Total time: 340.50s, LR: 8.10e-04
+Train Loss: 0.0101, Train Recon Loss: 0.0089, Train KLD Loss: 11.8555
+--------------------------------------------------------------------------------
+Epoch: 2600/10000, Epoch time: 0.16s, Total time: 356.40s, LR: 8.10e-04
+Train Loss: 0.0094, Train Recon Loss: 0.0082, Train KLD Loss: 11.9440
+--------------------------------------------------------------------------------
+Epoch: 2700/10000, Epoch time: 0.12s, Total time: 371.18s, LR: 8.10e-04
+Train Loss: 0.0093, Train Recon Loss: 0.0081, Train KLD Loss: 12.0230
+--------------------------------------------------------------------------------
+Epoch: 2800/10000, Epoch time: 0.13s, Total time: 384.51s, LR: 8.10e-04
+Train Loss: 0.0092, Train Recon Loss: 0.0080, Train KLD Loss: 12.0083
+--------------------------------------------------------------------------------
+Epoch: 2900/10000, Epoch time: 0.13s, Total time: 397.87s, LR: 8.10e-04
+Train Loss: 0.0092, Train Recon Loss: 0.0080, Train KLD Loss: 12.1043
+--------------------------------------------------------------------------------
+Epoch: 3000/10000, Epoch time: 0.13s, Total time: 411.42s, LR: 7.29e-04
+Train Loss: 0.0090, Train Recon Loss: 0.0078, Train KLD Loss: 12.1003
+--------------------------------------------------------------------------------
+Model saved to /mnt/ssd1/hsj/encore/icbc/models/2025-01-03/encore_vae_3000.pt
+Epoch: 3100/10000, Epoch time: 0.13s, Total time: 425.09s, LR: 7.29e-04
+Train Loss: 0.0090, Train Recon Loss: 0.0078, Train KLD Loss: 12.1299
+--------------------------------------------------------------------------------
+Epoch: 3200/10000, Epoch time: 0.14s, Total time: 439.19s, LR: 7.29e-04
+Train Loss: 0.0095, Train Recon Loss: 0.0083, Train KLD Loss: 12.1995
+--------------------------------------------------------------------------------
+Epoch: 3300/10000, Epoch time: 0.14s, Total time: 454.20s, LR: 7.29e-04
+Train Loss: 0.0088, Train Recon Loss: 0.0076, Train KLD Loss: 12.1028
+--------------------------------------------------------------------------------
+Epoch: 3400/10000, Epoch time: 0.12s, Total time: 467.99s, LR: 7.29e-04
+Train Loss: 0.0088, Train Recon Loss: 0.0075, Train KLD Loss: 12.1127
+--------------------------------------------------------------------------------
+Epoch: 3500/10000, Epoch time: 0.13s, Total time: 481.44s, LR: 7.29e-04
+Train Loss: 0.0087, Train Recon Loss: 0.0074, Train KLD Loss: 12.2266
+--------------------------------------------------------------------------------
+Epoch: 3600/10000, Epoch time: 0.11s, Total time: 494.80s, LR: 7.29e-04
+Train Loss: 0.0086, Train Recon Loss: 0.0074, Train KLD Loss: 12.3117
+--------------------------------------------------------------------------------
+Epoch: 3700/10000, Epoch time: 0.18s, Total time: 508.05s, LR: 7.29e-04
+Train Loss: 0.0092, Train Recon Loss: 0.0080, Train KLD Loss: 12.2547
+--------------------------------------------------------------------------------
+Epoch: 3800/10000, Epoch time: 0.12s, Total time: 518.47s, LR: 7.29e-04
+Train Loss: 0.0092, Train Recon Loss: 0.0080, Train KLD Loss: 12.3120
+--------------------------------------------------------------------------------
+Epoch: 3900/10000, Epoch time: 0.12s, Total time: 530.10s, LR: 7.29e-04
+Train Loss: 0.0086, Train Recon Loss: 0.0074, Train KLD Loss: 12.2640
+--------------------------------------------------------------------------------
+Epoch: 4000/10000, Epoch time: 0.07s, Total time: 540.68s, LR: 6.56e-04
+Train Loss: 0.0084, Train Recon Loss: 0.0071, Train KLD Loss: 12.2898
+--------------------------------------------------------------------------------
+Model saved to /mnt/ssd1/hsj/encore/icbc/models/2025-01-03/encore_vae_4000.pt
+Epoch: 4100/10000, Epoch time: 0.10s, Total time: 550.16s, LR: 6.56e-04
+Train Loss: 0.0083, Train Recon Loss: 0.0070, Train KLD Loss: 12.4011
+--------------------------------------------------------------------------------
+Epoch: 4200/10000, Epoch time: 0.13s, Total time: 562.15s, LR: 6.56e-04
+Train Loss: 0.0083, Train Recon Loss: 0.0070, Train KLD Loss: 12.4023
+--------------------------------------------------------------------------------
+Epoch: 4300/10000, Epoch time: 0.13s, Total time: 575.63s, LR: 6.56e-04
+Train Loss: 0.0085, Train Recon Loss: 0.0072, Train KLD Loss: 12.4904
+--------------------------------------------------------------------------------
+Epoch: 4400/10000, Epoch time: 0.11s, Total time: 588.98s, LR: 6.56e-04
+Train Loss: 0.0082, Train Recon Loss: 0.0070, Train KLD Loss: 12.3417
+--------------------------------------------------------------------------------
+Epoch: 4500/10000, Epoch time: 0.13s, Total time: 602.40s, LR: 6.56e-04
+Train Loss: 0.0081, Train Recon Loss: 0.0068, Train KLD Loss: 12.4504
+--------------------------------------------------------------------------------
+Epoch: 4600/10000, Epoch time: 0.12s, Total time: 615.86s, LR: 6.56e-04
+Train Loss: 0.0086, Train Recon Loss: 0.0073, Train KLD Loss: 12.6922
+--------------------------------------------------------------------------------
+Epoch: 4700/10000, Epoch time: 0.13s, Total time: 629.30s, LR: 6.56e-04
+Train Loss: 0.0080, Train Recon Loss: 0.0067, Train KLD Loss: 12.4482
+--------------------------------------------------------------------------------
+Epoch: 4800/10000, Epoch time: 0.12s, Total time: 642.82s, LR: 6.56e-04
+Train Loss: 0.0079, Train Recon Loss: 0.0066, Train KLD Loss: 12.4853
+--------------------------------------------------------------------------------
+Epoch: 4900/10000, Epoch time: 0.13s, Total time: 656.16s, LR: 6.56e-04
+Train Loss: 0.0079, Train Recon Loss: 0.0066, Train KLD Loss: 12.5102
+--------------------------------------------------------------------------------
+Epoch: 5000/10000, Epoch time: 0.13s, Total time: 669.73s, LR: 5.90e-04
+Train Loss: 0.0079, Train Recon Loss: 0.0066, Train KLD Loss: 12.4831
+--------------------------------------------------------------------------------
+Model saved to /mnt/ssd1/hsj/encore/icbc/models/2025-01-03/encore_vae_5000.pt
+Epoch: 5100/10000, Epoch time: 0.13s, Total time: 683.10s, LR: 5.90e-04
+Train Loss: 0.0078, Train Recon Loss: 0.0066, Train KLD Loss: 12.5043
+--------------------------------------------------------------------------------
+Epoch: 5200/10000, Epoch time: 0.13s, Total time: 696.48s, LR: 5.90e-04
+Train Loss: 0.0078, Train Recon Loss: 0.0065, Train KLD Loss: 12.5794
+--------------------------------------------------------------------------------
+Epoch: 5300/10000, Epoch time: 0.12s, Total time: 709.75s, LR: 5.90e-04
+Train Loss: 0.0078, Train Recon Loss: 0.0066, Train KLD Loss: 12.5924
+--------------------------------------------------------------------------------
+Epoch: 5400/10000, Epoch time: 0.13s, Total time: 723.01s, LR: 5.90e-04
+Train Loss: 0.0077, Train Recon Loss: 0.0064, Train KLD Loss: 12.6439
+--------------------------------------------------------------------------------
+Epoch: 5500/10000, Epoch time: 0.12s, Total time: 736.25s, LR: 5.90e-04
+Train Loss: 0.0079, Train Recon Loss: 0.0066, Train KLD Loss: 12.6840
+--------------------------------------------------------------------------------
+Epoch: 5600/10000, Epoch time: 0.20s, Total time: 749.57s, LR: 5.90e-04
+Train Loss: 0.0076, Train Recon Loss: 0.0064, Train KLD Loss: 12.5565
+--------------------------------------------------------------------------------
+Epoch: 5700/10000, Epoch time: 0.13s, Total time: 763.07s, LR: 5.90e-04
+Train Loss: 0.0076, Train Recon Loss: 0.0064, Train KLD Loss: 12.5681
+--------------------------------------------------------------------------------
+Epoch: 5800/10000, Epoch time: 0.12s, Total time: 776.30s, LR: 5.90e-04
+Train Loss: 0.0077, Train Recon Loss: 0.0064, Train KLD Loss: 12.6396
+--------------------------------------------------------------------------------
+Epoch: 5900/10000, Epoch time: 0.12s, Total time: 788.76s, LR: 5.90e-04
+Train Loss: 0.0076, Train Recon Loss: 0.0063, Train KLD Loss: 12.6672
+--------------------------------------------------------------------------------
+Epoch: 6000/10000, Epoch time: 0.08s, Total time: 801.13s, LR: 5.31e-04
+Train Loss: 0.0076, Train Recon Loss: 0.0064, Train KLD Loss: 12.6020
+--------------------------------------------------------------------------------
+Model saved to /mnt/ssd1/hsj/encore/icbc/models/2025-01-03/encore_vae_6000.pt
+Epoch: 6100/10000, Epoch time: 0.08s, Total time: 810.20s, LR: 5.31e-04
+Train Loss: 0.0075, Train Recon Loss: 0.0062, Train KLD Loss: 12.6501
+--------------------------------------------------------------------------------
+Epoch: 6200/10000, Epoch time: 0.12s, Total time: 820.15s, LR: 5.31e-04
+Train Loss: 0.0074, Train Recon Loss: 0.0062, Train KLD Loss: 12.6996
+--------------------------------------------------------------------------------
+Epoch: 6300/10000, Epoch time: 0.11s, Total time: 832.94s, LR: 5.31e-04
+Train Loss: 0.0074, Train Recon Loss: 0.0061, Train KLD Loss: 12.6461
+--------------------------------------------------------------------------------
+Epoch: 6400/10000, Epoch time: 0.09s, Total time: 845.43s, LR: 5.31e-04
+Train Loss: 0.0074, Train Recon Loss: 0.0062, Train KLD Loss: 12.6754
+--------------------------------------------------------------------------------
+Epoch: 6500/10000, Epoch time: 0.12s, Total time: 855.04s, LR: 5.31e-04
+Train Loss: 0.0074, Train Recon Loss: 0.0062, Train KLD Loss: 12.7744
+--------------------------------------------------------------------------------
+Epoch: 6600/10000, Epoch time: 0.14s, Total time: 868.51s, LR: 5.31e-04
+Train Loss: 0.0074, Train Recon Loss: 0.0061, Train KLD Loss: 12.6439
+--------------------------------------------------------------------------------
+Epoch: 6700/10000, Epoch time: 0.12s, Total time: 882.05s, LR: 5.31e-04
+Train Loss: 0.0075, Train Recon Loss: 0.0062, Train KLD Loss: 12.6963
+--------------------------------------------------------------------------------
+Epoch: 6800/10000, Epoch time: 0.13s, Total time: 895.54s, LR: 5.31e-04
+Train Loss: 0.0073, Train Recon Loss: 0.0061, Train KLD Loss: 12.7498
+--------------------------------------------------------------------------------
+Epoch: 6900/10000, Epoch time: 0.13s, Total time: 909.22s, LR: 5.31e-04
+Train Loss: 0.0076, Train Recon Loss: 0.0063, Train KLD Loss: 12.7621
+--------------------------------------------------------------------------------
+Epoch: 7000/10000, Epoch time: 0.11s, Total time: 923.55s, LR: 4.78e-04
+Train Loss: 0.0074, Train Recon Loss: 0.0061, Train KLD Loss: 12.7873
+--------------------------------------------------------------------------------
+Model saved to /mnt/ssd1/hsj/encore/icbc/models/2025-01-03/encore_vae_7000.pt
+Epoch: 7100/10000, Epoch time: 0.13s, Total time: 936.87s, LR: 4.78e-04
+Train Loss: 0.0073, Train Recon Loss: 0.0060, Train KLD Loss: 12.7614
+--------------------------------------------------------------------------------
+Epoch: 7200/10000, Epoch time: 0.13s, Total time: 950.33s, LR: 4.78e-04
+Train Loss: 0.0073, Train Recon Loss: 0.0060, Train KLD Loss: 12.7790
+--------------------------------------------------------------------------------
+Epoch: 7300/10000, Epoch time: 0.13s, Total time: 963.81s, LR: 4.78e-04
+Train Loss: 0.0072, Train Recon Loss: 0.0059, Train KLD Loss: 12.7547
+--------------------------------------------------------------------------------
+Epoch: 7400/10000, Epoch time: 0.13s, Total time: 977.16s, LR: 4.78e-04
+Train Loss: 0.0072, Train Recon Loss: 0.0059, Train KLD Loss: 12.8635
+--------------------------------------------------------------------------------
+Epoch: 7500/10000, Epoch time: 0.19s, Total time: 990.32s, LR: 4.78e-04
+Train Loss: 0.0071, Train Recon Loss: 0.0058, Train KLD Loss: 12.8685
+--------------------------------------------------------------------------------
+Epoch: 7600/10000, Epoch time: 0.13s, Total time: 1003.55s, LR: 4.78e-04
+Train Loss: 0.0072, Train Recon Loss: 0.0059, Train KLD Loss: 12.8564
+--------------------------------------------------------------------------------
+Epoch: 7700/10000, Epoch time: 0.11s, Total time: 1017.01s, LR: 4.78e-04
+Train Loss: 0.0071, Train Recon Loss: 0.0058, Train KLD Loss: 12.7784
+--------------------------------------------------------------------------------
+Epoch: 7800/10000, Epoch time: 0.13s, Total time: 1030.74s, LR: 4.78e-04
+Train Loss: 0.0077, Train Recon Loss: 0.0064, Train KLD Loss: 12.8900
+--------------------------------------------------------------------------------
+Epoch: 7900/10000, Epoch time: 0.13s, Total time: 1044.46s, LR: 4.78e-04
+Train Loss: 0.0071, Train Recon Loss: 0.0058, Train KLD Loss: 12.7866
+--------------------------------------------------------------------------------
+Epoch: 8000/10000, Epoch time: 0.14s, Total time: 1058.35s, LR: 4.30e-04
+Train Loss: 0.0071, Train Recon Loss: 0.0058, Train KLD Loss: 12.7715
+--------------------------------------------------------------------------------
+Model saved to /mnt/ssd1/hsj/encore/icbc/models/2025-01-03/encore_vae_8000.pt
+Epoch: 8100/10000, Epoch time: 0.13s, Total time: 1072.27s, LR: 4.30e-04
+Train Loss: 0.0070, Train Recon Loss: 0.0057, Train KLD Loss: 12.8153
+--------------------------------------------------------------------------------
+Epoch: 8200/10000, Epoch time: 0.20s, Total time: 1086.26s, LR: 4.30e-04
+Train Loss: 0.0070, Train Recon Loss: 0.0057, Train KLD Loss: 12.8296
+--------------------------------------------------------------------------------

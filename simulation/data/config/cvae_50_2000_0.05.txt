@@ -1,0 +1,9 @@
+NUM_LEAF 115
+FLOW_FILE ./data/trace/cvae_app_182.txt
+RED_MIN_TH 50000
+RED_MAX_TH 2000000
+RED_PMAX 0.05
+FCT_FILE ./data/result/fct/cvae_app_182_50_2000_0.05.csv
+DROP_FILE ./data/result/drop/cvae_app_182_50_2000_0.05.csv
+THROUGHPUT_FILE ./data/result/tp/cvae_app_182_50_2000_0.05.csv
+QLEN_FILE ./data/result/qlen/cvae_app_182_50_2000_0.05.csv

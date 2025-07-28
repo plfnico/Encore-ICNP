@@ -1,0 +1,9 @@
+NUM_LEAF 115
+FLOW_FILE ./data/trace/encore_app_182.txt
+RED_MIN_TH 500000
+RED_MAX_TH 2000000
+RED_PMAX 0.2
+FCT_FILE ./data/result/fct/encore_app_182_500_2000_0.2.csv
+DROP_FILE ./data/result/drop/encore_app_182_500_2000_0.2.csv
+THROUGHPUT_FILE ./data/result/tp/encore_app_182_500_2000_0.2.csv
+QLEN_FILE ./data/result/qlen/encore_app_182_500_2000_0.2.csv

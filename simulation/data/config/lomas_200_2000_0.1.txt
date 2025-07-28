@@ -1,0 +1,9 @@
+NUM_LEAF 115
+FLOW_FILE ./data/trace/lomas_app_182.txt
+RED_MIN_TH 200000
+RED_MAX_TH 2000000
+RED_PMAX 0.1
+FCT_FILE ./data/result/fct/lomas_app_182_200_2000_0.1.csv
+DROP_FILE ./data/result/drop/lomas_app_182_200_2000_0.1.csv
+THROUGHPUT_FILE ./data/result/tp/lomas_app_182_200_2000_0.1.csv
+QLEN_FILE ./data/result/qlen/lomas_app_182_200_2000_0.1.csv

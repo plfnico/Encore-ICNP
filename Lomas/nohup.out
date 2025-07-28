@@ -1,0 +1,44 @@
+Traceback (most recent call last):
+  File "/mnt/ssd1/encore/open-source/Lomas/train_lomas.py", line 15, in <module>
+    from utils.eval import *
+  File "/mnt/ssd1/encore/open-source/utils/eval.py", line 6, in <module>
+    import matplotlib.pyplot as plt
+  File "/root/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py", line 109, in <module>
+    from . import _api, _version, cbook, docstring, rcsetup
+  File "/root/anaconda3/lib/python3.9/site-packages/matplotlib/rcsetup.py", line 27, in <module>
+    from matplotlib.colors import Colormap, is_color_like
+  File "/root/anaconda3/lib/python3.9/site-packages/matplotlib/colors.py", line 51, in <module>
+    from PIL import Image
+  File "/root/anaconda3/lib/python3.9/site-packages/PIL/Image.py", line 94, in <module>
+    from . import _imaging as core
+ImportError: libXau.so.6: cannot open shared object file: No such file or directory
+2025-07-26 17:42:47,498 - INFO - Start training app app_182
+2025-07-26 17:42:57,679 - INFO - Finish training app app_182 with perplexity -10.166909986368104
+2025-07-26 17:42:57,680 - INFO - Save model for app app_182 to ./checkpoints/lomas/
+2025-07-26 17:42:58,887 - INFO - Start training app app_212
+2025-07-26 17:43:07,698 - INFO - Finish training app app_212 with perplexity -5.02509210113612
+2025-07-26 17:43:07,699 - INFO - Save model for app app_212 to ./checkpoints/lomas/
+2025-07-26 17:43:08,455 - INFO - Start training app app_207
+2025-07-26 17:45:54,128 - INFO - Finish training app app_207 with perplexity -3.848799000422428
+2025-07-26 17:45:54,128 - INFO - Save model for app app_207 to ./checkpoints/lomas/
+2025-07-26 17:45:55,842 - INFO - Start training app app_265
+2025-07-26 17:46:00,677 - INFO - Finish training app app_265 with perplexity -7.736289794045482
+2025-07-26 17:46:00,677 - INFO - Save model for app app_265 to ./checkpoints/lomas/
+2025-07-26 17:46:01,201 - INFO - Start training app app_147
+2025-07-26 17:46:06,335 - INFO - Finish training app app_147 with perplexity -4.173251125871892
+2025-07-26 17:46:06,335 - INFO - Save model for app app_147 to ./checkpoints/lomas/
+2025-07-26 17:46:06,895 - INFO - Start training app app_11
+2025-07-26 17:46:37,613 - INFO - Finish training app app_11 with perplexity -7.9425745161257435
+2025-07-26 17:46:37,614 - INFO - Save model for app app_11 to ./checkpoints/lomas/
+2025-07-26 17:46:38,281 - INFO - Start training app app_131
+2025-07-26 17:46:52,789 - INFO - Finish training app app_131 with perplexity -7.7816948537476645
+2025-07-26 17:46:52,790 - INFO - Save model for app app_131 to ./checkpoints/lomas/
+2025-07-26 17:46:53,450 - INFO - Start training app app_199
+2025-07-26 17:48:24,485 - INFO - Finish training app app_199 with perplexity -4.656683984087357
+2025-07-26 17:48:24,485 - INFO - Save model for app app_199 to ./checkpoints/lomas/
+2025-07-26 17:48:25,890 - INFO - Start training app app_275
+2025-07-26 17:48:33,561 - INFO - Finish training app app_275 with perplexity -5.463147372200674
+2025-07-26 17:48:33,562 - INFO - Save model for app app_275 to ./checkpoints/lomas/
+2025-07-26 17:48:34,156 - INFO - Start training app app_49
+2025-07-26 17:49:08,626 - INFO - Finish training app app_49 with perplexity -7.751661870161253
+2025-07-26 17:49:08,626 - INFO - Save model for app app_49 to ./checkpoints/lomas/

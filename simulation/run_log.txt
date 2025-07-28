@@ -1,0 +1,1683 @@
+nohup: ignoring input
+Finished executing the following commands:
+/usr/bin/cmake --build /home/Encore-ICNP/simulation/cmake-cache -j 31
+Reading configuration from ./data/config/sample_1000_4000_0.2.txt
+Reading configuration from ./data/config/real_5_4000_0.2.txt
+Reading configuration from ./data/config/encore_10_1000_0.2.txt
+Reading configuration from ./data/config/size_sample_200_1000_0.2.txt
+Reading configuration from ./data/config/common_10_1000_0.1.txt
+Reading configuration from ./data/config/common_200_500_0.2.txt
+Reading configuration from ./data/config/size_sample_10_4000_0.2.txt
+Reading configuration from ./data/config/encore_5_200_0.01.txt
+Reading configuration from ./data/config/size_sample_100_500_0.2.txt
+Reading configuration from ./data/config/encore_10_500_0.2.txt
+Reading configuration from ./data/config/real_10_4000_0.1.txt
+Reading configuration from ./data/config/common_500_4000_0.2.txt
+Reading configuration from ./data/config/cvae_5_500_0.01.txt
+Reading configuration from ./data/config/sample_100_200_0.2.txt
+Reading configuration from ./data/config/common_100_200_0.01.txt
+Reading configuration from ./data/config/real_1000_4000_0.1.txt
+Destroying the simulation 
+Simulation time 3m 38s
+Reading configuration from ./data/config/real_10_200_0.1.txt
+Destroying the simulation 
+Simulation time 3m 44s
+Destroying the simulation 
+Reading configuration from ./data/config/common_10_500_0.01.txt
+Simulation time 3m 45s
+Destroying the simulation 
+Reading configuration from ./data/config/size_sample_500_4000_0.01.txt
+Simulation time 3m 46s
+Reading configuration from ./data/config/sample_200_500_0.01.txt
+Destroying the simulation 
+Simulation time 3m 54s
+Reading configuration from ./data/config/common_100_200_0.2.txt
+Destroying the simulation 
+Simulation time 4m 30s
+Reading configuration from ./data/config/gru_5_4000_0.2.txt
+Destroying the simulation 
+Simulation time 4m 35s
+Reading configuration from ./data/config/common_5_100_0.01.txt
+Destroying the simulation 
+Destroying the simulation 
+Destroying the simulation 
+Simulation time 4m 43s
+Simulation time 4m 44s
+Reading configuration from ./data/config/size_sample_10_500_0.1.txt
+Reading configuration from ./data/config/cvae_100_1000_0.01.txt
+Simulation time 4m 44s
+Reading configuration from ./data/config/common_200_500_0.01.txt
+Destroying the simulation 
+Destroying the simulation 
+Simulation time 4m 49s
+Simulation time 4m 49s
+Reading configuration from ./data/config/size_sample_10_200_0.2.txt
+Reading configuration from ./data/config/real_200_1000_0.2.txt
+Destroying the simulation 
+Simulation time 4m 54s
+Reading configuration from ./data/config/real_5_1000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 57s
+Reading configuration from ./data/config/common_500_1000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 58s
+Reading configuration from ./data/config/encore_10_4000_0.2.txt
+Destroying the simulation 
+Simulation time 5m 1s
+Reading configuration from ./data/config/common_10_100_0.2.txt
+Destroying the simulation 
+Simulation time 3m 47s
+Reading configuration from ./data/config/size_sample_5_500_0.2.txt
+Destroying the simulation 
+Simulation time 3m 48s
+Reading configuration from ./data/config/sample_10_1000_0.1.txt
+Destroying the simulation 
+Destroying the simulation 
+Simulation time 4m 35s
+Simulation time 4m 34s
+Reading configuration from ./data/config/size_sample_200_4000_0.2.txt
+Reading configuration from ./data/config/cvae_200_500_0.1.txt
+Destroying the simulation 
+Simulation time 3m 45s
+Reading configuration from ./data/config/size_sample_10_1000_0.01.txt
+Destroying the simulation 
+Destroying the simulation 
+Simulation time 3m 58s
+Reading configuration from ./data/config/encore_100_1000_0.2.txt
+Simulation time 4m 55s
+Reading configuration from ./data/config/cvae_5_1000_0.1.txt
+Destroying the simulation 
+Simulation time 3m 44s
+Destroying the simulation 
+Simulation time 3m 57s
+Reading configuration from ./data/config/common_5_4000_0.01.txt
+Reading configuration from ./data/config/size_sample_100_1000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 3s
+Reading configuration from ./data/config/gru_5_1000_0.2.txt
+Destroying the simulation 
+Simulation time 4m 50s
+Reading configuration from ./data/config/gru_100_200_0.2.txt
+Destroying the simulation 
+Simulation time 4m 45s
+Reading configuration from ./data/config/real_5_4000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 56s
+Reading configuration from ./data/config/real_5_100_0.2.txt
+Destroying the simulation 
+Destroying the simulation 
+Simulation time 4m 52s
+Reading configuration from ./data/config/size_sample_500_1000_0.2.txt
+Simulation time 4m 57s
+Reading configuration from ./data/config/cvae_10_1000_0.2.txt
+Destroying the simulation 
+Simulation time 5m 11s
+Reading configuration from ./data/config/common_200_1000_0.2.txt
+Destroying the simulation 
+Simulation time 4m 1s
+Reading configuration from ./data/config/real_100_4000_0.1.txt
+Destroying the simulation 
+Simulation time 3m 46s
+Reading configuration from ./data/config/cvae_10_1000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 49s
+Reading configuration from ./data/config/size_sample_500_1000_0.01.txt
+Destroying the simulation 
+Simulation time 5m 3s
+Reading configuration from ./data/config/gru_5_200_0.01.txt
+Destroying the simulation 
+Simulation time 4m 7s
+Reading configuration from ./data/config/common_1000_4000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 52s
+Reading configuration from ./data/config/cvae_100_500_0.1.txt
+Destroying the simulation 
+Simulation time 4m 46s
+Reading configuration from ./data/config/encore_5_500_0.2.txt
+Destroying the simulation 
+Simulation time 4m 44s
+Reading configuration from ./data/config/common_5_1000_0.1.txt
+Destroying the simulation 
+Simulation time 5m 0s
+Reading configuration from ./data/config/gru_500_1000_0.2.txt
+Destroying the simulation 
+Simulation time 3m 42s
+Reading configuration from ./data/config/common_5_500_0.2.txt
+Destroying the simulation 
+Simulation time 4m 9s
+Reading configuration from ./data/config/real_10_200_0.2.txt
+Destroying the simulation 
+Simulation time 4m 58s
+Reading configuration from ./data/config/gru_100_1000_0.2.txt
+Destroying the simulation 
+Simulation time 4m 45s
+Reading configuration from ./data/config/real_5_200_0.1.txt
+Destroying the simulation 
+Simulation time 4m 45s
+Reading configuration from ./data/config/cvae_100_1000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 36s
+Reading configuration from ./data/config/encore_200_4000_0.1.txt
+Destroying the simulation 
+Simulation time 5m 3s
+Reading configuration from ./data/config/size_sample_10_1000_0.1.txt
+Destroying the simulation 
+Simulation time 3m 58s
+Reading configuration from ./data/config/size_sample_200_4000_0.01.txt
+Destroying the simulation 
+Simulation time 3m 50s
+Reading configuration from ./data/config/gru_1000_4000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 35s
+Reading configuration from ./data/config/sample_500_1000_0.01.txt
+Destroying the simulation 
+Simulation time 3m 59s
+Reading configuration from ./data/config/sample_5_1000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 51s
+Reading configuration from ./data/config/common_10_4000_0.1.txt
+Destroying the simulation 
+Simulation time 3m 54s
+Reading configuration from ./data/config/encore_10_4000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 52s
+Reading configuration from ./data/config/real_5_200_0.2.txt
+Destroying the simulation 
+Simulation time 4m 5s
+Reading configuration from ./data/config/size_sample_200_4000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 38s
+Reading configuration from ./data/config/size_sample_10_1000_0.2.txt
+Destroying the simulation 
+Simulation time 3m 56s
+Reading configuration from ./data/config/size_sample_100_500_0.1.txt
+Destroying the simulation 
+Simulation time 5m 6s
+Reading configuration from ./data/config/gru_100_500_0.01.txt
+Destroying the simulation 
+Simulation time 4m 51s
+Reading configuration from ./data/config/real_10_100_0.2.txt
+Destroying the simulation 
+Simulation time 5m 2s
+Reading configuration from ./data/config/cvae_5_4000_0.2.txt
+Destroying the simulation 
+Simulation time 5m 3s
+Reading configuration from ./data/config/cvae_5_500_0.2.txt
+Destroying the simulation 
+Simulation time 4m 46s
+Reading configuration from ./data/config/size_sample_100_4000_0.2.txt
+Destroying the simulation 
+Simulation time 5m 0s
+Reading configuration from ./data/config/gru_500_1000_0.1.txt
+Destroying the simulation 
+Destroying the simulation 
+Simulation time 4m 38s
+Simulation time 3m 50s
+Reading configuration from ./data/config/real_200_4000_0.2.txt
+Reading configuration from ./data/config/encore_10_4000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 37s
+Reading configuration from ./data/config/common_10_4000_0.2.txt
+Destroying the simulation 
+Simulation time 4m 29s
+Reading configuration from ./data/config/size_sample_5_200_0.1.txt
+Destroying the simulation 
+Simulation time 4m 44s
+Reading configuration from ./data/config/sample_10_100_0.1.txt
+Destroying the simulation 
+Simulation time 4m 45s
+Reading configuration from ./data/config/gru_10_200_0.1.txt
+Destroying the simulation 
+Simulation time 4m 43s
+Reading configuration from ./data/config/sample_5_100_0.2.txt
+Destroying the simulation 
+Simulation time 5m 7s
+Reading configuration from ./data/config/encore_1000_4000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 44s
+Reading configuration from ./data/config/sample_10_500_0.1.txt
+Destroying the simulation 
+Destroying the simulation 
+Simulation time 4m 53s
+Reading configuration from ./data/config/real_10_1000_0.01.txt
+Simulation time 4m 8s
+Reading configuration from ./data/config/sample_200_1000_0.1.txt
+Destroying the simulation 
+Simulation time 5m 4s
+Reading configuration from ./data/config/real_10_4000_0.2.txt
+Destroying the simulation 
+Simulation time 4m 15s
+Reading configuration from ./data/config/cvae_10_100_0.01.txt
+Destroying the simulation 
+Simulation time 4m 57s
+Reading configuration from ./data/config/gru_10_1000_0.2.txt
+Destroying the simulation 
+Simulation time 4m 47s
+Reading configuration from ./data/config/sample_5_4000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 45s
+Reading configuration from ./data/config/gru_1000_4000_0.2.txt
+Destroying the simulation 
+Simulation time 3m 48s
+Reading configuration from ./data/config/size_sample_500_1000_0.1.txt
+Destroying the simulation 
+Destroying the simulation 
+Simulation time 4m 49s
+Simulation time 4m 49s
+Reading configuration from ./data/config/common_500_4000_0.01.txt
+Reading configuration from ./data/config/gru_5_4000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 57s
+Reading configuration from ./data/config/real_5_500_0.2.txt
+Destroying the simulation 
+Simulation time 4m 53s
+Reading configuration from ./data/config/encore_500_1000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 59s
+Destroying the simulation 
+Reading configuration from ./data/config/sample_500_1000_0.2.txt
+Simulation time 4m 34s
+Reading configuration from ./data/config/cvae_500_4000_0.2.txt
+Destroying the simulation 
+Simulation time 5m 2s
+Reading configuration from ./data/config/cvae_10_500_0.1.txt
+Destroying the simulation 
+Simulation time 4m 6s
+Reading configuration from ./data/config/sample_5_1000_0.2.txt
+Destroying the simulation 
+Destroying the simulation 
+Simulation time 4m 45s
+Simulation time 4m 46s
+Reading configuration from ./data/config/common_5_1000_0.01.txt
+Reading configuration from ./data/config/sample_10_4000_0.2.txt
+Destroying the simulation 
+Simulation time 4m 56s
+Reading configuration from ./data/config/encore_100_4000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 54s
+Reading configuration from ./data/config/encore_5_500_0.1.txt
+Destroying the simulation 
+Simulation time 4m 37s
+Reading configuration from ./data/config/common_100_500_0.2.txt
+Destroying the simulation 
+Simulation time 4m 56s
+Reading configuration from ./data/config/size_sample_5_1000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 36s
+Reading configuration from ./data/config/encore_100_1000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 37s
+Reading configuration from ./data/config/encore_10_100_0.2.txt
+Destroying the simulation 
+Simulation time 3m 47s
+Reading configuration from ./data/config/sample_200_1000_0.2.txt
+Destroying the simulation 
+Simulation time 4m 51s
+Reading configuration from ./data/config/gru_100_500_0.2.txt
+Destroying the simulation 
+Simulation time 4m 3s
+Reading configuration from ./data/config/gru_10_100_0.2.txt
+Destroying the simulation 
+Simulation time 4m 37s
+Reading configuration from ./data/config/size_sample_100_500_0.01.txt
+Destroying the simulation 
+Simulation time 5m 2s
+Reading configuration from ./data/config/sample_500_1000_0.1.txt
+Destroying the simulation 
+Destroying the simulation 
+Simulation time 4m 10s
+Reading configuration from ./data/config/sample_5_200_0.01.txt
+Simulation time 4m 35s
+Destroying the simulation 
+Simulation time 3m 45s
+Reading configuration from ./data/config/real_500_1000_0.01.txt
+Reading configuration from ./data/config/cvae_200_1000_0.1.txt
+Destroying the simulation 
+Simulation time 3m 47s
+Reading configuration from ./data/config/cvae_1000_4000_0.2.txt
+Destroying the simulation 
+Simulation time 5m 4s
+Reading configuration from ./data/config/encore_5_100_0.01.txt
+Destroying the simulation 
+Simulation time 4m 48s
+Reading configuration from ./data/config/real_5_500_0.01.txt
+Destroying the simulation 
+Simulation time 4m 58s
+Reading configuration from ./data/config/size_sample_200_1000_0.01.txt
+Destroying the simulation 
+Simulation time 5m 3s
+Reading configuration from ./data/config/cvae_500_4000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 50s
+Reading configuration from ./data/config/encore_5_200_0.1.txt
+Destroying the simulation 
+Simulation time 4m 51s
+Reading configuration from ./data/config/common_200_500_0.1.txt
+Destroying the simulation 
+Simulation time 4m 41s
+Reading configuration from ./data/config/cvae_200_500_0.01.txt
+Destroying the simulation 
+Simulation time 5m 15s
+Reading configuration from ./data/config/encore_200_500_0.01.txt
+Destroying the simulation 
+Simulation time 4m 48s
+Reading configuration from ./data/config/size_sample_100_200_0.1.txt
+Destroying the simulation 
+Simulation time 4m 0s
+Reading configuration from ./data/config/cvae_5_200_0.01.txt
+Destroying the simulation 
+Simulation time 4m 37s
+Reading configuration from ./data/config/encore_100_1000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 49s
+Destroying the simulation 
+Reading configuration from ./data/config/gru_10_500_0.01.txt
+Simulation time 4m 36s
+Reading configuration from ./data/config/common_10_4000_0.01.txt
+Destroying the simulation 
+Simulation time 5m 9s
+Reading configuration from ./data/config/encore_5_4000_0.01.txt
+Destroying the simulation 
+Simulation time 3m 57s
+Reading configuration from ./data/config/sample_5_4000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 44s
+Reading configuration from ./data/config/gru_10_4000_0.2.txt
+Destroying the simulation 
+Simulation time 3m 55s
+Reading configuration from ./data/config/encore_10_100_0.01.txt
+Destroying the simulation 
+Simulation time 4m 52s
+Reading configuration from ./data/config/sample_5_1000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 41s
+Reading configuration from ./data/config/size_sample_1000_4000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 48s
+Reading configuration from ./data/config/cvae_500_1000_0.2.txt
+Destroying the simulation 
+Simulation time 3m 55s
+Reading configuration from ./data/config/encore_500_1000_0.1.txt
+Destroying the simulation 
+Simulation time 3m 58s
+Reading configuration from ./data/config/size_sample_10_500_0.01.txt
+Destroying the simulation 
+Simulation time 5m 7s
+Reading configuration from ./data/config/sample_5_500_0.01.txt
+Destroying the simulation 
+Simulation time 4m 41s
+Reading configuration from ./data/config/common_10_100_0.1.txt
+Destroying the simulation 
+Simulation time 4m 4s
+Reading configuration from ./data/config/common_200_4000_0.1.txt
+Destroying the simulation 
+Simulation time 3m 45s
+Reading configuration from ./data/config/sample_10_1000_0.2.txt
+Destroying the simulation 
+Simulation time 4m 52s
+Reading configuration from ./data/config/real_100_500_0.01.txt
+Destroying the simulation 
+Simulation time 4m 45s
+Reading configuration from ./data/config/encore_10_500_0.1.txt
+Destroying the simulation 
+Simulation time 4m 44s
+Reading configuration from ./data/config/cvae_5_4000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 43s
+Reading configuration from ./data/config/gru_200_1000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 51s
+Reading configuration from ./data/config/common_100_1000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 57s
+Reading configuration from ./data/config/real_200_500_0.2.txt
+Destroying the simulation 
+Simulation time 3m 56s
+Reading configuration from ./data/config/sample_500_4000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 51s
+Reading configuration from ./data/config/encore_10_1000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 32s
+Reading configuration from ./data/config/gru_200_4000_0.2.txt
+Destroying the simulation 
+Simulation time 4m 49s
+Reading configuration from ./data/config/real_100_4000_0.2.txt
+Destroying the simulation 
+Simulation time 4m 42s
+Reading configuration from ./data/config/gru_5_4000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 58s
+Reading configuration from ./data/config/cvae_5_1000_0.2.txt
+Destroying the simulation 
+Destroying the simulation 
+Simulation time 4m 55s
+Simulation time 3m 54s
+Reading configuration from ./data/config/common_10_500_0.2.txt
+Reading configuration from ./data/config/gru_5_200_0.1.txt
+Destroying the simulation 
+Simulation time 4m 16s
+Reading configuration from ./data/config/size_sample_5_100_0.2.txt
+Destroying the simulation 
+Simulation time 5m 0s
+Reading configuration from ./data/config/encore_200_500_0.1.txt
+Destroying the simulation 
+Simulation time 4m 3s
+Reading configuration from ./data/config/gru_5_1000_0.01.txt
+Destroying the simulation 
+Simulation time 3m 56s
+Reading configuration from ./data/config/encore_5_4000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 54s
+Reading configuration from ./data/config/encore_10_500_0.01.txt
+Destroying the simulation 
+Simulation time 4m 42s
+Reading configuration from ./data/config/real_500_1000_0.1.txt
+Destroying the simulation 
+Simulation time 5m 7s
+Reading configuration from ./data/config/sample_10_100_0.01.txt
+Destroying the simulation 
+Simulation time 4m 50s
+Reading configuration from ./data/config/common_100_4000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 39s
+Reading configuration from ./data/config/cvae_5_200_0.1.txt
+Destroying the simulation 
+Simulation time 4m 41s
+Reading configuration from ./data/config/size_sample_5_4000_0.1.txt
+Destroying the simulation 
+Simulation time 5m 2s
+Reading configuration from ./data/config/encore_5_1000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 53s
+Reading configuration from ./data/config/gru_200_4000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 40s
+Reading configuration from ./data/config/size_sample_500_4000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 19s
+Reading configuration from ./data/config/common_500_4000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 7s
+Reading configuration from ./data/config/common_5_4000_0.2.txt
+Destroying the simulation 
+Simulation time 5m 10s
+Reading configuration from ./data/config/sample_100_500_0.1.txt
+Destroying the simulation 
+Simulation time 5m 15s
+Reading configuration from ./data/config/common_1000_4000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 52s
+Reading configuration from ./data/config/sample_5_500_0.1.txt
+Destroying the simulation 
+Simulation time 3m 51s
+Reading configuration from ./data/config/gru_5_500_0.1.txt
+Destroying the simulation 
+Simulation time 5m 0s
+Reading configuration from ./data/config/real_1000_4000_0.2.txt
+Destroying the simulation 
+Destroying the simulation 
+Simulation time 4m 53s
+Reading configuration from ./data/config/real_500_4000_0.2.txt
+Simulation time 5m 2s
+Reading configuration from ./data/config/encore_5_500_0.01.txt
+Destroying the simulation 
+Simulation time 4m 51s
+Reading configuration from ./data/config/encore_200_1000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 24s
+Reading configuration from ./data/config/cvae_10_200_0.2.txt
+Destroying the simulation 
+Simulation time 4m 50s
+Reading configuration from ./data/config/cvae_10_200_0.01.txt
+Destroying the simulation 
+Simulation time 3m 54s
+Reading configuration from ./data/config/size_sample_100_1000_0.1.txt
+Destroying the simulation 
+Simulation time 3m 51s
+Reading configuration from ./data/config/real_100_500_0.1.txt
+Destroying the simulation 
+Simulation time 5m 2s
+Reading configuration from ./data/config/encore_200_4000_0.01.txt
+Destroying the simulation 
+Destroying the simulation 
+Simulation time 4m 53s
+Simulation time 4m 42s
+Reading configuration from ./data/config/real_10_1000_0.1.txt
+Reading configuration from ./data/config/sample_10_500_0.01.txt
+Destroying the simulation 
+Simulation time 5m 14s
+Reading configuration from ./data/config/sample_10_200_0.1.txt
+Destroying the simulation 
+Simulation time 3m 50s
+Reading configuration from ./data/config/encore_10_100_0.1.txt
+Destroying the simulation 
+Simulation time 4m 53s
+Reading configuration from ./data/config/real_100_200_0.1.txt
+Destroying the simulation 
+Simulation time 4m 39s
+Reading configuration from ./data/config/size_sample_5_1000_0.01.txt
+Destroying the simulation 
+Destroying the simulation 
+Destroying the simulation 
+Destroying the simulation 
+Simulation time 4m 46s
+Simulation time 5m 4s
+Simulation time 4m 4s
+Simulation time 4m 47s
+Reading configuration from ./data/config/gru_100_1000_0.1.txt
+Destroying the simulation 
+Reading configuration from ./data/config/gru_5_100_0.01.txt
+Reading configuration from ./data/config/gru_200_500_0.2.txt
+Reading configuration from ./data/config/encore_100_4000_0.2.txt
+Simulation time 4m 20s
+Destroying the simulation 
+Reading configuration from ./data/config/sample_100_500_0.2.txt
+Simulation time 5m 3s
+Reading configuration from ./data/config/encore_5_1000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 54s
+Reading configuration from ./data/config/gru_100_200_0.01.txt
+Destroying the simulation 
+Simulation time 4m 45s
+Reading configuration from ./data/config/size_sample_10_100_0.1.txt
+Destroying the simulation 
+Simulation time 4m 38s
+Reading configuration from ./data/config/sample_5_100_0.01.txt
+Destroying the simulation 
+Simulation time 4m 52s
+Reading configuration from ./data/config/size_sample_5_4000_0.2.txt
+Destroying the simulation 
+Simulation time 4m 44s
+Reading configuration from ./data/config/sample_10_100_0.2.txt
+Destroying the simulation 
+Simulation time 5m 0s
+Reading configuration from ./data/config/gru_500_1000_0.01.txt
+Destroying the simulation 
+Simulation time 5m 0s
+Reading configuration from ./data/config/sample_500_4000_0.1.txt
+Destroying the simulation 
+Simulation time 5m 6s
+Reading configuration from ./data/config/gru_5_1000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 49s
+Reading configuration from ./data/config/real_1000_4000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 48s
+Reading configuration from ./data/config/encore_500_4000_0.2.txt
+Destroying the simulation 
+Simulation time 4m 45s
+Destroying the simulation 
+Reading configuration from ./data/config/encore_500_4000_0.1.txt
+Simulation time 4m 43s
+Reading configuration from ./data/config/encore_100_200_0.01.txt
+Destroying the simulation 
+Simulation time 4m 46s
+Destroying the simulation 
+Reading configuration from ./data/config/common_100_4000_0.01.txt
+Simulation time 4m 49s
+Reading configuration from ./data/config/gru_200_1000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 54s
+Reading configuration from ./data/config/sample_10_200_0.01.txt
+Destroying the simulation 
+Simulation time 4m 55s
+Reading configuration from ./data/config/common_5_500_0.01.txt
+Destroying the simulation 
+Simulation time 4m 36s
+Reading configuration from ./data/config/common_5_100_0.1.txt
+Destroying the simulation 
+Simulation time 4m 47s
+Reading configuration from ./data/config/encore_10_1000_0.01.txt
+Destroying the simulation 
+Simulation time 5m 8s
+Destroying the simulation 
+Reading configuration from ./data/config/real_10_200_0.01.txt
+Simulation time 4m 56s
+Reading configuration from ./data/config/common_10_200_0.1.txt
+Destroying the simulation 
+Simulation time 4m 33s
+Reading configuration from ./data/config/encore_5_200_0.2.txt
+Destroying the simulation 
+Simulation time 5m 2s
+Reading configuration from ./data/config/sample_100_4000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 49s
+Reading configuration from ./data/config/encore_200_1000_0.2.txt
+Destroying the simulation 
+Simulation time 5m 4s
+Reading configuration from ./data/config/gru_500_4000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 38s
+Reading configuration from ./data/config/size_sample_10_100_0.01.txt
+Destroying the simulation 
+Simulation time 3m 53s
+Reading configuration from ./data/config/common_10_100_0.01.txt
+Destroying the simulation 
+Simulation time 3m 56s
+Reading configuration from ./data/config/encore_100_500_0.1.txt
+Destroying the simulation 
+Simulation time 4m 44s
+Reading configuration from ./data/config/cvae_100_1000_0.2.txt
+Destroying the simulation 
+Simulation time 4m 10s
+Reading configuration from ./data/config/common_5_200_0.2.txt
+Destroying the simulation 
+Simulation time 4m 36s
+Reading configuration from ./data/config/common_5_500_0.1.txt
+Destroying the simulation 
+Simulation time 4m 42s
+Reading configuration from ./data/config/real_100_200_0.2.txt
+Destroying the simulation 
+Simulation time 4m 48s
+Destroying the simulation 
+Reading configuration from ./data/config/cvae_500_1000_0.1.txt
+Simulation time 4m 45s
+Reading configuration from ./data/config/sample_100_1000_0.2.txt
+Destroying the simulation 
+Simulation time 4m 1s
+Reading configuration from ./data/config/cvae_200_4000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 53s
+Reading configuration from ./data/config/encore_500_1000_0.2.txt
+Destroying the simulation 
+Simulation time 4m 52s
+Reading configuration from ./data/config/encore_10_200_0.2.txt
+Destroying the simulation 
+Simulation time 4m 49s
+Reading configuration from ./data/config/real_100_1000_0.01.txt
+Destroying the simulation 
+Simulation time 5m 9s
+Reading configuration from ./data/config/size_sample_200_500_0.2.txt
+Destroying the simulation 
+Simulation time 4m 53s
+Reading configuration from ./data/config/encore_100_500_0.01.txt
+Destroying the simulation 
+Simulation time 3m 55s
+Destroying the simulation 
+Simulation time 4m 32s
+Reading configuration from ./data/config/real_5_500_0.1.txt
+Reading configuration from ./data/config/sample_200_1000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 56s
+Reading configuration from ./data/config/common_5_4000_0.1.txt
+Destroying the simulation 
+Destroying the simulation 
+Simulation time 4m 5s
+Simulation time 3m 59s
+Reading configuration from ./data/config/gru_500_4000_0.1.txt
+Reading configuration from ./data/config/real_500_4000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 11s
+Reading configuration from ./data/config/gru_100_200_0.1.txt
+Destroying the simulation 
+Simulation time 4m 0s
+Reading configuration from ./data/config/common_100_1000_0.2.txt
+Destroying the simulation 
+Simulation time 4m 55s
+Reading configuration from ./data/config/real_200_1000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 46s
+Reading configuration from ./data/config/cvae_10_100_0.2.txt
+Destroying the simulation 
+Destroying the simulation 
+Simulation time 5m 0s
+Simulation time 3m 59s
+Reading configuration from ./data/config/gru_10_200_0.01.txt
+Reading configuration from ./data/config/cvae_100_500_0.01.txt
+Destroying the simulation 
+Simulation time 4m 37s
+Reading configuration from ./data/config/common_100_200_0.1.txt
+Destroying the simulation 
+Simulation time 4m 44s
+Reading configuration from ./data/config/size_sample_500_4000_0.2.txt
+Destroying the simulation 
+Simulation time 4m 46s
+Reading configuration from ./data/config/gru_100_500_0.1.txt
+Destroying the simulation 
+Simulation time 5m 17s
+Reading configuration from ./data/config/real_10_500_0.1.txt
+Destroying the simulation 
+Simulation time 4m 52s
+Reading configuration from ./data/config/sample_500_4000_0.2.txt
+Destroying the simulation 
+Simulation time 3m 50s
+Reading configuration from ./data/config/size_sample_10_4000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 38s
+Reading configuration from ./data/config/common_5_100_0.2.txt
+Destroying the simulation 
+Simulation time 3m 45s
+Reading configuration from ./data/config/sample_10_4000_0.1.txt
+Destroying the simulation 
+Simulation time 5m 14s
+Reading configuration from ./data/config/cvae_100_4000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 41s
+Reading configuration from ./data/config/common_500_1000_0.2.txt
+Destroying the simulation 
+Simulation time 4m 44s
+Reading configuration from ./data/config/gru_200_500_0.01.txt
+Destroying the simulation 
+Simulation time 4m 50s
+Reading configuration from ./data/config/common_500_1000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 4s
+Destroying the simulation 
+Reading configuration from ./data/config/size_sample_100_4000_0.1.txt
+Simulation time 4m 48s
+Reading configuration from ./data/config/real_10_100_0.01.txt
+Destroying the simulation 
+Simulation time 4m 23s
+Reading configuration from ./data/config/real_5_200_0.01.txt
+Destroying the simulation 
+Simulation time 4m 46s
+Reading configuration from ./data/config/size_sample_1000_4000_0.1.txt
+Destroying the simulation 
+Simulation time 3m 53s
+Reading configuration from ./data/config/gru_1000_4000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 44s
+Reading configuration from ./data/config/size_sample_200_500_0.01.txt
+Destroying the simulation 
+Simulation time 4m 51s
+Reading configuration from ./data/config/cvae_200_4000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 12s
+Reading configuration from ./data/config/real_10_4000_0.01.txt
+Destroying the simulation 
+Destroying the simulation 
+Simulation time 4m 45s
+Simulation time 4m 37s
+Reading configuration from ./data/config/size_sample_10_4000_0.1.txt
+Reading configuration from ./data/config/size_sample_5_100_0.01.txt
+Destroying the simulation 
+Simulation time 5m 6s
+Reading configuration from ./data/config/real_200_500_0.1.txt
+Destroying the simulation 
+Simulation time 3m 58s
+Reading configuration from ./data/config/encore_5_100_0.2.txt
+Destroying the simulation 
+Simulation time 4m 15s
+Reading configuration from ./data/config/cvae_100_500_0.2.txt
+Destroying the simulation 
+Simulation time 3m 51s
+Reading configuration from ./data/config/size_sample_200_500_0.1.txt
+Destroying the simulation 
+Simulation time 4m 58s
+Reading configuration from ./data/config/common_5_200_0.01.txt
+Destroying the simulation 
+Simulation time 5m 6s
+Reading configuration from ./data/config/real_200_500_0.01.txt
+Destroying the simulation 
+Simulation time 4m 55s
+Reading configuration from ./data/config/gru_10_100_0.01.txt
+Destroying the simulation 
+Destroying the simulation 
+Simulation time 5m 2s
+Reading configuration from ./data/config/cvae_500_4000_0.1.txt
+Simulation time 4m 50s
+Reading configuration from ./data/config/gru_100_4000_0.2.txt
+Destroying the simulation 
+Simulation time 4m 44s
+Reading configuration from ./data/config/real_100_1000_0.2.txt
+Destroying the simulation 
+Simulation time 4m 37s
+Reading configuration from ./data/config/common_10_1000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 2s
+Reading configuration from ./data/config/sample_100_4000_0.2.txt
+Destroying the simulation 
+Simulation time 4m 42s
+Reading configuration from ./data/config/size_sample_5_100_0.1.txt
+Destroying the simulation 
+Simulation time 4m 5s
+Reading configuration from ./data/config/common_100_1000_0.01.txt
+Destroying the simulation 
+Simulation time 3m 53s
+Reading configuration from ./data/config/common_200_1000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 53s
+Reading configuration from ./data/config/common_200_4000_0.2.txt
+Destroying the simulation 
+Simulation time 4m 49s
+Reading configuration from ./data/config/gru_10_1000_0.01.txt
+Destroying the simulation 
+Destroying the simulation 
+Simulation time 4m 56s
+Reading configuration from ./data/config/encore_200_500_0.2.txt
+Simulation time 4m 51s
+Reading configuration from ./data/config/cvae_5_1000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 40s
+Reading configuration from ./data/config/real_10_500_0.01.txt
+Destroying the simulation 
+Simulation time 5m 13s
+Reading configuration from ./data/config/size_sample_10_500_0.2.txt
+Destroying the simulation 
+Simulation time 4m 7s
+Reading configuration from ./data/config/sample_200_4000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 38s
+Reading configuration from ./data/config/size_sample_5_200_0.01.txt
+Destroying the simulation 
+Simulation time 3m 57s
+Reading configuration from ./data/config/sample_1000_4000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 49s
+Reading configuration from ./data/config/common_5_1000_0.2.txt
+Destroying the simulation 
+Simulation time 4m 47s
+Reading configuration from ./data/config/cvae_5_100_0.01.txt
+Destroying the simulation 
+Simulation time 4m 53s
+Reading configuration from ./data/config/gru_5_100_0.2.txt
+Destroying the simulation 
+Destroying the simulation 
+Simulation time 3m 47s
+Simulation time 3m 46s
+Reading configuration from ./data/config/gru_200_4000_0.01.txt
+Reading configuration from ./data/config/gru_5_100_0.1.txt
+Destroying the simulation 
+Simulation time 3m 52s
+Reading configuration from ./data/config/sample_10_200_0.2.txt
+Destroying the simulation 
+Simulation time 4m 52s
+Reading configuration from ./data/config/real_5_100_0.01.txt
+Destroying the simulation 
+Simulation time 4m 4s
+Reading configuration from ./data/config/gru_100_4000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 57s
+Reading configuration from ./data/config/sample_10_4000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 49s
+Reading configuration from ./data/config/common_200_1000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 54s
+Reading configuration from ./data/config/encore_10_200_0.01.txt
+Destroying the simulation 
+Simulation time 4m 55s
+Reading configuration from ./data/config/common_10_1000_0.2.txt
+Destroying the simulation 
+Simulation time 5m 2s
+Reading configuration from ./data/config/encore_5_4000_0.2.txt
+Destroying the simulation 
+Destroying the simulation 
+Simulation time 4m 34s
+Simulation time 4m 0s
+Reading configuration from ./data/config/encore_1000_4000_0.1.txt
+Reading configuration from ./data/config/encore_200_4000_0.2.txt
+Destroying the simulation 
+Simulation time 4m 6s
+Reading configuration from ./data/config/common_5_200_0.1.txt
+Destroying the simulation 
+Simulation time 4m 51s
+Reading configuration from ./data/config/cvae_10_1000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 36s
+Reading configuration from ./data/config/cvae_5_4000_0.1.txt
+Destroying the simulation 
+Simulation time 5m 11s
+Reading configuration from ./data/config/gru_10_4000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 32s
+Reading configuration from ./data/config/gru_200_1000_0.2.txt
+Destroying the simulation 
+Simulation time 3m 46s
+Reading configuration from ./data/config/encore_5_100_0.1.txt
+Destroying the simulation 
+Simulation time 5m 2s
+Reading configuration from ./data/config/sample_10_1000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 48s
+Reading configuration from ./data/config/real_5_100_0.1.txt
+Destroying the simulation 
+Destroying the simulation 
+Simulation time 4m 38s
+Destroying the simulation 
+Simulation time 5m 10s
+Reading configuration from ./data/config/cvae_10_4000_0.01.txt
+Reading configuration from ./data/config/real_500_1000_0.2.txt
+Simulation time 4m 48s
+Reading configuration from ./data/config/cvae_100_4000_0.2.txt
+Destroying the simulation 
+Simulation time 4m 6s
+Reading configuration from ./data/config/gru_500_4000_0.2.txt
+Destroying the simulation 
+Simulation time 5m 7s
+Reading configuration from ./data/config/gru_10_100_0.1.txt
+Destroying the simulation 
+Simulation time 4m 3s
+Reading configuration from ./data/config/cvae_10_500_0.01.txt
+Destroying the simulation 
+Simulation time 4m 13s
+Reading configuration from ./data/config/cvae_200_500_0.2.txt
+Destroying the simulation 
+Simulation time 4m 3s
+Reading configuration from ./data/config/real_10_1000_0.2.txt
+Destroying the simulation 
+Simulation time 4m 41s
+Reading configuration from ./data/config/sample_200_4000_0.2.txt
+Destroying the simulation 
+Simulation time 5m 6s
+Reading configuration from ./data/config/real_5_4000_0.1.txt
+Destroying the simulation 
+Simulation time 5m 5s
+Reading configuration from ./data/config/encore_100_500_0.2.txt
+Destroying the simulation 
+Simulation time 4m 43s
+Reading configuration from ./data/config/size_sample_10_100_0.2.txt
+Destroying the simulation 
+Simulation time 4m 7s
+Reading configuration from ./data/config/gru_10_4000_0.1.txt
+Destroying the simulation 
+Destroying the simulation 
+Simulation time 4m 13s
+Simulation time 5m 5s
+Reading configuration from ./data/config/cvae_1000_4000_0.1.txt
+Reading configuration from ./data/config/real_200_1000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 48s
+Reading configuration from ./data/config/size_sample_200_1000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 44s
+Destroying the simulation 
+Reading configuration from ./data/config/size_sample_10_200_0.1.txt
+Simulation time 5m 12s
+Reading configuration from ./data/config/cvae_100_200_0.01.txt
+Destroying the simulation 
+Simulation time 5m 8s
+Reading configuration from ./data/config/cvae_100_200_0.2.txt
+Destroying the simulation 
+Simulation time 4m 48s
+Reading configuration from ./data/config/encore_5_1000_0.2.txt
+Destroying the simulation 
+Simulation time 4m 9s
+Reading configuration from ./data/config/cvae_1000_4000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 9s
+Reading configuration from ./data/config/size_sample_100_200_0.2.txt
+Destroying the simulation 
+Destroying the simulation 
+Simulation time 5m 13s
+Simulation time 4m 45s
+Reading configuration from ./data/config/gru_5_500_0.2.txt
+Reading configuration from ./data/config/size_sample_100_4000_0.01.txt
+Destroying the simulation 
+Simulation time 5m 13s
+Reading configuration from ./data/config/common_1000_4000_0.2.txt
+Destroying the simulation 
+Simulation time 5m 5s
+Reading configuration from ./data/config/sample_200_500_0.1.txt
+Destroying the simulation 
+Simulation time 5m 7s
+Reading configuration from ./data/config/sample_5_500_0.2.txt
+Destroying the simulation 
+Simulation time 4m 3s
+Reading configuration from ./data/config/sample_100_200_0.1.txt
+Destroying the simulation 
+Simulation time 5m 7s
+Destroying the simulation 
+Simulation time 3m 59s
+Reading configuration from ./data/config/cvae_10_500_0.2.txt
+Destroying the simulation 
+Simulation time 4m 7s
+Destroying the simulation 
+Destroying the simulation 
+Simulation time 4m 49s
+Reading configuration from ./data/config/cvae_500_1000_0.01.txt
+Simulation time 4m 46s
+Destroying the simulation 
+Simulation time 4m 42s
+Reading configuration from ./data/config/sample_5_4000_0.2.txt
+Destroying the simulation 
+Simulation time 4m 1s
+Reading configuration from ./data/config/common_100_4000_0.2.txt
+Destroying the simulation 
+Simulation time 5m 2s
+Reading configuration from ./data/config/encore_100_200_0.1.txt
+Destroying the simulation 
+Simulation time 4m 42s
+Reading configuration from ./data/config/real_100_200_0.01.txt
+Destroying the simulation 
+Destroying the simulation 
+Simulation time 5m 9s
+Simulation time 3m 40s
+Reading configuration from ./data/config/real_200_4000_0.01.txt
+Reading configuration from ./data/config/cvae_10_200_0.1.txt
+Destroying the simulation 
+Simulation time 4m 33s
+Reading configuration from ./data/config/cvae_10_100_0.1.txt
+Destroying the simulation 
+Simulation time 4m 55s
+Destroying the simulation 
+Simulation time 4m 32s
+Reading configuration from ./data/config/cvae_100_4000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 49s
+Reading configuration from ./data/config/sample_200_4000_0.1.txt
+Destroying the simulation 
+Simulation time 3m 46s
+Destroying the simulation 
+Reading configuration from ./data/config/encore_100_200_0.2.txt
+Simulation time 4m 28s
+Reading configuration from ./data/config/sample_100_500_0.01.txt
+Destroying the simulation 
+Simulation time 4m 0s
+Reading configuration from ./data/config/gru_5_200_0.2.txt
+Destroying the simulation 
+Simulation time 3m 33s
+Reading configuration from ./data/config/real_100_1000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 30s
+Reading configuration from ./data/config/common_10_500_0.1.txt
+Destroying the simulation 
+Simulation time 4m 28s
+Reading configuration from ./data/config/sample_1000_4000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 1s
+Reading configuration from ./data/config/real_10_100_0.1.txt
+Destroying the simulation 
+Simulation time 4m 20s
+Reading configuration from ./data/config/encore_10_200_0.1.txt
+Destroying the simulation 
+Simulation time 4m 19s
+Reading configuration from ./data/config/size_sample_1000_4000_0.2.txt
+Destroying the simulation 
+Simulation time 3m 59s
+Reading configuration from ./data/config/cvae_200_4000_0.2.txt
+Destroying the simulation 
+Simulation time 3m 43s
+Reading configuration from ./data/config/common_10_200_0.2.txt
+Destroying the simulation 
+Simulation time 4m 20s
+Reading configuration from ./data/config/real_100_4000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 17s
+Reading configuration from ./data/config/size_sample_5_4000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 22s
+Reading configuration from ./data/config/encore_500_4000_0.01.txt
+Destroying the simulation 
+Simulation time 3m 40s
+Reading configuration from ./data/config/gru_200_500_0.1.txt
+Destroying the simulation 
+Simulation time 4m 32s
+Reading configuration from ./data/config/cvae_200_1000_0.2.txt
+Destroying the simulation 
+Simulation time 4m 45s
+Reading configuration from ./data/config/gru_5_500_0.01.txt
+Destroying the simulation 
+Simulation time 4m 15s
+Reading configuration from ./data/config/real_100_500_0.2.txt
+Destroying the simulation 
+Simulation time 3m 42s
+Reading configuration from ./data/config/size_sample_100_1000_0.2.txt
+Destroying the simulation 
+Simulation time 4m 19s
+Reading configuration from ./data/config/gru_10_1000_0.1.txt
+Destroying the simulation 
+Simulation time 3m 48s
+Reading configuration from ./data/config/sample_100_1000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 44s
+Reading configuration from ./data/config/gru_10_200_0.2.txt
+Destroying the simulation 
+Simulation time 4m 41s
+Reading configuration from ./data/config/cvae_5_100_0.1.txt
+Destroying the simulation 
+Simulation time 4m 22s
+Reading configuration from ./data/config/size_sample_5_500_0.1.txt
+Destroying the simulation 
+Simulation time 3m 42s
+Reading configuration from ./data/config/size_sample_5_500_0.01.txt
+Destroying the simulation 
+Simulation time 4m 15s
+Reading configuration from ./data/config/gru_100_4000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 14s
+Reading configuration from ./data/config/real_10_500_0.2.txt
+Destroying the simulation 
+Simulation time 4m 16s
+Reading configuration from ./data/config/sample_200_500_0.2.txt
+Destroying the simulation 
+Simulation time 4m 22s
+Reading configuration from ./data/config/cvae_5_200_0.2.txt
+Destroying the simulation 
+Simulation time 4m 34s
+Reading configuration from ./data/config/size_sample_5_1000_0.2.txt
+Destroying the simulation 
+Simulation time 4m 32s
+Reading configuration from ./data/config/gru_100_1000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 6s
+Reading configuration from ./data/config/gru_10_500_0.1.txt
+Destroying the simulation 
+Destroying the simulation 
+Simulation time 4m 31s
+Simulation time 4m 36s
+Reading configuration from ./data/config/cvae_200_1000_0.01.txt
+Reading configuration from ./data/config/common_200_4000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 56s
+Reading configuration from ./data/config/sample_5_200_0.1.txt
+Destroying the simulation 
+Simulation time 4m 48s
+Reading configuration from ./data/config/sample_100_1000_0.01.txt
+Destroying the simulation 
+Destroying the simulation 
+Simulation time 4m 29s
+Simulation time 4m 39s
+Reading configuration from ./data/config/real_5_1000_0.01.txt
+Reading configuration from ./data/config/size_sample_100_200_0.01.txt
+Destroying the simulation 
+Simulation time 4m 17s
+Destroying the simulation 
+Reading configuration from ./data/config/sample_5_100_0.1.txt
+Simulation time 4m 35s
+Reading configuration from ./data/config/cvae_10_4000_0.2.txt
+Destroying the simulation 
+Simulation time 4m 55s
+Reading configuration from ./data/config/cvae_5_500_0.1.txt
+Destroying the simulation 
+Simulation time 3m 37s
+Reading configuration from ./data/config/common_100_500_0.01.txt
+Destroying the simulation 
+Simulation time 3m 45s
+Reading configuration from ./data/config/common_100_500_0.1.txt
+Destroying the simulation 
+Simulation time 4m 27s
+Reading configuration from ./data/config/sample_100_200_0.01.txt
+Destroying the simulation 
+Simulation time 4m 55s
+Reading configuration from ./data/config/size_sample_10_200_0.01.txt
+Destroying the simulation 
+Simulation time 4m 40s
+Reading configuration from ./data/config/gru_10_500_0.2.txt
+Destroying the simulation 
+Simulation time 4m 40s
+Reading configuration from ./data/config/real_200_4000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 15s
+Reading configuration from ./data/config/encore_200_1000_0.01.txt
+Destroying the simulation 
+Simulation time 3m 42s
+Reading configuration from ./data/config/real_500_4000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 15s
+Reading configuration from ./data/config/real_5_1000_0.2.txt
+Destroying the simulation 
+Simulation time 3m 48s
+Reading configuration from ./data/config/encore_100_4000_0.01.txt
+Destroying the simulation 
+Simulation time 4m 26s
+Reading configuration from ./data/config/sample_100_4000_0.01.txt
+Destroying the simulation 
+Destroying the simulation 
+Simulation time 3m 25s
+Reading configuration from ./data/config/cvae_100_200_0.1.txt
+Simulation time 4m 31s
+Reading configuration from ./data/config/sample_5_200_0.2.txt
+Destroying the simulation 
+Simulation time 3m 25s
+Reading configuration from ./data/config/cvae_10_4000_0.1.txt
+Destroying the simulation 
+Simulation time 4m 15s
+Reading configuration from ./data/config/common_10_200_0.01.txt
+Destroying the simulation 
+Simulation time 4m 19s
+Reading configuration from ./data/config/size_sample_5_200_0.2.txt
+Destroying the simulation 
+Simulation time 4m 32s
+Reading configuration from ./data/config/cvae_5_100_0.2.txt
+Destroying the simulation 
+Simulation time 4m 18s
+Reading configuration from ./data/config/sample_10_500_0.2.txt
+Destroying the simulation 
+Simulation time 4m 15s
+Reading configuration from ./data/config/encore_1000_4000_0.2.txt
+Destroying the simulation 
+Simulation time 4m 11s
+Destroying the simulation 
+Simulation time 4m 14s
+Destroying the simulation 
+Destroying the simulation 
+Simulation time 3m 41s
+Simulation time 4m 10s
+Destroying the simulation 
+Simulation time 3m 36s
+Destroying the simulation 
+Simulation time 4m 34s
+Destroying the simulation 
+Simulation time 4m 28s
+Destroying the simulation 
+Simulation time 3m 27s
+Destroying the simulation 
+Simulation time 3m 51s
+Destroying the simulation 
+Simulation time 4m 28s
+Destroying the simulation 
+Simulation time 4m 20s
+Destroying the simulation 
+Simulation time 3m 59s
+./ns3 run "scratch/dumbbell ./data/config/real_10_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_10_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_500_1000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_200_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_100_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_5_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_100_500_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_1000_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_5_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_200_500_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_100_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_5_500_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_5_1000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_100_200_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_100_200_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_10_200_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_1000_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_100_1000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_5_100_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_10_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_10_100_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_1000_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_5_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_100_200_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_5_200_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_5_500_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_10_100_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_5_1000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_5_100_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_5_1000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_100_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_200_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_10_1000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_500_1000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_5_200_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_200_500_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_100_500_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_200_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_100_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_5_100_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_5_100_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_100_200_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_200_1000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_10_200_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_5_100_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_10_1000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_500_1000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_1000_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_100_1000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_200_500_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_500_1000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_5_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_500_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_10_500_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_10_100_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_100_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_100_1000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_500_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_200_500_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_5_100_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_10_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_10_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_200_1000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_1000_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_5_100_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_100_1000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_500_1000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_10_1000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_10_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_5_500_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_500_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_10_100_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_10_1000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_5_1000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_10_200_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_500_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_200_1000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_100_500_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_500_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_10_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_200_500_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_10_200_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_10_100_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_5_500_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_5_500_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_100_200_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_10_1000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_500_1000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_500_1000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_5_200_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_5_500_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_500_1000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_100_1000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_10_500_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_10_100_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_10_200_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_200_500_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_200_1000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_500_1000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_100_1000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_10_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_5_200_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_200_1000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_5_100_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_10_1000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_200_1000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_5_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_10_500_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_200_500_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_200_500_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_10_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_500_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_10_1000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_200_500_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_200_500_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_100_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_10_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_10_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_500_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_200_1000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_200_500_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_10_500_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_5_1000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_500_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_100_1000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_10_100_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_10_200_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_10_200_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_10_500_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_200_500_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_5_1000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_100_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_100_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_10_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_500_1000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_100_200_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_500_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_10_500_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_5_500_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_100_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_100_200_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_10_500_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_5_500_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_5_200_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_5_200_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_1000_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_500_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_10_100_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_5_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_200_1000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_500_1000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_200_1000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_100_200_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_5_100_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_5_200_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_100_200_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_500_1000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_200_500_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_10_500_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_10_1000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_500_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_5_1000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_200_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_1000_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_10_1000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_200_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_100_500_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_100_200_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_5_200_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_200_500_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_10_1000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_5_500_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_100_500_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_10_500_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_100_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_5_500_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_500_1000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_500_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_5_200_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_10_200_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_100_500_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_100_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_10_100_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_5_500_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_100_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_100_500_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_100_1000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_200_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_200_1000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_1000_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_100_200_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_100_500_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_5_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_100_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_5_1000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_100_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_100_200_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_10_500_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_200_1000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_5_500_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_200_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_5_100_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_10_500_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_5_200_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_10_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_100_1000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_5_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_5_500_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_100_1000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_500_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_5_500_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_500_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_500_1000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_5_100_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_10_500_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_5_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_5_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_200_500_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_100_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_10_200_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_100_1000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_200_1000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_100_500_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_10_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_500_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_500_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_200_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_100_500_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_5_1000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_10_100_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_500_1000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_100_500_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_10_500_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_5_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_5_1000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_5_500_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_5_100_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_10_200_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_100_1000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_10_100_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_5_200_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_100_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_5_100_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_5_200_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_10_500_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_1000_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_100_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_100_1000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_200_1000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_5_500_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_100_200_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_5_1000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_5_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_5_1000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_10_1000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_10_200_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_5_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_200_1000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_5_1000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_200_1000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_5_200_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_200_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_5_200_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_100_500_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_100_200_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_1000_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_10_100_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_5_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_10_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_5_100_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_10_1000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_200_1000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_5_100_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_100_200_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_10_500_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_5_200_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_5_500_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_5_200_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_5_100_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_5_200_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_10_500_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_10_100_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_5_1000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_100_1000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_10_100_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_10_1000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_5_1000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_5_200_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_5_500_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_10_500_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_5_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_100_500_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_5_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_10_200_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_200_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_100_500_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_100_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_10_100_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_5_1000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_1000_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_200_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_100_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_10_100_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_200_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_100_1000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_100_1000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_100_200_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_10_200_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_100_500_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_100_1000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_100_1000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_5_1000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_10_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_10_200_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_500_1000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_500_1000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_10_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_10_1000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_200_500_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_1000_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_5_1000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_500_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_100_1000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_500_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_200_500_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_200_500_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_5_200_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_10_1000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_200_500_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_100_200_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_100_200_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_10_200_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_5_100_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_10_500_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_10_500_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_5_100_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_200_500_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_10_200_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_5_1000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_1000_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_1000_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_10_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_500_1000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_10_100_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_200_500_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_10_100_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_5_100_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_1000_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_10_100_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_5_1000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_500_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_200_1000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_5_100_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_10_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_200_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_10_200_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_500_1000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_10_200_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_100_200_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_1000_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_100_500_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_5_1000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_10_200_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_5_200_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_10_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_200_1000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_5_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_100_1000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_100_500_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_10_1000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_10_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_200_1000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_1000_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_200_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_5_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_200_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_5_100_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_10_1000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_500_1000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_100_200_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_1000_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_10_1000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_1000_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_5_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_10_1000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_1000_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_10_200_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_10_100_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_10_200_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_5_200_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_200_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_10_500_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_10_1000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_500_1000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_5_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_10_1000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_200_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_200_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_5_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/gru_100_500_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_100_200_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_100_500_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_10_500_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_500_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_100_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/common_5_500_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_100_500_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_200_1000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_10_100_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/cvae_500_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_200_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_200_4000_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_100_500_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_5_500_0.2.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_200_4000_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/real_100_4000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/size_sample_5_500_0.1.txt"
+./ns3 run "scratch/dumbbell ./data/config/sample_100_1000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_200_1000_0.01.txt"
+./ns3 run "scratch/dumbbell ./data/config/encore_1000_4000_0.2.txt"
