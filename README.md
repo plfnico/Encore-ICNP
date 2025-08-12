@@ -40,4 +40,4 @@ for downstream task using traffic demand, run ./evaluation/generate_config.ipynb
 
 processed dataset in sub-dir ./data
 
-full raw dataset available at [https://anonymous.4open.science/r/Encore-dataset-CC8F/](https://anonymous.4open.science/r/Encore-dataset-CC8F/)
+full raw dataset available at [[https://anonymous.4open.science/r/Encore-dataset-CC8F/](https://github.com/ruixu221/Tardis-FinApps-Dataset)]([https://anonymous.4open.science/r/Encore-dataset-CC8F/](https://github.com/ruixu221/Tardis-FinApps-Dataset))
